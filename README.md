@@ -1,0 +1,2 @@
+# edoovi-erp
+Nextjs Web
