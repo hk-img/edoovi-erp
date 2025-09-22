@@ -47,8 +47,8 @@ const Header = () => {
                 {/* <!-- Example Dropdown --> */}
                 <div className="group/dd">
                   <Link
-                    href=""
-                    className="xl:text-base lg:text-base text-sm font-medium leading-6 text-[#1C1B1F] duration-200 capitalize hover:lg:text-black"
+                    href="/"
+                    className="xl:text-lg lg:text-lg md:text-base text-sm font-medium leading-6 text-[#1C1B1F] duration-200 capitalize hover:lg:text-black"
                     aria-expanded="false"
                   >
                     Home
@@ -57,7 +57,7 @@ const Header = () => {
                 <div className="relative group/dd">
                   <Link
                     href={""}
-                    className="xl:text-base lg:text-base text-sm font-medium leading-6 text-[#1C1B1F] duration-200 capitalize hover:lg:text-black"
+                    className="xl:text-lg lg:text-lg md:text-base text-sm font-medium leading-6 text-[#1C1B1F] duration-200 capitalize hover:lg:text-black"
                     aria-expanded="false"
                   >
                     Our Solutions
@@ -92,8 +92,8 @@ const Header = () => {
                 </div>
                 <div className="group/dd">
                   <Link
-                    href=""
-                    className="xl:text-base lg:text-base text-sm font-medium leading-6 text-[#1C1B1F] duration-200 capitalize hover:lg:text-black"
+                    href="/about"
+                    className="xl:text-lg lg:text-lg md:text-base text-sm font-medium leading-6 text-[#1C1B1F] duration-200 capitalize hover:lg:text-black"
                     aria-expanded="false"
                   >
                     About Us
@@ -102,7 +102,7 @@ const Header = () => {
                 <div className="group/dd">
                   <Link
                     href=""
-                    className="xl:text-base lg:text-base text-sm font-medium leading-6 text-[#1C1B1F] duration-200 capitalize hover:lg:text-black"
+                    className="xl:text-lg lg:text-lg md:text-base text-sm font-medium leading-6 text-[#1C1B1F] duration-200 capitalize hover:lg:text-black"
                     aria-expanded="false"
                   >
                     Blogs
@@ -111,7 +111,7 @@ const Header = () => {
                 <div className="group/dd">
                   <Link
                     href=""
-                    className="xl:text-base lg:text-base text-sm font-medium leading-6 text-[#1C1B1F] duration-200 capitalize hover:lg:text-black"
+                    className="xl:text-lg lg:text-lg md:text-base text-sm font-medium leading-6 text-[#1C1B1F] duration-200 capitalize hover:lg:text-black"
                     aria-expanded="false"
                   >
                     Clients
@@ -125,13 +125,13 @@ const Header = () => {
           <div className="flex items-center justify-end gap-3">
             <button
               type="button"
-              className="cursor-pointer rounded-full bg-[#00BBF5] text-sm text-white h-9 lg:flex hidden items-center justify-center px-4 py-2 hover:bg-[#25b7e3] font-semibold duration-300"
+              className="cursor-pointer rounded-full bg-[#00BBF5] text-sm text-white h-10 lg:flex hidden items-center justify-center px-6 py-2 hover:bg-[#25b7e3] font-semibold duration-300"
             >
               Download Brochure
             </button>
             <button
               type="button"
-              className="cursor-pointer rounded-full bg-[#393A8C] text-sm text-white h-9 flex items-center justify-center px-4 py-2 hover:bg-[#4748a3] font-semibold duration-300"
+              className="cursor-pointer rounded-full bg-[#393A8C] text-sm text-white h-10 flex items-center justify-center px-6 py-2 hover:bg-[#4748a3] font-semibold duration-300"
             >
               Request Demo
             </button>
@@ -241,7 +241,7 @@ const Header = () => {
                   </div>
                   <div className="relative flex flex-col gap-y-3">
                     <Link
-                      href={"#"}
+                      href="/about"
                       className="flex items-center justify-between gap-x-0.5 lg:text-base text-lg font-semibold text-[#454444]"
                     >
                       About Us

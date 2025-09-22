@@ -51,10 +51,10 @@ const Footer = () => {
                       <div className="lg:text-3xl md:text-2xl text-xl font-bold text-[#04D9FF]">
                         Quick Links
                       </div>
-                      <ul className="w-full flex flex-wrap justify-between">
+                      <ul className="w-full flex flex-wrap justify-between gap-y-3">
                         <li className="w-1/2">
                           <Link
-                            href={"#"}
+                            href="/"
                             className="text-sm font-semibold text-white"
                           >
                             Home
@@ -62,7 +62,7 @@ const Footer = () => {
                         </li>
                         <li className="w-1/2">
                           <Link
-                            href={"#"}
+                            href="/about"
                             className="text-sm font-semibold text-white"
                           >
                             about
