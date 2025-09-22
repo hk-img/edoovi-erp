@@ -67,7 +67,7 @@ const page = () => {
                       className="flex items-center cursor-pointer gap-2 before:absolute before:-inset-4 relative"
                     >
                       <h3 className="grow flex items-center gap-x-3  md:text-2xl text-xl  font-bold text-[#272727]">
-                        <span className>
+                        <span>
                           <Image
                             src="/images/fileRound.svg"
                             alt="file icon"
@@ -117,7 +117,7 @@ const page = () => {
                       className="flex items-center cursor-pointer gap-2 before:absolute before:-inset-4 relative"
                     >
                       <h3 className="grow flex items-center gap-x-3  md:text-2xl text-xl  font-bold text-[#272727]">
-                        <span className>
+                        <span>
                           <Image
                             src="/images/fileRound.svg"
                             alt="file icon"
@@ -167,7 +167,7 @@ const page = () => {
                       className="flex items-center cursor-pointer gap-2 before:absolute before:-inset-4 relative"
                     >
                       <h3 className="grow flex items-center gap-x-3  md:text-2xl text-xl  font-bold text-[#272727]">
-                        <span className>
+                        <span>
                           <Image
                             src="/images/fileRound.svg"
                             alt="file icon"
@@ -220,7 +220,7 @@ const page = () => {
                         className="grow flex items-center gap-x-3 
                        md:text-2xl text-xl  font-bold text-[#272727]"
                       >
-                        <span className>
+                        <span>
                           <Image
                             src="/images/fileRound.svg"
                             alt="file icon"
