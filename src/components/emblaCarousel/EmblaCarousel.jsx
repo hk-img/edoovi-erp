@@ -39,9 +39,8 @@ export default function EmblaCarousel({ children, options, showViewAll }) {
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex gap-1 md:pt-3">{children}</div>
       </div>
-
-      <div className="md:flex hidden items-center justify-end gap-4 pt-8">
-        {options?.showButton && (
+      {options?.showButton && (
+        <div className="md:flex hidden items-center justify-end gap-4 pt-8">
           <div className="flex items-center gap-6">
             <PrevButton
               onClick={onPrevButtonClick}
@@ -52,12 +51,12 @@ export default function EmblaCarousel({ children, options, showViewAll }) {
               disabled={nextBtnDisabled}
             />
           </div>
-        )}
-      </div>
+        </div>
+      )}
 
       {/* Dots */}
       {options?.showDots && (
-        <div className="dot-nav flex justify-end mt-4 gap-2 pe-4">
+        <div className="dot-nav md:hidden flex justify-end mt-4 gap-2 pe-4 w-full">
           {scrollSnaps.map((_, index) => (
             <DotButton
               key={index}

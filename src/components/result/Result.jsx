@@ -3,38 +3,31 @@ import useEmblaCarousel from "embla-carousel-react";
 import Link from "next/link";
 import Image from "next/image";
 import EmblaCarousel from "../emblaCarousel/EmblaCarousel";
-import WhyChooseBg from "../../../public/images/whyChooseBg.webp";
-import WhychooseRobot from "../../../public/images/whyChooseRobotImg.webp";
-import GraphImage from "../../../public/images/graphImage.webp";
-import DolorImg from "../../../public/images/dolorImg.webp";
 
 const Result = () => {
   return (
     <>
-      <section class="resultSec bg-[#190F4E] relative py-8">
+      <section className="resultSec bg-[#190F4E] relative py-8">
         <div className="container mx-auto ">
           <div className="flex flex-col">
-            <h2 class="md:w-8/12 w-full 2xl:text-4xl mx-auto xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-8 pb-4">
+            <h2 className="md:w-8/12 w-full 2xl:text-4xl mx-auto xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-8 pb-4">
               How Our{" "}
               <span className="text-[#04D9FF]"> AI-First School ERP </span>{" "}
               Driven Incredible Results
             </h2>
-            <div class="flex flex-row md:items-end">
-              <div class="md:w-1/3 md:block hidden">
+            <div className="flex flex-row md:items-end">
+              <div className="md:w-1/3 md:block hidden">
                 <div className="w-full">
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={GraphImage}
-                    alt="file icon"
-                    title="file icon"
-                    width={387}
-                    height={464}
-                    class="size-full mx-auto object-contain"
+                    src="/images/graphImage.webp"
+                    alt="How Our AI-First School ERP Driven Incredible Results"
+                    width={400}
+                    height={479}
+                    className="size-full mx-auto object-contain aspect-[400/479]"
                   />
                 </div>
               </div>
-              <div class="flex md:w-2/3 w-full flex-col md:sticky md:bottom-0 xl:py-4 lg:py-3 py-4 px-4 lg:px-6 xl:px-8 relative">
+              <div className="flex md:w-2/3 w-full flex-col md:sticky md:bottom-0 xl:py-4 lg:py-3 py-4 px-4 lg:px-6 xl:px-8 relative">
                 <EmblaCarousel
                   options={{
                     align: "start",
@@ -42,9 +35,9 @@ const Result = () => {
                   }}
                 >
                   <div className="embla__slide  shrink-0 px-2 basis-[100%] lg:basis-[50%] ">
-                    <div class="flex flex-col p-6 relative  rounded-2xl  bg-gradient-to-r from-[#0EAFF0] to-[#0EAFF0]  h-full">
-                      <div class="absolute top-0 flex justify-center items-center right-0 w-16 h-16 rounded-bl-3xl bg-[#190F4E]">
-                        <div class="top-0 absolute -left-5">
+                    <div className="flex flex-col p-6 relative  rounded-2xl  bg-gradient-to-r from-[#0EAFF0] to-[#0EAFF0]  h-full">
+                      <div className="absolute top-0 flex justify-center items-center right-0 w-16 h-16 rounded-bl-3xl bg-[#190F4E]">
+                        <div className="top-0 absolute -left-5">
                           <svg
                             width="23"
                             height="23"
@@ -60,7 +53,7 @@ const Result = () => {
                         </div>
                         <button
                           type="button"
-                          class="cursor-pointer size-10 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] justify-center items-center flex  rounded-full"
+                          className="cursor-pointer size-10 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] justify-center items-center flex  rounded-full"
                         >
                           <svg
                             width="22"
@@ -94,7 +87,7 @@ const Result = () => {
                             </g>
                           </svg>
                         </button>
-                        <div class="absolute -bottom-[23px] right-0 ">
+                        <div className="absolute -bottom-[23px] right-0 ">
                           <svg
                             width="22"
                             height="24"
@@ -109,39 +102,36 @@ const Result = () => {
                           </svg>
                         </div>
                       </div>
-                      <div class="flex flex-col ">
-                        <div class="text-base font-normal text-white pe-3">
+                      <div className="flex flex-col ">
+                        <div className="text-base font-normal text-white pe-3">
                           From Reminders to Receipts
                         </div>
-                        <h3 class="w-10/12  md:text-xl text-lg font-bold  text-white">
+                        <h3 className="w-10/12  md:text-xl text-lg font-bold  text-white">
                           Our AI Fee Collection Keeps Schools Paid & Parents
                           Happy
                         </h3>
-                        <div class="flex flex-row pt-3.5 justify-between">
-                          <ul class="text-white text-xs pl-3 font-normal space-y-2 ">
-                            <li class="list-disc ">
+                        <div className="flex flex-row pt-3.5 justify-between">
+                          <ul className="text-white text-xs pl-3 font-normal space-y-2 ">
+                            <li className="list-disc ">
                               Receive Reminders to Pay Fees
                             </li>
-                            <li class="list-disc ">
+                            <li className="list-disc ">
                               Send alerts on Whatsapp, sms & in app
                             </li>
-                            <li class="list-disc ">
+                            <li className="list-disc ">
                               Multiple UPI & payment options
                             </li>
-                            <li class="list-disc ">
+                            <li className="list-disc ">
                               Collection auto update in ERP
                             </li>
                           </ul>
-                          <div class="">
+                          <div className="">
                             <Image
-                              loading="lazy"
-                              fetchPriority="low"
-                              src={DolorImg}
-                              alt="file icon"
-                              title="file icon"
-                              width={112}
+                              src="/images/dolorImg.webp"
+                              alt="dollar image"
+                              width={101}
                               height={112}
-                              class="md:size-28 size-24 mx-auto object-contain"
+                              className="md:size-28 size-24 mx-auto object-contain aspect-[101/112]"
                             />
                           </div>
                         </div>
@@ -149,9 +139,9 @@ const Result = () => {
                     </div>
                   </div>
                   <div className="embla__slide  shrink-0 px-2 basis-[100%] lg:basis-[50%] ">
-                    <div class="flex flex-col p-6 relative  rounded-2xl  bg-gradient-to-r from-[#FFFFFF] to-[#C0F0FF]  h-full">
-                      <div class="absolute top-0 flex justify-center items-center right-0 w-16 h-16 rounded-bl-3xl bg-[#190F4E]">
-                        <div class="top-0 absolute -left-5">
+                    <div className="flex flex-col p-6 relative  rounded-2xl  bg-gradient-to-r from-[#FFFFFF] to-[#C0F0FF]  h-full">
+                      <div className="absolute top-0 flex justify-center items-center right-0 w-16 h-16 rounded-bl-3xl bg-[#190F4E]">
+                        <div className="top-0 absolute -left-5">
                           <svg
                             width="23"
                             height="23"
@@ -168,7 +158,7 @@ const Result = () => {
 
                         <button
                           type="button"
-                          class="cursor-pointer size-10 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] justify-center items-center flex  rounded-full"
+                          className="cursor-pointer size-10 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] justify-center items-center flex  rounded-full"
                         >
                           <svg
                             width="22"
@@ -202,7 +192,7 @@ const Result = () => {
                             </g>
                           </svg>
                         </button>
-                        <div class="absolute -bottom-[23px] right-0 ">
+                        <div className="absolute -bottom-[23px] right-0 ">
                           <svg
                             width="22"
                             height="24"
@@ -217,39 +207,36 @@ const Result = () => {
                           </svg>
                         </div>
                       </div>
-                      <div class="flex flex-col">
-                        <div class="text-base font-normal text-[#363637] pe-3">
+                      <div className="flex flex-col">
+                        <div className="text-base font-normal text-[#363637] pe-3">
                           From Reminders to Receipts
                         </div>
-                        <h3 class="w-10/12 md:text-xl text-lg font-bold  text-[#393A8C]">
+                        <h3 className="w-10/12 md:text-xl text-lg font-bold  text-[#393A8C]">
                           <span className="text-[#0EAFF0]">AI-Powered</span>{" "}
                           Exam Module do all in intelligent way
                         </h3>
-                        <div class="flex flex-row pt-3.5 justify-between">
-                          <ul class="text-[#190F4E] text-xs pl-3 font-normal space-y-2 ">
-                            <li class="list-disc ">
+                        <div className="flex flex-row pt-3.5 justify-between">
+                          <ul className="text-[#190F4E] text-xs pl-3 font-normal space-y-2 ">
+                            <li className="list-disc ">
                               Receive Reminders to Pay Fees
                             </li>
-                            <li class="list-disc ">
+                            <li className="list-disc ">
                               Send alerts on Whatsapp, sms & in app
                             </li>
-                            <li class="list-disc ">
+                            <li className="list-disc ">
                               Multiple UPI & payment options
                             </li>
-                            <li class="list-disc ">
+                            <li className="list-disc ">
                               Collection auto update in ERP
                             </li>
                           </ul>
-                          <div class="">
+                          <div className="">
                             <Image
-                              loading="lazy"
-                              fetchPriority="low"
-                              src={DolorImg}
-                              alt="file icon"
-                              title="file icon"
-                              width={112}
+                              src="/images/dolorImg.webp"
+                              alt="dollar image"
+                              width={101}
                               height={112}
-                              class="md:size-28 size-24 mx-auto object-contain"
+                              className="md:size-28 size-24 mx-auto object-contain aspect-[101/112]"
                             />
                           </div>
                         </div>
@@ -258,9 +245,9 @@ const Result = () => {
                   </div>
                 </EmblaCarousel>
 
-                <div class="w-full md:flex hidden p-6 flex-col relative rounded-2xl bg-gradient-to-l from-[#190F4E] to-[#393A8C] ">
-                  <div class="absolute top-0 flex justify-center items-center right-0 w-16 h-16 rounded-bl-3xl bg-[#190F4E]">
-                    <div class="top-0 absolute -left-5">
+                <div className="w-full mt-5 md:flex hidden p-6 flex-col relative rounded-2xl bg-gradient-to-l from-[#190F4E] to-[#393A8C] ">
+                  <div className="absolute top-0 flex justify-center items-center right-0 w-16 h-16 rounded-bl-3xl bg-[#190F4E]">
+                    <div className="top-0 absolute -left-5">
                       <svg
                         width="23"
                         height="23"
@@ -275,7 +262,7 @@ const Result = () => {
                       </svg>
                     </div>
 
-                    <button class="cursor-pointer size-10 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] border-none outline-none justify-center items-center flex  rounded-full">
+                    <button className="cursor-pointer size-10 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] border-none outline-none justify-center items-center flex  rounded-full">
                       <svg
                         width="22"
                         height="22"
@@ -308,7 +295,7 @@ const Result = () => {
                         </g>
                       </svg>
                     </button>
-                    <div class="absolute -bottom-[23px] right-0 ">
+                    <div className="absolute -bottom-[23px] right-0 ">
                       <svg
                         width="22"
                         height="24"
@@ -323,41 +310,38 @@ const Result = () => {
                       </svg>
                     </div>
                   </div>
-                  <div class="flex justify-center items-center mb-2 gap-5 ">
-                    <div class="w-1/3 flex flex-col">
-                      <div class="text-sm font-normal text-white">
+                  <div className="flex justify-center items-center mb-2 gap-5 ">
+                    <div className="w-1/3 flex flex-col">
+                      <div className="text-sm font-normal text-white">
                         From Reminders to Receipts
                       </div>
-                      <h3 class="md:text-xl text-lg font-bold  text-white">
-                        <span class="text-[#0EAFF0]">AI-Powered</span> Admission
-                        Assistant
+                      <h3 className="md:text-xl text-lg font-bold  text-white">
+                        <span className="text-[#0EAFF0]">AI-Powered</span>{" "}
+                        Admission Assistant
                       </h3>
                     </div>
-                    <div class="w-2/3 flex flex-row justify-between items-center pe-10">
-                      <ul class="text-white text-xs pl-3 font-normal leading-6">
-                        <li class="list-disc ">
+                    <div className="w-2/3 flex flex-row justify-between items-center pe-10">
+                      <ul className="text-white text-xs pl-3 font-normal leading-6">
+                        <li className="list-disc ">
                           Receive Reminders to Pay Fees
                         </li>
-                        <li class="list-disc ">
+                        <li className="list-disc ">
                           Send alerts on Whatsapp, sms & in app
                         </li>
-                        <li class="list-disc ">
+                        <li className="list-disc ">
                           Multiple UPI & payment options
                         </li>
-                        <li class="list-disc ">
+                        <li className="list-disc ">
                           Collection auto update in ERP
                         </li>
                       </ul>
-                      <div class="">
+                      <div className="">
                         <Image
-                          loading="lazy"
-                          fetchPriority="low"
-                          src={DolorImg}
-                          alt="file icon"
-                          title="file icon"
-                          width={131}
-                          height={162}
-                          class="md:size-36 size-28 mx-auto object-contain"
+                          src="/images/dolorImg.webp"
+                          alt="dollar image"
+                          width={141}
+                          height={141}
+                          className="md:size-36 size-28 mx-auto object-contain aspect-auto"
                         />
                       </div>
                     </div>
@@ -367,10 +351,404 @@ const Result = () => {
             </div>
           </div>
         </div>
-        <div class="md:w-8/12 w-full bg-gradient-to-r md:mt-0 mt-3 py-2 from-[#1D4695] to-[#190F4E] ">
-          <span class="lg:text-3xl md:text-2xl text-lg pl-11 font-normal text-white">
+        <div className="md:w-8/12 w-full bg-gradient-to-r md:mt-0 mt-3 py-2 from-[#1D4695] to-[#190F4E] ">
+          <span className="lg:text-3xl md:text-2xl text-lg pl-11 font-normal text-white">
             RESULTS AFTER AI MAGIC
           </span>
+        </div>
+        <div className="arrowSec pt-8">
+          <div className="container mx-auto xl:py-4 lg:py-3 py-4 px-4 lg:px-6 xl:px-8">
+            <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-2 gap-y-6">
+              <div className="flex items-end gap-4">
+                <div className="lg:w-24 md:w-20 w-14 relative overflow-hidden shrink-0">
+                  {/* <!-- Arrow SVG --> */}
+                  <svg
+                    width="91"
+                    height="144"
+                    viewBox="0 0 91 144"
+                    className="size-full relative z-10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_arrow)">
+                      <path
+                        d="M91 144H66.998L67.4102 143.99C71.5003 143.783 74.7796 140.502 74.9873 136.412L74.998 136V73.5303H82.5146L82.8105 73.5254C88.9734 73.311 92.6225 66.422 89.2305 61.1826L51.9795 3.65138C48.8266 -1.21715 41.7017 -1.2171 38.5488 3.65138L1.29785 61.1826L1.1416 61.4336C-1.97811 66.6395 1.65227 73.3148 7.71777 73.5254L8.0127 73.5303H13.998V136L14.0088 136.412C14.2165 140.502 17.4964 143.783 21.5869 143.99L21.998 144H0V1.07981e-05H91V144Z"
+                        fill="#190f4e"
+                      ></path>
+                      <mask id="path-2-inside-1_arrow" fill="white">
+                        <path d="M38.5487 3.65179C41.7015 -1.21727 48.8266 -1.21726 51.9794 3.65179L89.2304 61.183C92.6766 66.5057 88.8563 73.5303 82.5155 73.5307H74.9999V136C74.9997 140.419 71.4181 144 66.9999 144H21.9999C17.5817 144 14.0001 140.419 13.9999 136V73.5307H8.01358C1.67249 73.5307 -2.14855 66.5058 1.29776 61.183L38.5487 3.65179Z"></path>
+                      </mask>
+                      <path
+                        d="M38.5487 3.65179L35.1912 1.47769L35.1911 1.47776L38.5487 3.65179ZM51.9794 3.65179L55.337 1.47776L55.337 1.47768L51.9794 3.65179ZM89.2304 61.183L92.588 59.0091L92.588 59.009L89.2304 61.183ZM82.5155 73.5307V77.5307H82.5158L82.5155 73.5307ZM74.9999 73.5307V69.5307H70.9999V73.5307H74.9999ZM74.9999 136L78.9999 136.001V136H74.9999ZM21.9999 144L21.9999 148H21.9999V144ZM13.9999 136H9.99991V136.001L13.9999 136ZM13.9999 73.5307H17.9999V69.5307H13.9999V73.5307ZM1.29776 61.183L-2.05986 59.009L-2.0599 59.0091L1.29776 61.183ZM38.5487 3.65179L41.9063 5.82589C43.4827 3.39138 47.0454 3.39136 48.6218 5.8259L51.9794 3.65179L55.337 1.47768C50.6077 -5.82588 39.9204 -5.82592 35.1912 1.47769L38.5487 3.65179ZM51.9794 3.65179L48.6218 5.82582L85.8728 63.3571L89.2304 61.183L92.588 59.009L55.337 1.47776L51.9794 3.65179ZM89.2304 61.183L85.8727 63.357C87.5957 66.0182 85.6858 69.5305 82.5153 69.5307L82.5155 73.5307L82.5158 77.5307C92.0268 77.5302 97.7575 66.9931 92.588 59.0091L89.2304 61.183ZM82.5155 73.5307V69.5307H74.9999V73.5307V77.5307H82.5155V73.5307ZM74.9999 73.5307H70.9999V136H74.9999H78.9999V73.5307H74.9999ZM74.9999 136L70.9999 136C70.9998 138.21 69.2088 140 66.9999 140V144V148C73.6274 148 78.9997 142.628 78.9999 136.001L74.9999 136ZM66.9999 144V140H21.9999V144V148H66.9999V144ZM21.9999 144L21.9999 140C19.791 140 18 138.21 17.9999 136L13.9999 136L9.99991 136.001C10.0001 142.628 15.3725 148 21.9999 148L21.9999 144ZM13.9999 136H17.9999V73.5307H13.9999H9.99991V136H13.9999ZM13.9999 73.5307V69.5307H8.01358V73.5307V77.5307H13.9999V73.5307ZM8.01358 73.5307V69.5307C4.84246 69.5307 2.93258 66.0179 4.65541 63.357L1.29776 61.183L-2.0599 59.0091C-7.22968 66.9937 -1.49747 77.5307 8.01358 77.5307V73.5307ZM1.29776 61.183L4.65538 63.3571L41.9064 5.82582L38.5487 3.65179L35.1911 1.47776L-2.05986 59.009L1.29776 61.183Z"
+                        fill="#3D7FD8"
+                        mask="url(#path-2-inside-1_arrow)"
+                      ></path>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_arrow">
+                        <rect width="91" height="144" fill="white"></rect>
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                  {/* <!-- Wave Container (71% height) --> */}
+                  <div className="overflow-hidden absolute inset-0.5 z-0 flex items-end">
+                    <div className="flex w-full h-[71%] bg-[#2D86FF] relative mt-5">
+                      <svg
+                        width="1024"
+                        height="94"
+                        viewBox="0 0 1024 94"
+                        fill="none"
+                        className="h-5 w-auto shrink-0 -translate-y-5 -mx-[0.7px]"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_wave1)">
+                          <path
+                            d="M1024 52.259C1024 52.259 916.437 -1.86688 806.415 48.9824C752.172 74.0524 711.972 91.0646 668.507 93.6554H645.275C606.764 91.3895 563.668 77.8157 505.239 48.9824C366.329 -19.5664 320.544 -13.0063 204.062 48.9824C87.5809 110.971 6.10352e-05 52.259 6.10352e-05 52.259V93.6554H645.275C653.181 94.1206 660.894 94.1092 668.507 93.6554H1024V52.259Z"
+                            fill="#A0C8FF"
+                          ></path>
+                          <path
+                            d="M217.585 49.3136C107.563 -1.55102 0 52.5912 0 52.5912V94H1024V52.5912C1024 52.5912 936.419 111.321 819.938 49.3136C703.456 -12.6938 670.579 -17.471 518.761 49.3136C366.944 116.098 327.606 100.178 217.585 49.3136Z"
+                            fill="#2D86FF"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_wave1">
+                            <rect width="1024" height="94" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      {/* <!-- Duplicate for seamless pattern --> */}
+                      <svg
+                        width="1024"
+                        height="94"
+                        viewBox="0 0 1024 94"
+                        fill="none"
+                        className="h-5 w-auto shrink-0 -translate-y-5 -mx-[0.7px]"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_wave2)">
+                          <path
+                            d="M1024 52.259C1024 52.259 916.437 -1.86688 806.415 48.9824C752.172 74.0524 711.972 91.0646 668.507 93.6554H645.275C606.764 91.3895 563.668 77.8157 505.239 48.9824C366.329 -19.5664 320.544 -13.0063 204.062 48.9824C87.5809 110.971 6.10352e-05 52.259 6.10352e-05 52.259V93.6554H645.275C653.181 94.1206 660.894 94.1092 668.507 93.6554H1024V52.259Z"
+                            fill="#A0C8FF"
+                          ></path>
+                          <path
+                            d="M217.585 49.3136C107.563 -1.55102 0 52.5912 0 52.5912V94H1024V52.5912C1024 52.5912 936.419 111.321 819.938 49.3136C703.456 -12.6938 670.579 -17.471 518.761 49.3136C366.944 116.098 327.606 100.178 217.585 49.3136Z"
+                            fill="#2D86FF"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_wave2">
+                            <rect width="1024" height="94" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="inline-flex flex-col">
+                  <div className="lg:text-5xl md:text-3xl text-2xl italic font-bold text-white">
+                    71%
+                  </div>
+                  <div className="lg:text-xl md:text-lg text-base italic md:font-bold font-semibold text-white text-balance">
+                    Increase in Patient Appointment
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-end gap-4">
+                <div className="lg:w-24 md:w-20 w-14 relative overflow-hidden shrink-0">
+                  {/* <!-- Arrow SVG --> */}
+                  <svg
+                    width="91"
+                    height="144"
+                    viewBox="0 0 91 144"
+                    className="size-full relative z-10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_arrow)">
+                      <path
+                        d="M91 144H66.998L67.4102 143.99C71.5003 143.783 74.7796 140.502 74.9873 136.412L74.998 136V73.5303H82.5146L82.8105 73.5254C88.9734 73.311 92.6225 66.422 89.2305 61.1826L51.9795 3.65138C48.8266 -1.21715 41.7017 -1.2171 38.5488 3.65138L1.29785 61.1826L1.1416 61.4336C-1.97811 66.6395 1.65227 73.3148 7.71777 73.5254L8.0127 73.5303H13.998V136L14.0088 136.412C14.2165 140.502 17.4964 143.783 21.5869 143.99L21.998 144H0V1.07981e-05H91V144Z"
+                        fill="#190f4e"
+                      ></path>
+                      <mask id="path-2-inside-1_arrow" fill="white">
+                        <path d="M38.5487 3.65179C41.7015 -1.21727 48.8266 -1.21726 51.9794 3.65179L89.2304 61.183C92.6766 66.5057 88.8563 73.5303 82.5155 73.5307H74.9999V136C74.9997 140.419 71.4181 144 66.9999 144H21.9999C17.5817 144 14.0001 140.419 13.9999 136V73.5307H8.01358C1.67249 73.5307 -2.14855 66.5058 1.29776 61.183L38.5487 3.65179Z"></path>
+                      </mask>
+                      <path
+                        d="M38.5487 3.65179L35.1912 1.47769L35.1911 1.47776L38.5487 3.65179ZM51.9794 3.65179L55.337 1.47776L55.337 1.47768L51.9794 3.65179ZM89.2304 61.183L92.588 59.0091L92.588 59.009L89.2304 61.183ZM82.5155 73.5307V77.5307H82.5158L82.5155 73.5307ZM74.9999 73.5307V69.5307H70.9999V73.5307H74.9999ZM74.9999 136L78.9999 136.001V136H74.9999ZM21.9999 144L21.9999 148H21.9999V144ZM13.9999 136H9.99991V136.001L13.9999 136ZM13.9999 73.5307H17.9999V69.5307H13.9999V73.5307ZM1.29776 61.183L-2.05986 59.009L-2.0599 59.0091L1.29776 61.183ZM38.5487 3.65179L41.9063 5.82589C43.4827 3.39138 47.0454 3.39136 48.6218 5.8259L51.9794 3.65179L55.337 1.47768C50.6077 -5.82588 39.9204 -5.82592 35.1912 1.47769L38.5487 3.65179ZM51.9794 3.65179L48.6218 5.82582L85.8728 63.3571L89.2304 61.183L92.588 59.009L55.337 1.47776L51.9794 3.65179ZM89.2304 61.183L85.8727 63.357C87.5957 66.0182 85.6858 69.5305 82.5153 69.5307L82.5155 73.5307L82.5158 77.5307C92.0268 77.5302 97.7575 66.9931 92.588 59.0091L89.2304 61.183ZM82.5155 73.5307V69.5307H74.9999V73.5307V77.5307H82.5155V73.5307ZM74.9999 73.5307H70.9999V136H74.9999H78.9999V73.5307H74.9999ZM74.9999 136L70.9999 136C70.9998 138.21 69.2088 140 66.9999 140V144V148C73.6274 148 78.9997 142.628 78.9999 136.001L74.9999 136ZM66.9999 144V140H21.9999V144V148H66.9999V144ZM21.9999 144L21.9999 140C19.791 140 18 138.21 17.9999 136L13.9999 136L9.99991 136.001C10.0001 142.628 15.3725 148 21.9999 148L21.9999 144ZM13.9999 136H17.9999V73.5307H13.9999H9.99991V136H13.9999ZM13.9999 73.5307V69.5307H8.01358V73.5307V77.5307H13.9999V73.5307ZM8.01358 73.5307V69.5307C4.84246 69.5307 2.93258 66.0179 4.65541 63.357L1.29776 61.183L-2.0599 59.0091C-7.22968 66.9937 -1.49747 77.5307 8.01358 77.5307V73.5307ZM1.29776 61.183L4.65538 63.3571L41.9064 5.82582L38.5487 3.65179L35.1911 1.47776L-2.05986 59.009L1.29776 61.183Z"
+                        fill="#3D7FD8"
+                        mask="url(#path-2-inside-1_arrow)"
+                      ></path>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_arrow">
+                        <rect width="91" height="144" fill="white"></rect>
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                  {/* <!-- Wave Container (71% height) --> */}
+                  <div className="overflow-hidden absolute inset-0.5 z-0 flex items-end">
+                    <div className="flex w-full h-[71%] bg-[#2D86FF] relative mt-5">
+                      <svg
+                        width="1024"
+                        height="94"
+                        viewBox="0 0 1024 94"
+                        fill="none"
+                        className="h-5 w-auto shrink-0 -translate-y-5 -mx-[0.7px]"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_wave1)">
+                          <path
+                            d="M1024 52.259C1024 52.259 916.437 -1.86688 806.415 48.9824C752.172 74.0524 711.972 91.0646 668.507 93.6554H645.275C606.764 91.3895 563.668 77.8157 505.239 48.9824C366.329 -19.5664 320.544 -13.0063 204.062 48.9824C87.5809 110.971 6.10352e-05 52.259 6.10352e-05 52.259V93.6554H645.275C653.181 94.1206 660.894 94.1092 668.507 93.6554H1024V52.259Z"
+                            fill="#A0C8FF"
+                          ></path>
+                          <path
+                            d="M217.585 49.3136C107.563 -1.55102 0 52.5912 0 52.5912V94H1024V52.5912C1024 52.5912 936.419 111.321 819.938 49.3136C703.456 -12.6938 670.579 -17.471 518.761 49.3136C366.944 116.098 327.606 100.178 217.585 49.3136Z"
+                            fill="#2D86FF"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_wave1">
+                            <rect width="1024" height="94" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      {/* <!-- Duplicate for seamless pattern --> */}
+                      <svg
+                        width="1024"
+                        height="94"
+                        viewBox="0 0 1024 94"
+                        fill="none"
+                        className="h-5 w-auto shrink-0 -translate-y-5 -mx-[0.7px]"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_wave2)">
+                          <path
+                            d="M1024 52.259C1024 52.259 916.437 -1.86688 806.415 48.9824C752.172 74.0524 711.972 91.0646 668.507 93.6554H645.275C606.764 91.3895 563.668 77.8157 505.239 48.9824C366.329 -19.5664 320.544 -13.0063 204.062 48.9824C87.5809 110.971 6.10352e-05 52.259 6.10352e-05 52.259V93.6554H645.275C653.181 94.1206 660.894 94.1092 668.507 93.6554H1024V52.259Z"
+                            fill="#A0C8FF"
+                          ></path>
+                          <path
+                            d="M217.585 49.3136C107.563 -1.55102 0 52.5912 0 52.5912V94H1024V52.5912C1024 52.5912 936.419 111.321 819.938 49.3136C703.456 -12.6938 670.579 -17.471 518.761 49.3136C366.944 116.098 327.606 100.178 217.585 49.3136Z"
+                            fill="#2D86FF"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_wave2">
+                            <rect width="1024" height="94" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="inline-flex flex-col">
+                  <div className="lg:text-5xl md:text-3xl text-2xl italic font-bold text-white">
+                    71%
+                  </div>
+                  <div className="lg:text-xl md:text-lg text-base italic md:font-bold font-semibold text-white text-balance">
+                    Increase in Patient Appointment
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-end gap-4">
+                <div className="lg:w-24 md:w-20 w-14 relative overflow-hidden shrink-0">
+                  {/* <!-- Arrow SVG --> */}
+                  <svg
+                    width="91"
+                    height="144"
+                    viewBox="0 0 91 144"
+                    className="size-full relative z-10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_arrow)">
+                      <path
+                        d="M91 144H66.998L67.4102 143.99C71.5003 143.783 74.7796 140.502 74.9873 136.412L74.998 136V73.5303H82.5146L82.8105 73.5254C88.9734 73.311 92.6225 66.422 89.2305 61.1826L51.9795 3.65138C48.8266 -1.21715 41.7017 -1.2171 38.5488 3.65138L1.29785 61.1826L1.1416 61.4336C-1.97811 66.6395 1.65227 73.3148 7.71777 73.5254L8.0127 73.5303H13.998V136L14.0088 136.412C14.2165 140.502 17.4964 143.783 21.5869 143.99L21.998 144H0V1.07981e-05H91V144Z"
+                        fill="#190f4e"
+                      ></path>
+                      <mask id="path-2-inside-1_arrow" fill="white">
+                        <path d="M38.5487 3.65179C41.7015 -1.21727 48.8266 -1.21726 51.9794 3.65179L89.2304 61.183C92.6766 66.5057 88.8563 73.5303 82.5155 73.5307H74.9999V136C74.9997 140.419 71.4181 144 66.9999 144H21.9999C17.5817 144 14.0001 140.419 13.9999 136V73.5307H8.01358C1.67249 73.5307 -2.14855 66.5058 1.29776 61.183L38.5487 3.65179Z"></path>
+                      </mask>
+                      <path
+                        d="M38.5487 3.65179L35.1912 1.47769L35.1911 1.47776L38.5487 3.65179ZM51.9794 3.65179L55.337 1.47776L55.337 1.47768L51.9794 3.65179ZM89.2304 61.183L92.588 59.0091L92.588 59.009L89.2304 61.183ZM82.5155 73.5307V77.5307H82.5158L82.5155 73.5307ZM74.9999 73.5307V69.5307H70.9999V73.5307H74.9999ZM74.9999 136L78.9999 136.001V136H74.9999ZM21.9999 144L21.9999 148H21.9999V144ZM13.9999 136H9.99991V136.001L13.9999 136ZM13.9999 73.5307H17.9999V69.5307H13.9999V73.5307ZM1.29776 61.183L-2.05986 59.009L-2.0599 59.0091L1.29776 61.183ZM38.5487 3.65179L41.9063 5.82589C43.4827 3.39138 47.0454 3.39136 48.6218 5.8259L51.9794 3.65179L55.337 1.47768C50.6077 -5.82588 39.9204 -5.82592 35.1912 1.47769L38.5487 3.65179ZM51.9794 3.65179L48.6218 5.82582L85.8728 63.3571L89.2304 61.183L92.588 59.009L55.337 1.47776L51.9794 3.65179ZM89.2304 61.183L85.8727 63.357C87.5957 66.0182 85.6858 69.5305 82.5153 69.5307L82.5155 73.5307L82.5158 77.5307C92.0268 77.5302 97.7575 66.9931 92.588 59.0091L89.2304 61.183ZM82.5155 73.5307V69.5307H74.9999V73.5307V77.5307H82.5155V73.5307ZM74.9999 73.5307H70.9999V136H74.9999H78.9999V73.5307H74.9999ZM74.9999 136L70.9999 136C70.9998 138.21 69.2088 140 66.9999 140V144V148C73.6274 148 78.9997 142.628 78.9999 136.001L74.9999 136ZM66.9999 144V140H21.9999V144V148H66.9999V144ZM21.9999 144L21.9999 140C19.791 140 18 138.21 17.9999 136L13.9999 136L9.99991 136.001C10.0001 142.628 15.3725 148 21.9999 148L21.9999 144ZM13.9999 136H17.9999V73.5307H13.9999H9.99991V136H13.9999ZM13.9999 73.5307V69.5307H8.01358V73.5307V77.5307H13.9999V73.5307ZM8.01358 73.5307V69.5307C4.84246 69.5307 2.93258 66.0179 4.65541 63.357L1.29776 61.183L-2.0599 59.0091C-7.22968 66.9937 -1.49747 77.5307 8.01358 77.5307V73.5307ZM1.29776 61.183L4.65538 63.3571L41.9064 5.82582L38.5487 3.65179L35.1911 1.47776L-2.05986 59.009L1.29776 61.183Z"
+                        fill="#3D7FD8"
+                        mask="url(#path-2-inside-1_arrow)"
+                      ></path>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_arrow">
+                        <rect width="91" height="144" fill="white"></rect>
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                  {/* <!-- Wave Container (71% height) --> */}
+                  <div className="overflow-hidden absolute inset-0.5 z-0 flex items-end">
+                    <div className="flex w-full h-[71%] bg-[#2D86FF] relative mt-5">
+                      <svg
+                        width="1024"
+                        height="94"
+                        viewBox="0 0 1024 94"
+                        fill="none"
+                        className="h-5 w-auto shrink-0 -translate-y-5 -mx-[0.7px]"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_wave1)">
+                          <path
+                            d="M1024 52.259C1024 52.259 916.437 -1.86688 806.415 48.9824C752.172 74.0524 711.972 91.0646 668.507 93.6554H645.275C606.764 91.3895 563.668 77.8157 505.239 48.9824C366.329 -19.5664 320.544 -13.0063 204.062 48.9824C87.5809 110.971 6.10352e-05 52.259 6.10352e-05 52.259V93.6554H645.275C653.181 94.1206 660.894 94.1092 668.507 93.6554H1024V52.259Z"
+                            fill="#A0C8FF"
+                          ></path>
+                          <path
+                            d="M217.585 49.3136C107.563 -1.55102 0 52.5912 0 52.5912V94H1024V52.5912C1024 52.5912 936.419 111.321 819.938 49.3136C703.456 -12.6938 670.579 -17.471 518.761 49.3136C366.944 116.098 327.606 100.178 217.585 49.3136Z"
+                            fill="#2D86FF"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_wave1">
+                            <rect width="1024" height="94" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      {/* <!-- Duplicate for seamless pattern --> */}
+                      <svg
+                        width="1024"
+                        height="94"
+                        viewBox="0 0 1024 94"
+                        fill="none"
+                        className="h-5 w-auto shrink-0 -translate-y-5 -mx-[0.7px]"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_wave2)">
+                          <path
+                            d="M1024 52.259C1024 52.259 916.437 -1.86688 806.415 48.9824C752.172 74.0524 711.972 91.0646 668.507 93.6554H645.275C606.764 91.3895 563.668 77.8157 505.239 48.9824C366.329 -19.5664 320.544 -13.0063 204.062 48.9824C87.5809 110.971 6.10352e-05 52.259 6.10352e-05 52.259V93.6554H645.275C653.181 94.1206 660.894 94.1092 668.507 93.6554H1024V52.259Z"
+                            fill="#A0C8FF"
+                          ></path>
+                          <path
+                            d="M217.585 49.3136C107.563 -1.55102 0 52.5912 0 52.5912V94H1024V52.5912C1024 52.5912 936.419 111.321 819.938 49.3136C703.456 -12.6938 670.579 -17.471 518.761 49.3136C366.944 116.098 327.606 100.178 217.585 49.3136Z"
+                            fill="#2D86FF"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_wave2">
+                            <rect width="1024" height="94" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="inline-flex flex-col">
+                  <div className="lg:text-5xl md:text-3xl text-2xl italic font-bold text-white">
+                    71%
+                  </div>
+                  <div className="lg:text-xl md:text-lg text-base italic md:font-bold font-semibold text-white text-balance">
+                    Increase in Patient Appointment
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-end gap-4">
+                <div className="lg:w-24 md:w-20 w-14 relative overflow-hidden shrink-0">
+                  {/* <!-- Arrow SVG --> */}
+                  <svg
+                    width="91"
+                    height="144"
+                    viewBox="0 0 91 144"
+                    className="size-full relative z-10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_arrow)">
+                      <path
+                        d="M91 144H66.998L67.4102 143.99C71.5003 143.783 74.7796 140.502 74.9873 136.412L74.998 136V73.5303H82.5146L82.8105 73.5254C88.9734 73.311 92.6225 66.422 89.2305 61.1826L51.9795 3.65138C48.8266 -1.21715 41.7017 -1.2171 38.5488 3.65138L1.29785 61.1826L1.1416 61.4336C-1.97811 66.6395 1.65227 73.3148 7.71777 73.5254L8.0127 73.5303H13.998V136L14.0088 136.412C14.2165 140.502 17.4964 143.783 21.5869 143.99L21.998 144H0V1.07981e-05H91V144Z"
+                        fill="#190f4e"
+                      ></path>
+                      <mask id="path-2-inside-1_arrow" fill="white">
+                        <path d="M38.5487 3.65179C41.7015 -1.21727 48.8266 -1.21726 51.9794 3.65179L89.2304 61.183C92.6766 66.5057 88.8563 73.5303 82.5155 73.5307H74.9999V136C74.9997 140.419 71.4181 144 66.9999 144H21.9999C17.5817 144 14.0001 140.419 13.9999 136V73.5307H8.01358C1.67249 73.5307 -2.14855 66.5058 1.29776 61.183L38.5487 3.65179Z"></path>
+                      </mask>
+                      <path
+                        d="M38.5487 3.65179L35.1912 1.47769L35.1911 1.47776L38.5487 3.65179ZM51.9794 3.65179L55.337 1.47776L55.337 1.47768L51.9794 3.65179ZM89.2304 61.183L92.588 59.0091L92.588 59.009L89.2304 61.183ZM82.5155 73.5307V77.5307H82.5158L82.5155 73.5307ZM74.9999 73.5307V69.5307H70.9999V73.5307H74.9999ZM74.9999 136L78.9999 136.001V136H74.9999ZM21.9999 144L21.9999 148H21.9999V144ZM13.9999 136H9.99991V136.001L13.9999 136ZM13.9999 73.5307H17.9999V69.5307H13.9999V73.5307ZM1.29776 61.183L-2.05986 59.009L-2.0599 59.0091L1.29776 61.183ZM38.5487 3.65179L41.9063 5.82589C43.4827 3.39138 47.0454 3.39136 48.6218 5.8259L51.9794 3.65179L55.337 1.47768C50.6077 -5.82588 39.9204 -5.82592 35.1912 1.47769L38.5487 3.65179ZM51.9794 3.65179L48.6218 5.82582L85.8728 63.3571L89.2304 61.183L92.588 59.009L55.337 1.47776L51.9794 3.65179ZM89.2304 61.183L85.8727 63.357C87.5957 66.0182 85.6858 69.5305 82.5153 69.5307L82.5155 73.5307L82.5158 77.5307C92.0268 77.5302 97.7575 66.9931 92.588 59.0091L89.2304 61.183ZM82.5155 73.5307V69.5307H74.9999V73.5307V77.5307H82.5155V73.5307ZM74.9999 73.5307H70.9999V136H74.9999H78.9999V73.5307H74.9999ZM74.9999 136L70.9999 136C70.9998 138.21 69.2088 140 66.9999 140V144V148C73.6274 148 78.9997 142.628 78.9999 136.001L74.9999 136ZM66.9999 144V140H21.9999V144V148H66.9999V144ZM21.9999 144L21.9999 140C19.791 140 18 138.21 17.9999 136L13.9999 136L9.99991 136.001C10.0001 142.628 15.3725 148 21.9999 148L21.9999 144ZM13.9999 136H17.9999V73.5307H13.9999H9.99991V136H13.9999ZM13.9999 73.5307V69.5307H8.01358V73.5307V77.5307H13.9999V73.5307ZM8.01358 73.5307V69.5307C4.84246 69.5307 2.93258 66.0179 4.65541 63.357L1.29776 61.183L-2.0599 59.0091C-7.22968 66.9937 -1.49747 77.5307 8.01358 77.5307V73.5307ZM1.29776 61.183L4.65538 63.3571L41.9064 5.82582L38.5487 3.65179L35.1911 1.47776L-2.05986 59.009L1.29776 61.183Z"
+                        fill="#3D7FD8"
+                        mask="url(#path-2-inside-1_arrow)"
+                      ></path>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_arrow">
+                        <rect width="91" height="144" fill="white"></rect>
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                  {/* <!-- Wave Container (71% height) --> */}
+                  <div className="overflow-hidden absolute inset-0.5 z-0 flex items-end">
+                    <div className="flex w-full h-[71%] bg-[#2D86FF] relative mt-5">
+                      <svg
+                        width="1024"
+                        height="94"
+                        viewBox="0 0 1024 94"
+                        fill="none"
+                        className="h-5 w-auto shrink-0 -translate-y-5 -mx-[0.7px]"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_wave1)">
+                          <path
+                            d="M1024 52.259C1024 52.259 916.437 -1.86688 806.415 48.9824C752.172 74.0524 711.972 91.0646 668.507 93.6554H645.275C606.764 91.3895 563.668 77.8157 505.239 48.9824C366.329 -19.5664 320.544 -13.0063 204.062 48.9824C87.5809 110.971 6.10352e-05 52.259 6.10352e-05 52.259V93.6554H645.275C653.181 94.1206 660.894 94.1092 668.507 93.6554H1024V52.259Z"
+                            fill="#A0C8FF"
+                          ></path>
+                          <path
+                            d="M217.585 49.3136C107.563 -1.55102 0 52.5912 0 52.5912V94H1024V52.5912C1024 52.5912 936.419 111.321 819.938 49.3136C703.456 -12.6938 670.579 -17.471 518.761 49.3136C366.944 116.098 327.606 100.178 217.585 49.3136Z"
+                            fill="#2D86FF"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_wave1">
+                            <rect width="1024" height="94" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      {/* <!-- Duplicate for seamless pattern --> */}
+                      <svg
+                        width="1024"
+                        height="94"
+                        viewBox="0 0 1024 94"
+                        fill="none"
+                        className="h-5 w-auto shrink-0 -translate-y-5 -mx-[0.7px]"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_wave2)">
+                          <path
+                            d="M1024 52.259C1024 52.259 916.437 -1.86688 806.415 48.9824C752.172 74.0524 711.972 91.0646 668.507 93.6554H645.275C606.764 91.3895 563.668 77.8157 505.239 48.9824C366.329 -19.5664 320.544 -13.0063 204.062 48.9824C87.5809 110.971 6.10352e-05 52.259 6.10352e-05 52.259V93.6554H645.275C653.181 94.1206 660.894 94.1092 668.507 93.6554H1024V52.259Z"
+                            fill="#A0C8FF"
+                          ></path>
+                          <path
+                            d="M217.585 49.3136C107.563 -1.55102 0 52.5912 0 52.5912V94H1024V52.5912C1024 52.5912 936.419 111.321 819.938 49.3136C703.456 -12.6938 670.579 -17.471 518.761 49.3136C366.944 116.098 327.606 100.178 217.585 49.3136Z"
+                            fill="#2D86FF"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_wave2">
+                            <rect width="1024" height="94" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="inline-flex flex-col">
+                  <div className="lg:text-5xl md:text-3xl text-2xl italic font-bold text-white">
+                    71%
+                  </div>
+                  <div className="lg:text-xl md:text-lg text-base italic md:font-bold font-semibold text-white text-balance">
+                    Increase in Patient Appointment
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>

@@ -1,8 +1,9 @@
 import React from "react";
-import useEmblaCarousel from "embla-carousel-react";
 import Link from "next/link";
 import Image from "next/image";
 import EmblaCarousel from "../emblaCarousel/EmblaCarousel";
+import TableGenerator from "../../../public/images/tableGenerator.webp";
+import SmartAlerts from "../../../public/images/smartAlerts.webp";
 import FirstEverFace from "../../../public/images/firstEverFace.webp";
 
 const AiFeatures = () => {
@@ -14,7 +15,7 @@ const AiFeatures = () => {
             <h2 class="md:w-10/12 w-full 2xl:text-4xl mx-auto xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#393A8C] text-balance relative z-10 text-center md:pb-8 pb-4">
               Never Before AI- Features that make Our School ERP Stand Out
             </h2>
-            <div class="w-full [&_.dot-nav]:md:hidden flex">
+            <div class="w-full flex  flex-col">
               <EmblaCarousel
                 options={{
                   align: "start",
@@ -26,11 +27,8 @@ const AiFeatures = () => {
                   <div class="p-3 flex flex-col gap-y-6 bg-transparent">
                     <div class="relative">
                       <Image
-                        loading="lazy"
-                        fetchPriority="low"
-                        src={FirstEverFace}
-                        alt="file icon"
-                        title="file icon"
+                        src={SmartAlerts}
+                        alt="Smart alerts for low attendance, fees, exam schedules, and school circulars."
                         width={381}
                         height={254}
                         class="size-full rounded-lg mx-auto object-contain"
@@ -38,8 +36,8 @@ const AiFeatures = () => {
                     </div>
                     <div class="w-full flex flex-col gap-y-3">
                       <h3 class="md:text-lg text-base  font-semibold text-ellipsis text-[#55575B] line-clamp-3">
-                        First Ever Face Recognized Visitor Module for Child
-                        safety
+                        Smart alerts for low attendance, fees, exam schedules,
+                        and school circulars.
                       </h3>
                       <p class="text-xs  font-normal text-[#454444]  leading-5">
                         An intelligent system that automatically detects
@@ -59,11 +57,8 @@ const AiFeatures = () => {
                   <div class="p-3 flex flex-col gap-y-6 bg-transparent">
                     <div class="relative">
                       <Image
-                        loading="lazy"
-                        fetchPriority="low"
-                        src={FirstEverFace}
-                        alt="file icon"
-                        title="file icon"
+                        src={TableGenerator}
+                        alt="First Ever AI Powered Time table Generator with auto teacher assign"
                         width={381}
                         height={254}
                         class="size-full rounded-lg mx-auto object-contain"
@@ -71,8 +66,8 @@ const AiFeatures = () => {
                     </div>
                     <div class="w-full flex flex-col gap-y-3">
                       <h3 class="md:text-lg text-base  font-semibold text-ellipsis text-[#55575B] line-clamp-3">
-                        First Ever Face Recognized Visitor Module for Child
-                        safety
+                        First Ever AI Powered Time table Generator with auto
+                        teacher assign
                       </h3>
                       <p class="text-xs  font-normal text-[#454444]  leading-5">
                         An intelligent system that automatically detects
@@ -92,11 +87,9 @@ const AiFeatures = () => {
                   <div class="p-3 flex flex-col gap-y-6 bg-transparent">
                     <div class="relative">
                       <Image
-                        loading="lazy"
-                        fetchPriority="low"
                         src={FirstEverFace}
-                        alt="file icon"
-                        title="file icon"
+                        alt="First Ever Face Recognized Visitor Module for Child
+                        safety"
                         width={381}
                         height={254}
                         class="size-full rounded-lg mx-auto object-contain"

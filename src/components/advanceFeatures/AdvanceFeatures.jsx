@@ -3,7 +3,6 @@ import useEmblaCarousel from "embla-carousel-react";
 import Link from "next/link";
 import Image from "next/image";
 import EmblaCarousel from "../emblaCarousel/EmblaCarousel";
-import SchoolRealTimeAttendance from "../../../public/images/schoolRealTimeAttendance.webp";
 
 const AdvanceFeatures = () => {
   return (
@@ -75,7 +74,7 @@ const AdvanceFeatures = () => {
                         </span>
                         <div className="flex flex-col gap-2">
                           <div class="group-has-[:checked]:md:text-3xl xl:text-2xl lg:text-xl text-lg font-semibold text-[#393A8C] group-has-[:checked]:md:text-[#2D86FF]">
-                            Event & Holiday Generator
+                            Fees Management Monitor
                           </div>
                           <div className="lg:text-base text-sm text-[#363637] group-has-[:checked]:md:block hidden">
                             Monitor Collected and pending fees with custom date
@@ -155,7 +154,7 @@ const AdvanceFeatures = () => {
                         </span>
                         <div className="flex flex-col gap-2">
                           <div class="group-has-[:checked]:md:text-3xl xl:text-2xl lg:text-xl text-lg font-semibold text-[#393A8C] group-has-[:checked]:md:text-[#2D86FF]">
-                            Event & Holiday Generator
+                            Quick Actions on Requests
                           </div>
                           <div className="lg:text-base text-sm text-[#363637] group-has-[:checked]:md:block hidden">
                             Monitor Collected and pending fees with custom date
@@ -195,7 +194,7 @@ const AdvanceFeatures = () => {
                         </span>
                         <div className="flex flex-col gap-2">
                           <div class="group-has-[:checked]:md:text-3xl xl:text-2xl lg:text-xl text-lg font-semibold text-[#393A8C] group-has-[:checked]:md:text-[#2D86FF]">
-                            Event & Holiday Generator
+                            Concern & Feedback
                           </div>
                           <div className="lg:text-base text-sm text-[#363637] group-has-[:checked]:md:block hidden">
                             Monitor Collected and pending fees with custom date
@@ -209,81 +208,57 @@ const AdvanceFeatures = () => {
                 </div>
                 <div className="key-images md:flex hidden">
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={SchoolRealTimeAttendance}
-                    alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
+                    src="/images/schoolFees.webp"
+                    alt="Fees Management Monitor"
                     width={375}
                     height={374}
                     class="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel1:checked]/key:md:block"
                   />
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={SchoolRealTimeAttendance}
-                    alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
+                    src="/images/schoolEvent.webp"
+                    alt="Event & Holiday Generator"
                     width={375}
                     height={374}
                     class="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel2:checked]/key:md:block"
                   />
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={SchoolRealTimeAttendance}
-                    alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
+                    src="/images/schoolQuickActions.webp"
+                    alt="Quick Actions on Requests"
                     width={375}
                     height={374}
                     class="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel3:checked]/key:md:block"
                   />
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={SchoolRealTimeAttendance}
-                    alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
+                    src="/images/schoolConcern.webp"
+                    alt="Concern & Feedback"
                     width={375}
                     height={374}
                     class="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel4:checked]/key:md:block"
                   />
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={SchoolRealTimeAttendance}
+                    src="/images/schoolRealTimeAttendance.webp"
                     alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
                     width={375}
                     height={374}
                     class="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel5:checked]/key:md:block"
                   />
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={SchoolRealTimeAttendance}
+                    src="/images/schoolRealTimeAttendance.webp"
                     alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
                     width={375}
                     height={374}
                     class="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel6:checked]/key:md:block"
                   />
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={SchoolRealTimeAttendance}
+                    src="/images/schoolRealTimeAttendance.webp"
                     alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
                     width={375}
                     height={374}
                     class="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel7:checked]/key:md:block"
                   />
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={SchoolRealTimeAttendance}
+                    src="/images/schoolRealTimeAttendance.webp"
                     alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
                     width={375}
                     height={374}
                     class="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel8:checked]/key:md:block"
@@ -466,9 +441,8 @@ const AdvanceFeatures = () => {
                         <Image
                           loading="lazy"
                           fetchPriority="low"
-                          src={SchoolRealTimeAttendance}
+                          src="/images/schoolRealTimeAttendance.webp"
                           alt="Easy Appointment Booking"
-                          title="Easy Appointment Booking"
                           width={375}
                           height={374}
                           class="size-full mx-auto max-w-64"
@@ -492,9 +466,8 @@ const AdvanceFeatures = () => {
                         <Image
                           loading="lazy"
                           fetchPriority="low"
-                          src={SchoolRealTimeAttendance}
+                          src="/images/schoolRealTimeAttendance.webp"
                           alt="Easy Appointment Booking"
-                          title="Easy Appointment Booking"
                           width={375}
                           height={374}
                           class="size-full mx-auto max-w-64"
@@ -518,9 +491,8 @@ const AdvanceFeatures = () => {
                         <Image
                           loading="lazy"
                           fetchPriority="low"
-                          src={SchoolRealTimeAttendance}
+                          src="/images/schoolRealTimeAttendance.webp"
                           alt="Easy Appointment Booking"
-                          title="Easy Appointment Booking"
                           width={375}
                           height={374}
                           class="size-full mx-auto max-w-64"
@@ -711,81 +683,57 @@ const AdvanceFeatures = () => {
                 </div>
                 <div className="key-images md:flex hidden">
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={SchoolRealTimeAttendance}
+                    src="/images/schoolRealTimeAttendance.webp"
                     alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
                     width={375}
                     height={374}
                     class="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel1:checked]/key:md:block"
                   />
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={SchoolRealTimeAttendance}
+                    src="/images/schoolRealTimeAttendance.webp"
                     alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
                     width={375}
                     height={374}
                     class="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel2:checked]/key:md:block"
                   />
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={SchoolRealTimeAttendance}
+                    src="/images/schoolRealTimeAttendance.webp"
                     alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
                     width={375}
                     height={374}
                     class="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel3:checked]/key:md:block"
                   />
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={SchoolRealTimeAttendance}
+                    src="/images/schoolRealTimeAttendance.webp"
                     alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
                     width={375}
                     height={374}
                     class="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel4:checked]/key:md:block"
                   />
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={SchoolRealTimeAttendance}
+                    src="/images/schoolRealTimeAttendance.webp"
                     alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
                     width={375}
                     height={374}
                     class="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel5:checked]/key:md:block"
                   />
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={SchoolRealTimeAttendance}
+                    src="/images/schoolRealTimeAttendance.webp"
                     alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
                     width={375}
                     height={374}
                     class="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel6:checked]/key:md:block"
                   />
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={SchoolRealTimeAttendance}
+                    src="/images/schoolRealTimeAttendance.webp"
                     alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
                     width={375}
                     height={374}
                     class="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel7:checked]/key:md:block"
                   />
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={SchoolRealTimeAttendance}
+                    src="/images/schoolRealTimeAttendance.webp"
                     alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
                     width={375}
                     height={374}
                     class="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel8:checked]/key:md:block"
@@ -968,9 +916,8 @@ const AdvanceFeatures = () => {
                         <Image
                           loading="lazy"
                           fetchPriority="low"
-                          src={SchoolRealTimeAttendance}
+                          src="/images/schoolRealTimeAttendance.webp"
                           alt="Easy Appointment Booking"
-                          title="Easy Appointment Booking"
                           width={375}
                           height={374}
                           class="size-full mx-auto max-w-64"
@@ -994,9 +941,8 @@ const AdvanceFeatures = () => {
                         <Image
                           loading="lazy"
                           fetchPriority="low"
-                          src={SchoolRealTimeAttendance}
+                          src="/images/schoolRealTimeAttendance.webp"
                           alt="Easy Appointment Booking"
-                          title="Easy Appointment Booking"
                           width={375}
                           height={374}
                           class="size-full mx-auto max-w-64"
@@ -1020,9 +966,8 @@ const AdvanceFeatures = () => {
                         <Image
                           loading="lazy"
                           fetchPriority="low"
-                          src={SchoolRealTimeAttendance}
+                          src="/images/schoolRealTimeAttendance.webp"
                           alt="Easy Appointment Booking"
-                          title="Easy Appointment Booking"
                           width={375}
                           height={374}
                           class="size-full mx-auto max-w-64"
