@@ -1,24 +1,17 @@
-import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import FooterSideImg from "../../../public/images/footerImage.webp";
-import AppStoreBlack from "../../../public/images/appStoreBlack.webp";
-import GoogleStoreBlack from "../../../public/images/googleStoreBlack.webp";
 
 const Footer = () => {
   return (
     <>
       <footer>
         <div className="w-full bg-gradient-to-t from-[#00398E] to-[#0176C5] flex flex-col">
-          <div className="container mx-auto px-4 lg:px-6 xl:px-8">
+          <div className="view">
             <div className="flex flex-wrap md:items-end justify-between">
               <div className="md:w-1/2 w-full relative md:pr-6 max-sm:order-last">
                 <Image
-                  loading="lazy"
-                  fetchPriority="low"
-                  src={FooterSideImg}
+                  src="/images/footerImage.webp"
                   alt="file icon"
-                  title="file icon"
                   width={381}
                   height={254}
                   className="size-full rounded-lg mx-auto object-contain"
@@ -26,7 +19,7 @@ const Footer = () => {
               </div>
               <div className="md:w-1/2 w-full xl:py-12 lg:py-10 py-6">
                 <div className="flex flex-col gap-y-4">
-                  <h2 className="text-white lg:text-3xl md:text-2xl text-xl text-center font-bold">
+                  <h2 className="text-white lg:text-4xl md:text-3xl text-2xl text-center font-bold">
                     Want to Know More about Edoovi ERP? Our Representative just
                     a click away!
                   </h2>
@@ -103,11 +96,8 @@ const Footer = () => {
                       <div className="flex flex-row gap-3">
                         <div className="w-full">
                           <Image
-                            loading="lazy"
-                            fetchPriority="low"
-                            src={GoogleStoreBlack}
-                            alt="file icon"
-                            title="file icon"
+                            src="/images/googleStoreBlack.webp"
+                            alt="play store"
                             width={102}
                             height={30}
                             className="size-full mx-auto object-contain"
@@ -115,11 +105,8 @@ const Footer = () => {
                         </div>
                         <div className="w-full">
                           <Image
-                            loading="lazy"
-                            fetchPriority="low"
-                            src={GoogleStoreBlack}
-                            alt="file icon"
-                            title="file icon"
+                            src="/images/appStoreBlack.webp"
+                            alt="app store"
                             width={248}
                             height={40}
                             className="size-full mx-auto object-contain"

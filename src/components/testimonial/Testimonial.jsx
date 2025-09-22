@@ -1,32 +1,25 @@
-import React from "react";
-import useEmblaCarousel from "embla-carousel-react";
 import Link from "next/link";
 import Image from "next/image";
 import EmblaCarousel from "../emblaCarousel/EmblaCarousel";
-import StyleSchoolLogo from "../../../public/images/styleSchoolLogo.webp";
-import DrRajniAwasthi from "../../../public/images/DrRajniAvasthiImg.webp";
 
 const Testimonial = () => {
   return (
     <>
       <section className="testimonial relative overflow-hidden bg-[#EBFAFF] py-8 z-30">
-        <div className="container relative z-30 mx-auto xl:py-4 lg:py-3 py-4 px-4 lg:px-6 xl:px-8">
+        <div className="view relative z-30 xl:py-4 lg:py-3 py-4">
           <div className="flex flex-col">
             <div className="w-full">
               <div className="flex flex-wrap justify-between">
                 <div className="md:w-1/4 w-full">
                   <div className="w-full flex flex-col gap-y-3">
                     <Image
-                      loading="lazy"
-                      fetchPriority="low"
-                      src={StyleSchoolLogo}
+                      src="/images/styleSchoolLogo.webp"
                       alt="testimonial school logo"
-                      title="testimonial school logo"
                       width={224}
                       height={141}
-                      class="lg:max-w-56 md:max-w-48 max-w-44 h-auto mx-auto object-contain "
+                      className="lg:max-w-56 md:max-w-48 max-w-44 h-auto mx-auto object-contain "
                     />
-                    <h2 class="w-full  2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#272727] text-balance relative z-10 text-center md:pb-8 pb-4">
+                    <h2 className="w-full  2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#272727] text-balance relative z-10 text-center md:pb-8 pb-4">
                       Testimonial
                     </h2>
                   </div>
@@ -44,14 +37,11 @@ const Testimonial = () => {
                         <div className="w-full flex items-center justify-start gap-3">
                           <span className="shrink-0">
                             <Image
-                              loading="lazy"
-                              fetchPriority="low"
-                              src={DrRajniAwasthi}
-                              alt=""
-                              title=""
+                              src="/images/DrRajniAvasthiImg.webp"
+                              alt="rajni awasthi logo"
                               width={56}
                               height={56}
-                              class="md:size-14 size-10 rounded-full mx-auto object-contain "
+                              className="md:size-14 size-10 rounded-full mx-auto object-contain "
                             />
                           </span>
                           <div className="flex flex-col gap-y-1">
@@ -75,7 +65,7 @@ const Testimonial = () => {
                             className="group/btn cursor-pointer md:text-base text-sm text-[#393A8C] font-bold flex items-center gap-2 border-0 bg-transparent p-0 duration-300"
                           >
                             <span>Read More</span>
-                            <div class="inline-flex items-center justify-center shrink-0  xl:size-6 size-5 rounded-full bg-[#00BBF5] group-hover/btn:lg:scale-110 relative duration-300">
+                            <div className="inline-flex items-center justify-center shrink-0  size-7 rounded-full bg-[#00BBF5] group-hover/btn:lg:scale-110 relative duration-300">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="text-white"
@@ -99,14 +89,11 @@ const Testimonial = () => {
                         <div className="w-full flex items-center justify-start gap-3">
                           <span className="shrink-0">
                             <Image
-                              loading="lazy"
-                              fetchPriority="low"
-                              src={DrRajniAwasthi}
-                              alt=""
-                              title=""
+                              src="/images/DrRajniAvasthiImg.webp"
+                              alt="rajni awasthi logo"
                               width={56}
                               height={56}
-                              class="md:size-14 size-10 rounded-full mx-auto object-contain "
+                              className="md:size-14 size-10 rounded-full mx-auto object-contain "
                             />
                           </span>
                           <div className="flex flex-col gap-y-1">
@@ -130,7 +117,7 @@ const Testimonial = () => {
                             className="group/btn cursor-pointer md:text-base text-sm text-[#393A8C] font-bold flex items-center gap-2 border-0 bg-transparent p-0 duration-300"
                           >
                             <span>Read More</span>
-                            <div class="inline-flex items-center justify-center shrink-0  xl:size-6 size-5 rounded-full bg-[#00BBF5] group-hover/btn:lg:scale-110 relative duration-300">
+                            <div className="inline-flex items-center justify-center shrink-0  size-7 rounded-full bg-[#00BBF5] group-hover/btn:lg:scale-110 relative duration-300">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="text-white"
@@ -168,105 +155,105 @@ const Testimonial = () => {
                   cy="5.62214"
                   r="5.62214"
                   fill="#39C0FF"
-                  fill-opacity="0.89"
+                  fillOpacity="0.89"
                 />
                 <circle
                   cx="5.62214"
                   cy="33.7325"
                   r="5.62214"
                   fill="#39C0FF"
-                  fill-opacity="0.89"
+                  fillOpacity="0.89"
                 />
                 <circle
                   cx="5.62214"
                   cy="61.8438"
                   r="5.62214"
                   fill="#39C0FF"
-                  fill-opacity="0.89"
+                  fillOpacity="0.89"
                 />
                 <circle
                   cx="5.62214"
                   cy="89.9542"
                   r="5.62214"
                   fill="#39C0FF"
-                  fill-opacity="0.89"
+                  fillOpacity="0.89"
                 />
                 <circle
                   cx="5.62214"
                   cy="118.065"
                   r="5.62214"
                   fill="#39C0FF"
-                  fill-opacity="0.89"
+                  fillOpacity="0.89"
                 />
                 <circle
                   cx="33.7335"
                   cy="33.7325"
                   r="5.62214"
                   fill="#39C0FF"
-                  fill-opacity="0.89"
+                  fillOpacity="0.89"
                 />
                 <circle
                   cx="33.7335"
                   cy="61.8438"
                   r="5.62214"
                   fill="#39C0FF"
-                  fill-opacity="0.89"
+                  fillOpacity="0.89"
                 />
                 <circle
                   cx="33.7335"
                   cy="89.9542"
                   r="5.62214"
                   fill="#39C0FF"
-                  fill-opacity="0.89"
+                  fillOpacity="0.89"
                 />
                 <circle
                   cx="33.7335"
                   cy="118.065"
                   r="5.62214"
                   fill="#39C0FF"
-                  fill-opacity="0.89"
+                  fillOpacity="0.89"
                 />
                 <circle
                   cx="61.8448"
                   cy="61.8428"
                   r="5.62214"
                   fill="#39C0FF"
-                  fill-opacity="0.89"
+                  fillOpacity="0.89"
                 />
                 <circle
                   cx="61.8448"
                   cy="89.9542"
                   r="5.62214"
                   fill="#39C0FF"
-                  fill-opacity="0.89"
+                  fillOpacity="0.89"
                 />
                 <circle
                   cx="61.8448"
                   cy="118.065"
                   r="5.62214"
                   fill="#39C0FF"
-                  fill-opacity="0.89"
+                  fillOpacity="0.89"
                 />
                 <circle
                   cx="89.9542"
                   cy="89.9542"
                   r="5.62214"
                   fill="#39C0FF"
-                  fill-opacity="0.89"
+                  fillOpacity="0.89"
                 />
                 <circle
                   cx="89.9542"
                   cy="118.065"
                   r="5.62214"
                   fill="#39C0FF"
-                  fill-opacity="0.89"
+                  fillOpacity="0.89"
                 />
                 <circle
                   cx="118.064"
                   cy="118.065"
                   r="5.62214"
                   fill="#39C0FF"
-                  fill-opacity="0.89"
+                  fillOpacity="0.89"
                 />
               </g>
             </svg>

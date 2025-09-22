@@ -1,28 +1,20 @@
-import React from "react";
-import useEmblaCarousel from "embla-carousel-react";
 import Link from "next/link";
 import Image from "next/image";
 import EmblaCarousel from "../emblaCarousel/EmblaCarousel";
-import WhyChooseBg from "../../../public/images/whyChooseBg.webp";
-import WhychooseRobot from "../../../public/images/whyChooseRobotImg.webp";
 
 const WhyChoose = () => {
   return (
     <>
       <section className="whyChooseSection relative overflow-hidden z-30 py-8">
         <Image
-          loading="lazy"
-          fetchPriority="low"
-          src={WhyChooseBg}
+          src="/images/whyChooseBg.webp"
           alt="Easy Appointment Booking"
-          title="Easy Appointment Booking"
-          width={"100%"}
-          height={"100%"}
-          class="size-full mx-auto absolute inset-0 -z-10 object-cover object-center"
+          fill
+          className="size-full mx-auto absolute inset-0 -z-10 object-cover object-center"
         />
-        <div className="container mx-auto xl:py-4 lg:py-3 py-4 px-4 lg:px-6 xl:px-8">
+        <div className="view xl:py-4 lg:py-3 py-4 ">
           <div className="flex flex-col">
-            <h2 class="w-full  2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-12 pb-4">
+            <h2 className="w-full  2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-12 pb-4">
               Why choose edoovi as your school partner?
             </h2>
             {/* desktop view */}
@@ -47,7 +39,7 @@ const WhyChoose = () => {
                         />
                       </svg>
                     </div>
-                    <div class="md:text-2xl text-xl font-semibold text-white text-balanced">
+                    <div className="md:text-2xl text-xl font-semibold text-white text-balanced">
                       Event & Holiday Generator
                     </div>
                     <div className="md:text-sm text-xs text-white text-balanced">
@@ -71,7 +63,7 @@ const WhyChoose = () => {
                         />
                       </svg>
                     </div>
-                    <div class="md:text-2xl text-xl font-semibold text-white text-balanced">
+                    <div className="md:text-2xl text-xl font-semibold text-white text-balanced">
                       Event & Holiday Generator
                     </div>
                     <div className="md:text-sm text-xs text-white text-balanced">
@@ -83,14 +75,11 @@ const WhyChoose = () => {
                 </div>
                 <div className="px-4">
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={WhychooseRobot}
-                    alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
+                    src="/images/whyChooseRobotImg.webp"
+                    alt="Why choose edoovi as your school partner?"
                     width={392}
                     height={392}
-                    class="size-full mx-auto aspect-auto"
+                    className="size-full mx-auto aspect-auto"
                   />
                 </div>
                 <div className="flex flex-col gap-y-8">
@@ -109,7 +98,7 @@ const WhyChoose = () => {
                         />
                       </svg>
                     </div>
-                    <div class="md:text-2xl text-xl font-semibold text-white text-balanced">
+                    <div className="md:text-2xl text-xl font-semibold text-white text-balanced">
                       Event & Holiday Generator
                     </div>
                     <div className="md:text-sm text-xs text-white text-balanced">
@@ -133,7 +122,7 @@ const WhyChoose = () => {
                         />
                       </svg>
                     </div>
-                    <div class="md:text-2xl text-xl font-semibold text-white text-balanced">
+                    <div className="md:text-2xl text-xl font-semibold text-white text-balanced">
                       Event & Holiday Generator
                     </div>
                     <div className="md:text-sm text-xs text-white text-balanced">
@@ -173,7 +162,7 @@ const WhyChoose = () => {
                           />
                         </svg>
                       </div>
-                      <div class="text-xl font-semibold text-white text-balanced">
+                      <div className="text-xl font-semibold text-white text-balanced">
                         Event & Holiday Generator
                       </div>
                       <div className=" text-xs text-white text-balanced">
@@ -202,7 +191,7 @@ const WhyChoose = () => {
                           />
                         </svg>
                       </div>
-                      <div class="text-xl font-semibold text-white text-balanced">
+                      <div className="text-xl font-semibold text-white text-balanced">
                         Event & Holiday Generator
                       </div>
                       <div className=" text-xs text-white text-balanced">
@@ -215,14 +204,11 @@ const WhyChoose = () => {
                 </EmblaCarousel>
                 <div className="w-full">
                   <Image
-                    loading="lazy"
-                    fetchPriority="low"
-                    src={WhychooseRobot}
-                    alt="Easy Appointment Booking"
-                    title="Easy Appointment Booking"
+                    src="/images/whyChooseRobotImg.webp"
+                    alt="Why choose edoovi as your school partner?"
                     width={392}
                     height={392}
-                    class="size-full mx-auto aspect-auto"
+                    className="size-full mx-auto aspect-auto"
                   />
                 </div>
               </div>

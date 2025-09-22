@@ -84,6 +84,31 @@
   margin-right: auto;
 }
 
+.\!view,
+.view {
+  padding-inline: 1rem;
+  width: 100%;
+
+  /* Define responsive max-width */
+  @media (min-width: 640px) {
+    padding-inline: 3rem;
+  }
+  @media (min-width: 768px) {
+    padding-inline: 4rem;
+  }
+  @media (min-width: 1024px) {
+    padding-inline: 5rem;
+  }
+  @media (min-width: 1280px) {
+    padding-inline: 5rem;
+  }
+  @media (min-width: 1536px) {
+    padding-inline: 5rem;
+  }
+
+  margin-inline: auto;
+}
+
 body {
   font-family: var(--font-poppins), sans-serif;
   background: var(--background);
@@ -94,7 +119,6 @@ body {
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  font-size: 1vw;
 }
 
 @theme inline {

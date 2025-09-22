@@ -1,5 +1,3 @@
-import React from "react";
-import useEmblaCarousel from "embla-carousel-react";
 import Link from "next/link";
 import Image from "next/image";
 import EmblaCarousel from "../emblaCarousel/EmblaCarousel";
@@ -8,7 +6,7 @@ const Result = () => {
   return (
     <>
       <section className="resultSec bg-[#190F4E] relative py-8">
-        <div className="container mx-auto ">
+        <div className="view">
           <div className="flex flex-col">
             <h2 className="md:w-8/12 w-full 2xl:text-4xl mx-auto xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-8 pb-4">
               How Our{" "}
@@ -27,7 +25,7 @@ const Result = () => {
                   />
                 </div>
               </div>
-              <div className="flex md:w-2/3 w-full flex-col md:sticky md:bottom-0 xl:py-4 lg:py-3 py-4 px-4 lg:px-6 xl:px-8 relative">
+              <div className="flex md:w-2/3 w-full flex-col md:sticky md:bottom-0 xl:py-4 lg:py-3 py-4 lg:ps-8 md:ps-6 relative">
                 <EmblaCarousel
                   options={{
                     align: "start",
@@ -36,77 +34,70 @@ const Result = () => {
                 >
                   <div className="embla__slide  shrink-0 px-2 basis-[100%] lg:basis-[50%] ">
                     <div className="flex flex-col p-6 relative  rounded-2xl  bg-gradient-to-r from-[#0EAFF0] to-[#0EAFF0]  h-full">
-                      <div className="absolute top-0 flex justify-center items-center right-0 w-16 h-16 rounded-bl-3xl bg-[#190F4E]">
-                        <div className="top-0 absolute -left-5">
-                          <svg
-                            width="23"
-                            height="23"
-                            viewBox="0 0 23 23"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M22.25 22.4404C21.9859 4.48887 7.61356 0.000200272 0.459961 0H22.25V22.4404Z"
-                              fill="#190F4E"
-                            />
-                          </svg>
-                        </div>
-                        <button
-                          type="button"
-                          className="cursor-pointer size-10 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] justify-center items-center flex  rounded-full"
+                      <div className="top-0 absolute right-0">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="70"
+                          height="70"
+                          viewBox="0 0 83 84"
+                          fill="none"
                         >
-                          <svg
+                          <path
+                            d="M22.25 0.000488281H82.9992V60.7204H52.6646C35.8671 60.7204 22.25 47.1033 22.25 30.3058V0.000488281Z"
+                            fill="#190F4E"
+                          />
+                          <path
+                            d="M22.25 22.4404C21.9859 4.48887 7.61356 0.00020001 0.459961 0H22.25V22.4404Z"
+                            fill="#190F4E"
+                          />
+                          <path
+                            d="M83 83.1602C82.7358 65.2082 68.3624 60.7207 61.209 60.7207H83V83.1602Z"
+                            fill="#190F4E"
+                          />
+                        </svg>
+                      </div>
+                      <button
+                        type="button"
+                        className="absolute right-0 top-0 cursor-pointer md:size-12 size-8 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] justify-center items-center flex  rounded-full"
+                      >
+                        <svg
+                          width="20"
+                          height="20"
+                          className="md:size-5 size-3"
+                          viewBox="0 0 22 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <mask
+                            id="mask0_19752_1700"
+                            style={{ maskType: "alpha" }}
+                            maskUnits="userSpaceOnUse"
+                            x="0"
+                            y="0"
                             width="22"
                             height="22"
-                            viewBox="0 0 22 22"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
                           >
-                            <mask
-                              id="mask0_19752_1700"
-                              style={{ maskType: "alpha" }}
-                              maskUnits="userSpaceOnUse"
-                              x="0"
-                              y="0"
-                              width="22"
-                              height="22"
-                            >
-                              <rect
-                                x="0.345703"
-                                y="0.517822"
-                                width="21.1251"
-                                height="21.1251"
-                                fill="#D9D9D9"
-                              />
-                            </mask>
-                            <g mask="url(#mask0_19752_1700)">
-                              <path
-                                d="M14.9779 8.90188L6.02177 17.858C5.75771 18.1221 5.43496 18.2541 5.05354 18.2541C4.67211 18.2541 4.34937 18.1221 4.0853 17.858C3.82124 17.594 3.68921 17.2712 3.68921 16.8898C3.68921 16.5084 3.82124 16.1856 4.0853 15.9216L13.0415 6.96541H9.32256C8.94114 6.96541 8.61472 6.82972 8.34333 6.55832C8.07193 6.28692 7.93623 5.96051 7.93623 5.57908C7.93623 5.19766 8.07193 4.87125 8.34333 4.59985C8.61472 4.32845 8.94114 4.19275 9.32256 4.19275H16.3643C16.7457 4.19275 17.0721 4.32845 17.3435 4.59985C17.6149 4.87125 17.7506 5.19766 17.7506 5.57908V12.6208C17.7506 13.0022 17.6149 13.3286 17.3435 13.6C17.0721 13.8714 16.7457 14.0071 16.3643 14.0071C15.9828 14.0071 15.6564 13.8714 15.385 13.6C15.1136 13.3286 14.9779 13.0022 14.9779 12.6208V8.90188Z"
-                                fill="#393A8C"
-                              />
-                            </g>
-                          </svg>
-                        </button>
-                        <div className="absolute -bottom-[23px] right-0 ">
-                          <svg
-                            width="22"
-                            height="24"
-                            viewBox="0 0 22 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M22 23.1603C21.7358 5.20836 7.36242 0.720825 0.208984 0.720825H22V23.1603Z"
-                              fill="#190F4E"
+                            <rect
+                              x="0.345703"
+                              y="0.517822"
+                              width="21.1251"
+                              height="21.1251"
+                              fill="#D9D9D9"
                             />
-                          </svg>
-                        </div>
-                      </div>
+                          </mask>
+                          <g mask="url(#mask0_19752_1700)">
+                            <path
+                              d="M14.9779 8.90188L6.02177 17.858C5.75771 18.1221 5.43496 18.2541 5.05354 18.2541C4.67211 18.2541 4.34937 18.1221 4.0853 17.858C3.82124 17.594 3.68921 17.2712 3.68921 16.8898C3.68921 16.5084 3.82124 16.1856 4.0853 15.9216L13.0415 6.96541H9.32256C8.94114 6.96541 8.61472 6.82972 8.34333 6.55832C8.07193 6.28692 7.93623 5.96051 7.93623 5.57908C7.93623 5.19766 8.07193 4.87125 8.34333 4.59985C8.61472 4.32845 8.94114 4.19275 9.32256 4.19275H16.3643C16.7457 4.19275 17.0721 4.32845 17.3435 4.59985C17.6149 4.87125 17.7506 5.19766 17.7506 5.57908V12.6208C17.7506 13.0022 17.6149 13.3286 17.3435 13.6C17.0721 13.8714 16.7457 14.0071 16.3643 14.0071C15.9828 14.0071 15.6564 13.8714 15.385 13.6C15.1136 13.3286 14.9779 13.0022 14.9779 12.6208V8.90188Z"
+                              fill="#393A8C"
+                            />
+                          </g>
+                        </svg>
+                      </button>
                       <div className="flex flex-col ">
                         <div className="text-base font-normal text-white pe-3">
                           From Reminders to Receipts
                         </div>
-                        <h3 className="w-10/12  md:text-xl text-lg font-bold  text-white">
+                        <h3 className="w-10/12 lg:text-2xl md:text-xl text-lg font-bold text-white mt-2">
                           Our AI Fee Collection Keeps Schools Paid & Parents
                           Happy
                         </h3>
@@ -140,78 +131,70 @@ const Result = () => {
                   </div>
                   <div className="embla__slide  shrink-0 px-2 basis-[100%] lg:basis-[50%] ">
                     <div className="flex flex-col p-6 relative  rounded-2xl  bg-gradient-to-r from-[#FFFFFF] to-[#C0F0FF]  h-full">
-                      <div className="absolute top-0 flex justify-center items-center right-0 w-16 h-16 rounded-bl-3xl bg-[#190F4E]">
-                        <div className="top-0 absolute -left-5">
-                          <svg
-                            width="23"
-                            height="23"
-                            viewBox="0 0 23 23"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M22.25 22.4404C21.9859 4.48887 7.61356 0.000200272 0.459961 0H22.25V22.4404Z"
-                              fill="#190F4E"
-                            />
-                          </svg>
-                        </div>
-
-                        <button
-                          type="button"
-                          className="cursor-pointer size-10 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] justify-center items-center flex  rounded-full"
+                      <div className="top-0 absolute right-0">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="70"
+                          height="70"
+                          viewBox="0 0 83 84"
+                          fill="none"
                         >
-                          <svg
+                          <path
+                            d="M22.25 0.000488281H82.9992V60.7204H52.6646C35.8671 60.7204 22.25 47.1033 22.25 30.3058V0.000488281Z"
+                            fill="#190F4E"
+                          />
+                          <path
+                            d="M22.25 22.4404C21.9859 4.48887 7.61356 0.00020001 0.459961 0H22.25V22.4404Z"
+                            fill="#190F4E"
+                          />
+                          <path
+                            d="M83 83.1602C82.7358 65.2082 68.3624 60.7207 61.209 60.7207H83V83.1602Z"
+                            fill="#190F4E"
+                          />
+                        </svg>
+                      </div>
+                      <button
+                        type="button"
+                        className="absolute right-0 top-0 cursor-pointer md:size-12 size-8 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] justify-center items-center flex  rounded-full"
+                      >
+                        <svg
+                          width="20"
+                          height="20"
+                          className="md:size-5 size-3"
+                          viewBox="0 0 22 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <mask
+                            id="mask0_19752_1700"
+                            style={{ maskType: "alpha" }}
+                            maskUnits="userSpaceOnUse"
+                            x="0"
+                            y="0"
                             width="22"
                             height="22"
-                            viewBox="0 0 22 22"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
                           >
-                            <mask
-                              id="mask0_19752_1700"
-                              style={{ maskType: "alpha" }}
-                              maskUnits="userSpaceOnUse"
-                              x="0"
-                              y="0"
-                              width="22"
-                              height="22"
-                            >
-                              <rect
-                                x="0.345703"
-                                y="0.517822"
-                                width="21.1251"
-                                height="21.1251"
-                                fill="#D9D9D9"
-                              />
-                            </mask>
-                            <g mask="url(#mask0_19752_1700)">
-                              <path
-                                d="M14.9779 8.90188L6.02177 17.858C5.75771 18.1221 5.43496 18.2541 5.05354 18.2541C4.67211 18.2541 4.34937 18.1221 4.0853 17.858C3.82124 17.594 3.68921 17.2712 3.68921 16.8898C3.68921 16.5084 3.82124 16.1856 4.0853 15.9216L13.0415 6.96541H9.32256C8.94114 6.96541 8.61472 6.82972 8.34333 6.55832C8.07193 6.28692 7.93623 5.96051 7.93623 5.57908C7.93623 5.19766 8.07193 4.87125 8.34333 4.59985C8.61472 4.32845 8.94114 4.19275 9.32256 4.19275H16.3643C16.7457 4.19275 17.0721 4.32845 17.3435 4.59985C17.6149 4.87125 17.7506 5.19766 17.7506 5.57908V12.6208C17.7506 13.0022 17.6149 13.3286 17.3435 13.6C17.0721 13.8714 16.7457 14.0071 16.3643 14.0071C15.9828 14.0071 15.6564 13.8714 15.385 13.6C15.1136 13.3286 14.9779 13.0022 14.9779 12.6208V8.90188Z"
-                                fill="#393A8C"
-                              />
-                            </g>
-                          </svg>
-                        </button>
-                        <div className="absolute -bottom-[23px] right-0 ">
-                          <svg
-                            width="22"
-                            height="24"
-                            viewBox="0 0 22 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M22 23.1603C21.7358 5.20836 7.36242 0.720825 0.208984 0.720825H22V23.1603Z"
-                              fill="#190F4E"
+                            <rect
+                              x="0.345703"
+                              y="0.517822"
+                              width="21.1251"
+                              height="21.1251"
+                              fill="#D9D9D9"
                             />
-                          </svg>
-                        </div>
-                      </div>
+                          </mask>
+                          <g mask="url(#mask0_19752_1700)">
+                            <path
+                              d="M14.9779 8.90188L6.02177 17.858C5.75771 18.1221 5.43496 18.2541 5.05354 18.2541C4.67211 18.2541 4.34937 18.1221 4.0853 17.858C3.82124 17.594 3.68921 17.2712 3.68921 16.8898C3.68921 16.5084 3.82124 16.1856 4.0853 15.9216L13.0415 6.96541H9.32256C8.94114 6.96541 8.61472 6.82972 8.34333 6.55832C8.07193 6.28692 7.93623 5.96051 7.93623 5.57908C7.93623 5.19766 8.07193 4.87125 8.34333 4.59985C8.61472 4.32845 8.94114 4.19275 9.32256 4.19275H16.3643C16.7457 4.19275 17.0721 4.32845 17.3435 4.59985C17.6149 4.87125 17.7506 5.19766 17.7506 5.57908V12.6208C17.7506 13.0022 17.6149 13.3286 17.3435 13.6C17.0721 13.8714 16.7457 14.0071 16.3643 14.0071C15.9828 14.0071 15.6564 13.8714 15.385 13.6C15.1136 13.3286 14.9779 13.0022 14.9779 12.6208V8.90188Z"
+                              fill="#393A8C"
+                            />
+                          </g>
+                        </svg>
+                      </button>
                       <div className="flex flex-col">
                         <div className="text-base font-normal text-[#363637] pe-3">
                           From Reminders to Receipts
                         </div>
-                        <h3 className="w-10/12 md:text-xl text-lg font-bold  text-[#393A8C]">
+                        <h3 className="w-10/12 lg:text-2xl md:text-xl text-lg font-bold text-[#393A8C] mt-2">
                           <span className="text-[#0EAFF0]">AI-Powered</span>{" "}
                           Exam Module do all in intelligent way
                         </h3>
@@ -245,95 +228,82 @@ const Result = () => {
                   </div>
                 </EmblaCarousel>
 
-                <div className="w-full mt-5 md:flex hidden p-6 flex-col relative rounded-2xl bg-gradient-to-l from-[#190F4E] to-[#393A8C] ">
-                  <div className="absolute top-0 flex justify-center items-center right-0 w-16 h-16 rounded-bl-3xl bg-[#190F4E]">
-                    <div className="top-0 absolute -left-5">
-                      <svg
-                        width="23"
-                        height="23"
-                        viewBox="0 0 23 23"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M22.25 22.4404C21.9859 4.48887 7.61356 0.000200272 0.459961 0H22.25V22.4404Z"
-                          fill="#190F4E"
-                        />
-                      </svg>
-                    </div>
-
-                    <button className="cursor-pointer size-10 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] border-none outline-none justify-center items-center flex  rounded-full">
-                      <svg
+                <div className="w-full mt-5 md:flex hidden p-6 flex-col relative rounded-2xl bg-gradient-to-bl from-[#190F4E] to-[#393A8C] ">
+                  <div className="top-0 absolute right-0">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="70"
+                      height="70"
+                      viewBox="0 0 83 84"
+                      fill="none"
+                    >
+                      <path
+                        d="M22.25 0.000488281H82.9992V60.7204H52.6646C35.8671 60.7204 22.25 47.1033 22.25 30.3058V0.000488281Z"
+                        fill="#190F4E"
+                      />
+                      <path
+                        d="M22.25 22.4404C21.9859 4.48887 7.61356 0.00020001 0.459961 0H22.25V22.4404Z"
+                        fill="#190F4E"
+                      />
+                      <path
+                        d="M83 83.1602C82.7358 65.2082 68.3624 60.7207 61.209 60.7207H83V83.1602Z"
+                        fill="#190F4E"
+                      />
+                    </svg>
+                  </div>
+                  <button
+                    type="button"
+                    className="absolute right-0 top-0 cursor-pointer md:size-12 size-8 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] justify-center items-center flex  rounded-full"
+                  >
+                    <svg
+                      width="20"
+                      height="20"
+                      className="md:size-5 size-3"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_19752_1700"
+                        style={{ maskType: "alpha" }}
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
                         width="22"
                         height="22"
-                        viewBox="0 0 22 22"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
                       >
-                        <mask
-                          id="mask0_19752_1700"
-                          style={{ maskType: "alpha" }}
-                          maskUnits="userSpaceOnUse"
-                          x="0"
-                          y="0"
-                          width="22"
-                          height="22"
-                        >
-                          <rect
-                            x="0.345703"
-                            y="0.517822"
-                            width="21.1251"
-                            height="21.1251"
-                            fill="#D9D9D9"
-                          />
-                        </mask>
-                        <g mask="url(#mask0_19752_1700)">
-                          <path
-                            d="M14.9779 8.90188L6.02177 17.858C5.75771 18.1221 5.43496 18.2541 5.05354 18.2541C4.67211 18.2541 4.34937 18.1221 4.0853 17.858C3.82124 17.594 3.68921 17.2712 3.68921 16.8898C3.68921 16.5084 3.82124 16.1856 4.0853 15.9216L13.0415 6.96541H9.32256C8.94114 6.96541 8.61472 6.82972 8.34333 6.55832C8.07193 6.28692 7.93623 5.96051 7.93623 5.57908C7.93623 5.19766 8.07193 4.87125 8.34333 4.59985C8.61472 4.32845 8.94114 4.19275 9.32256 4.19275H16.3643C16.7457 4.19275 17.0721 4.32845 17.3435 4.59985C17.6149 4.87125 17.7506 5.19766 17.7506 5.57908V12.6208C17.7506 13.0022 17.6149 13.3286 17.3435 13.6C17.0721 13.8714 16.7457 14.0071 16.3643 14.0071C15.9828 14.0071 15.6564 13.8714 15.385 13.6C15.1136 13.3286 14.9779 13.0022 14.9779 12.6208V8.90188Z"
-                            fill="#393A8C"
-                          />
-                        </g>
-                      </svg>
-                    </button>
-                    <div className="absolute -bottom-[23px] right-0 ">
-                      <svg
-                        width="22"
-                        height="24"
-                        viewBox="0 0 22 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M22 23.1603C21.7358 5.20836 7.36242 0.720825 0.208984 0.720825H22V23.1603Z"
-                          fill="#190F4E"
+                        <rect
+                          x="0.345703"
+                          y="0.517822"
+                          width="21.1251"
+                          height="21.1251"
+                          fill="#D9D9D9"
                         />
-                      </svg>
-                    </div>
-                  </div>
+                      </mask>
+                      <g mask="url(#mask0_19752_1700)">
+                        <path
+                          d="M14.9779 8.90188L6.02177 17.858C5.75771 18.1221 5.43496 18.2541 5.05354 18.2541C4.67211 18.2541 4.34937 18.1221 4.0853 17.858C3.82124 17.594 3.68921 17.2712 3.68921 16.8898C3.68921 16.5084 3.82124 16.1856 4.0853 15.9216L13.0415 6.96541H9.32256C8.94114 6.96541 8.61472 6.82972 8.34333 6.55832C8.07193 6.28692 7.93623 5.96051 7.93623 5.57908C7.93623 5.19766 8.07193 4.87125 8.34333 4.59985C8.61472 4.32845 8.94114 4.19275 9.32256 4.19275H16.3643C16.7457 4.19275 17.0721 4.32845 17.3435 4.59985C17.6149 4.87125 17.7506 5.19766 17.7506 5.57908V12.6208C17.7506 13.0022 17.6149 13.3286 17.3435 13.6C17.0721 13.8714 16.7457 14.0071 16.3643 14.0071C15.9828 14.0071 15.6564 13.8714 15.385 13.6C15.1136 13.3286 14.9779 13.0022 14.9779 12.6208V8.90188Z"
+                          fill="#393A8C"
+                        />
+                      </g>
+                    </svg>
+                  </button>
                   <div className="flex justify-center items-center mb-2 gap-5 ">
                     <div className="w-1/3 flex flex-col">
-                      <div className="text-sm font-normal text-white">
-                        From Reminders to Receipts
+                      <div className="md:text-base text-sm font-normal text-white">
+                        Boost Enrollment with
                       </div>
-                      <h3 className="md:text-xl text-lg font-bold  text-white">
+                      <h3 className="lg:text-2xl md:text-xl text-lg font-bold  text-white mt-2">
                         <span className="text-[#0EAFF0]">AI-Powered</span>{" "}
                         Admission Assistant
                       </h3>
                     </div>
                     <div className="w-2/3 flex flex-row justify-between items-center pe-10">
-                      <ul className="text-white text-xs pl-3 font-normal leading-6">
-                        <li className="list-disc ">
-                          Receive Reminders to Pay Fees
-                        </li>
-                        <li className="list-disc ">
-                          Send alerts on Whatsapp, sms & in app
-                        </li>
-                        <li className="list-disc ">
-                          Multiple UPI & payment options
-                        </li>
-                        <li className="list-disc ">
-                          Collection auto update in ERP
-                        </li>
+                      <ul className="text-white text-xs pl-3 font-normal flex flex-col gap-y-4 list-disc">
+                        <li>Receive Reminders to Pay Fees</li>
+                        <li>Send alerts on Whatsapp, sms & in app</li>
+                        <li>Multiple UPI & payment options</li>
+                        <li>Collection auto update in ERP</li>
                       </ul>
                       <div className="">
                         <Image
@@ -357,7 +327,7 @@ const Result = () => {
           </span>
         </div>
         <div className="arrowSec pt-8">
-          <div className="container mx-auto xl:py-4 lg:py-3 py-4 px-4 lg:px-6 xl:px-8">
+          <div className="view xl:py-4 lg:py-3 py-4 px-4 lg:px-6 xl:px-8">
             <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-2 gap-y-6">
               <div className="flex items-end gap-4">
                 <div className="lg:w-24 md:w-20 w-14 relative overflow-hidden shrink-0">
@@ -451,7 +421,7 @@ const Result = () => {
                   <div className="lg:text-5xl md:text-3xl text-2xl italic font-bold text-white">
                     71%
                   </div>
-                  <div className="lg:text-xl md:text-lg text-base italic md:font-bold font-semibold text-white text-balance">
+                  <div className="lg:text-xl md:text-lg sm:text-sm text-xs italic md:font-bold font-semibold text-white text-balance">
                     Increase in Patient Appointment
                   </div>
                 </div>
@@ -548,7 +518,7 @@ const Result = () => {
                   <div className="lg:text-5xl md:text-3xl text-2xl italic font-bold text-white">
                     71%
                   </div>
-                  <div className="lg:text-xl md:text-lg text-base italic md:font-bold font-semibold text-white text-balance">
+                  <div className="lg:text-xl md:text-lg sm:text-sm text-xs italic md:font-bold font-semibold text-white text-balance">
                     Increase in Patient Appointment
                   </div>
                 </div>
@@ -645,7 +615,7 @@ const Result = () => {
                   <div className="lg:text-5xl md:text-3xl text-2xl italic font-bold text-white">
                     71%
                   </div>
-                  <div className="lg:text-xl md:text-lg text-base italic md:font-bold font-semibold text-white text-balance">
+                  <div className="lg:text-xl md:text-lg sm:text-sm text-xs italic md:font-bold font-semibold text-white text-balance">
                     Increase in Patient Appointment
                   </div>
                 </div>
@@ -742,7 +712,7 @@ const Result = () => {
                   <div className="lg:text-5xl md:text-3xl text-2xl italic font-bold text-white">
                     71%
                   </div>
-                  <div className="lg:text-xl md:text-lg text-base italic md:font-bold font-semibold text-white text-balance">
+                  <div className="lg:text-xl md:text-lg sm:text-sm text-xs italic md:font-bold font-semibold text-white text-balance">
                     Increase in Patient Appointment
                   </div>
                 </div>

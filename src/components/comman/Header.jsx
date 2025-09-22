@@ -1,17 +1,15 @@
-import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import EdooviLogo from "../../../public/images/edooviLogo.webp";
 
 const Header = () => {
   return (
     <>
       <header className="bg-white shadow-[0px_4px_4px_0px_#0000001F]  sticky top-0 z-50">
-        <nav className="container mx-auto flex items-center justify-between xl:py-4 lg:py-3 py-4 px-4 lg:px-6 xl:px-8">
+        <nav className="view flex items-center justify-between xl:py-4 py-3">
           {/* <!-- Mobile Menu Icon --> */}
           <div className="flex lg:hidden ">
             <label
-              for="sideToggle"
+              htmlFor="sideToggle"
               className="cursor-pointer -m-2.5 inline-flex items-center justify-center rounded-md p-2.5"
             >
               <svg
@@ -34,7 +32,7 @@ const Header = () => {
             <Link href="" className="-m-1.5 p-1.5">
               <Image
                 className="xl:h-14 xl:w-52 lg:w-44 w-32 lg:h-10 h-8  object-contain aspect-[26/7]"
-                src={EdooviLogo}
+                src="/images/edooviLogo.webp"
                 width="208"
                 height="56"
                 alt="edoovi erp logo"
@@ -147,7 +145,7 @@ const Header = () => {
         id="sideToggle"
       />
       <label
-        for="sideToggle"
+        htmlFor="sideToggle"
         className="fixed inset-0 -z-[1011] backdrop-blur-xl bg-sky-950/70 peer-checked/sideToggle:z-[1010] peer-checked/sideToggle:opacity-100 opacity-0 duration-100"
       ></label>
       <div className="fixed flex flex-col h-screen inset-y-0 right-0 z-[1011] w-full overflow-y-auto bg-white  py-6 sm:max-w-sm peer-checked/sideToggle:translate-x-0 peer-checked/sideToggle:opacity-100 translate-x-full opacity-0 duration-300">
@@ -155,7 +153,7 @@ const Header = () => {
           <Link href={"/"} className="-ml-1.5">
             <Image
               className="w-44 h-auto  object-contain aspect-[88/19]"
-              src={EdooviLogo}
+              src="/images/edooviLogo.webp"
               width={176}
               height={38}
               alt="edoovi erp logo"
@@ -201,7 +199,7 @@ const Header = () => {
                       id="mmCompany"
                     />
                     <label
-                      for="mmCompany"
+                      htmlFor="mmCompany"
                       className="flex items-center justify-between gap-x-0.5 lg:text-base text-lg font-semibold text-[#454444]"
                     >
                       Our Solutions

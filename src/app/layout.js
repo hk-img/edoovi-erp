@@ -1,16 +1,102 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
 import Header from "@/components/comman/Header";
 import Footer from "@/components/comman/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const lufga = localFont({
+  src: [
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaThinRegular.woff2",
+      weight: "100",
+      style: "normal",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaThinItalic.woff2",
+      weight: "100",
+      style: "italic",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaExtraLightRegular.woff2",
+      weight: "200",
+      style: "normal",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaExtraLightItalic.woff2",
+      weight: "200",
+      style: "italic",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaLightRegular.woff2",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaLightItalic.woff2",
+      weight: "300",
+      style: "italic",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaRegular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaItalic.woff2",
+      weight: "400",
+      style: "italic",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaMediumRegular.woff2",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaMediumItalic.woff2",
+      weight: "500",
+      style: "italic",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaSemiBoldRegular.woff2",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaSemiBoldItalic.woff2",
+      weight: "600",
+      style: "italic",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaBold.woff2",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaBoldItalic.woff2",
+      weight: "700",
+      style: "italic",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaExtraBoldRegular.woff2",
+      weight: "800",
+      style: "normal",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaExtraBoldItalic.woff2",
+      weight: "800",
+      style: "italic",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaBlackRegular.woff2",
+      weight: "900",
+      style: "normal",
+    },
+    {
+      path: "/fonts/FONTSPRINGDEMO-LufgaBlackItalic.woff2",
+      weight: "900",
+      style: "italic",
+    },
+  ],
+  display: "swap",
 });
 
 export const metadata = {
@@ -20,10 +106,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" className="md:text-[1vw]">
+      <body className={`${lufga.className} antialiased`}>
         <Header />
         {children}
         <Footer />

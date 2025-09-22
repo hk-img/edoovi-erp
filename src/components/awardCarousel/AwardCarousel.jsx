@@ -1,28 +1,20 @@
-import React from "react";
-import useEmblaCarousel from "embla-carousel-react";
 import Link from "next/link";
 import Image from "next/image";
 import EmblaCarousel from "../emblaCarousel/EmblaCarousel";
-import AwardBgImg from "../../../public/images/awardsBgIMg.webp";
-import GoodFirmLogo from "../../../public/images/goodFirmsLogo.webp";
 
 const AwardCarousel = () => {
   return (
     <>
-      <section className="awardsSection relative overflow-hidden py-12">
+      <section className="awardsSection relative overflow-hidden py-8">
         <Image
-          loading="lazy"
-          fetchPriority="low"
-          src={AwardBgImg}
+          src="/images/awardsBgIMg.webp"
           alt="Easy Appointment Booking"
-          title="Easy Appointment Booking"
-          width={"100%"}
-          height={"100%"}
-          class="size-full mx-auto absolute inset-0 -z-10 object-cover object-center"
+          fill
+          className="size-full mx-auto absolute inset-0 -z-10 object-cover object-center"
         />
-        <div className="container mx-auto xl:py-4 lg:py-3 py-4 px-4 lg:px-6 xl:px-8">
+        <div className="view xl:py-4 lg:py-3 py-4">
           <div className="flex flex-col">
-            <h2 class="w-full  2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-8 pb-4">
+            <h2 className="w-full  2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-8 pb-4">
               Awards & Recognizations
             </h2>
             <div className="w-full">
@@ -34,21 +26,18 @@ const AwardCarousel = () => {
                   }}
                 >
                   <div className="embla__slide shrink-0 px-2  basis-[70.70%] md:basis-[66.66%] lg:basis-[33.33%]">
-                    <div className="bg-white rounded-2xl p-4 flex items-center gap-3">
-                      <div>
+                    <div className="bg-white rounded-2xl p-6 flex items-center gap-3">
+                      <div className="shrink-0">
                         <Image
-                          loading="lazy"
-                          fetchPriority="low"
-                          src={GoodFirmLogo}
-                          alt="Easy Appointment Booking"
-                          title="Easy Appointment Booking"
-                          width={86}
-                          height={86}
-                          class="lg:size-20 size-16  mx-auto"
+                          src="/images/goodFirmsLogo.webp"
+                          alt="goodfirms logo"
+                          width={80}
+                          height={80}
+                          className="lg:size-20 md:size-16 size-14 mx-auto"
                         />
                       </div>
                       <div className="flex flex-col gap-1">
-                        <div className="lg:text-2xl text-xl font-semibold text-[#4E4E4E]">
+                        <div className="lg:text-2xl md:text-xl text-lg font-semibold text-[#4E4E4E]">
                           Good Firms
                         </div>
                         <div className="md:text-base text-sm font-semibold text-[#4E4E4E]">
@@ -135,22 +124,19 @@ const AwardCarousel = () => {
                     </div>
                   </div>
                   <div className="embla__slide shrink-0 px-2 basis-[70.70%] md:basis-[40.40%] lg:basis-[33.33%]">
-                    <div className="bg-white rounded-2xl p-4 flex items-center gap-3">
-                      <div>
+                    <div className="bg-white rounded-2xl p-6 flex items-center gap-3">
+                      <div className="shrink-0">
                         <Image
-                          loading="lazy"
-                          fetchPriority="low"
-                          src={GoodFirmLogo}
-                          alt="Easy Appointment Booking"
-                          title="Easy Appointment Booking"
-                          width={86}
-                          height={86}
-                          class="lg:size-20 size-16  mx-auto"
+                          src="/images/G2Logo.webp"
+                          alt="g2 logo"
+                          width={80}
+                          height={80}
+                          className="lg:size-20 md:size-16 size-14 mx-auto"
                         />
                       </div>
                       <div className="flex flex-col gap-1">
-                        <div className="lg:text-2xl text-xl font-semibold text-[#4E4E4E]">
-                          Good Firms
+                        <div className="lg:text-2xl md:text-xl text-lg font-semibold text-[#4E4E4E]">
+                          G2
                         </div>
                         <div className="md:text-base text-sm font-semibold text-[#4E4E4E]">
                           487 Reviews
@@ -236,22 +222,19 @@ const AwardCarousel = () => {
                     </div>
                   </div>
                   <div className="embla__slide shrink-0 px-2 basis-[70.70%] md:basis-[40.40%] lg:basis-[33.33%]">
-                    <div className="bg-white rounded-2xl p-4 flex items-center gap-3">
-                      <div>
+                    <div className="bg-white rounded-2xl p-6 flex items-center gap-3">
+                      <div className="shrink-0">
                         <Image
-                          loading="lazy"
-                          fetchPriority="low"
-                          src={GoodFirmLogo}
-                          alt="Easy Appointment Booking"
-                          title="Easy Appointment Booking"
-                          width={86}
-                          height={86}
-                          class="lg:size-20 size-16  mx-auto"
+                          src="/images/techJockeyLogo.webp"
+                          alt="tech joykey logo"
+                          width={80}
+                          height={80}
+                          className="lg:size-20 md:size-16 size-14 mx-auto"
                         />
                       </div>
                       <div className="flex flex-col gap-1">
-                        <div className="lg:text-2xl text-xl font-semibold text-[#4E4E4E]">
-                          Good Firms
+                        <div className="lg:text-2xl md:text-xl text-lg font-semibold text-[#4E4E4E]">
+                          Tech Jockey
                         </div>
                         <div className="md:text-base text-sm font-semibold text-[#4E4E4E]">
                           487 Reviews

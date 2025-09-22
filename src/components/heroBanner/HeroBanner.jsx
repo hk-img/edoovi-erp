@@ -1,13 +1,10 @@
-import React from "react";
 import Image from "next/image";
-import heroBannerImg from "../../../public/images/HeroImg.webp";
-import RobotImg from "../../../public/images/robotImg.webp";
 
 const HeroBanner = () => {
   return (
     <>
       <section className="heroSection  relative overflow-hidden lg:min-h-dvh max-md:!h-auto flex flex-col max-md:pb-6 bg-white">
-        <div className="container mx-auto xl:py-4 lg:py-3 py-4 px-4 lg:px-6 xl:px-8">
+        <div className="view xl:py-4 lg:py-3 py-4">
           <div className="flex flex-wrap  justify-between">
             <div className="xl:w-6/12 lg:w-1/2 md:w-5/12 sm:w-full w-full flex flex-col ">
               <div className="flex gap-3 max-md:justify-center items-center relative lg:-bottom-10">
@@ -16,7 +13,7 @@ const HeroBanner = () => {
                 </div>
                 <Image
                   className="lg:w-36 lg:h-40 w-28 h-32  object-contain object-center lg:block hidden aspect-[9/10]"
-                  src={RobotImg}
+                  src="/images/robotImg.webp"
                   width="144"
                   height="160"
                   alt="robot logo"
@@ -64,7 +61,7 @@ const HeroBanner = () => {
             <div className="xl:w-5/12 lg:w-1/2 md:w-7/12 sm:w-full w-full flex flex-col relative md:order-last order-first">
               <Image
                 className="size-full object-contain object-center aspect-[437/460]"
-                src={heroBannerImg}
+                src="/images/HeroImg.webp"
                 width={437}
                 height={460}
                 alt="360 Management Solution with Power of AI"

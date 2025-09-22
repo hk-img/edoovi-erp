@@ -1,21 +1,17 @@
-import React from "react";
-import useEmblaCarousel from "embla-carousel-react";
 import Link from "next/link";
 import Image from "next/image";
 import EmblaCarousel from "../emblaCarousel/EmblaCarousel";
-import InsightGirl from "../../../public/images/insightGirl.webp";
-import BlogEditor from "../../../public/images/mm.webp";
 
 const LatestInsight = () => {
   return (
     <>
-      <section class="Blog bg-[#39C0FFE3] relative py-8">
-        <div className="container mx-auto xl:py-4 lg:py-3 py-4 px-4 lg:px-6 xl:px-8">
+      <section className="Blog bg-[#39C0FFE3] relative py-8">
+        <div className="view mx-auto xl:py-4 lg:py-3 py-4 md:!pr-0">
           <div className="flex flex-col">
-            <h2 class="md:w-8/12 w-full 2xl:text-4xl mx-auto xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-8 pb-4">
+            <h2 className="md:w-8/12 w-full 2xl:text-4xl mx-auto xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-8 pb-4">
               Latest Insights
             </h2>
-            <div class="w-full">
+            <div className="w-full">
               <EmblaCarousel
                 options={{
                   align: "start",
@@ -23,21 +19,19 @@ const LatestInsight = () => {
                 }}
               >
                 <div className="embla__slide  shrink-0 px-2 basis-[80.80%] md:basis-[33.33%] lg:basis-[28.28%] ">
-                  <div class="rounded-4xl drop-shadow-[#0000001F] drop-shadow-2xl p-5 flex flex-col gap-y-6 bg-white">
-                    <div class="relative">
+                  <div className="rounded-4xl  p-5 flex flex-col gap-y-6 bg-white">
+                    <div className="relative">
                       <Image
-                        loading="lazy"
-                        fetchPriority="low"
-                        src={InsightGirl}
-                        alt="file icon"
-                        title="file icon"
+                        src="/images/insightGirl.webp"
+                        alt="How Can School ERP Software Streamline Administrative
+                        Tasks"
                         width={112}
                         height={112}
-                        class="size-full mx-auto object-contain"
+                        className="size-full mx-auto object-contain"
                       />
 
-                      <div class="absolute right-5 bottom-1 ">
-                        <button class="group cursor-pointer size-10 rounded-full bg-white border flex items-center justify-center border-[#454444] hover:bg-[#39C0FFE3] hover:border-white duration-300">
+                      <div className="absolute right-5 bottom-1 ">
+                        <button className="group cursor-pointer size-10 rounded-full bg-white border flex items-center justify-center border-[#454444] hover:bg-[#39C0FFE3] hover:border-white duration-300">
                           <span>
                             <svg
                               width="16"
@@ -77,43 +71,41 @@ const LatestInsight = () => {
                         </button>
                       </div>
                     </div>
-                    <div class="w-full flex flex-col">
-                      <h3 class="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
+                    <div className="w-full flex flex-col">
+                      <h3 className="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
                         How Can School ERP Software Streamline Administrative
                         Tasks
                       </h3>
-                      <p class="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
+                      <p className="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
                         Curious about creating a dating app like Grindr? Here,
                         we break down the essential features, development costs,
                       </p>
-                      <div class="w-full flex mt-3.5 justify-between">
-                        <div class="flex flex-row items-center gap-2">
-                          <div class="w-10 h-10 rounded-full overflow-hidden ">
+                      <div className="w-full flex mt-3.5 justify-between">
+                        <div className="flex flex-row items-center gap-2">
+                          <div className="w-10 h-10 rounded-full overflow-hidden ">
                             <Image
-                              loading="lazy"
-                              fetchPriority="low"
-                              src={BlogEditor}
-                              alt="file icon"
-                              title="file icon"
+                              src="/images/mm.webp"
+                              alt="How Can School ERP Software Streamline Administrative
+                        Tasks"
                               width={40}
                               height={40}
-                              class="size-10 mx-auto object-contain"
+                              className="size-10 mx-auto object-contain"
                             />
                           </div>
-                          <div class="flex flex-col gap-1">
-                            <span class="text-xs font-normal text-[#454444]">
+                          <div className="flex flex-col gap-1">
+                            <span className="text-xs font-normal text-[#454444]">
                               Written By
                             </span>
-                            <span class="text-xs font-semibold text-[#454444]">
+                            <span className="text-xs font-semibold text-[#454444]">
                               Mohit Mittal
                             </span>
                           </div>
                         </div>
-                        <div class="flex  flex-col gap-1">
-                          <span class="text-xs md:block hidden font-normal text-[#454444]">
+                        <div className="flex  flex-col gap-1">
+                          <span className="text-xs md:block hidden font-normal text-[#454444]">
                             Written on
                           </span>
-                          <span class="text-xs font-semibold text-[#454444]">
+                          <span className="text-xs font-semibold text-[#454444]">
                             22 Jul 2025
                           </span>
                         </div>
@@ -122,21 +114,19 @@ const LatestInsight = () => {
                   </div>
                 </div>
                 <div className="embla__slide  shrink-0 px-2 basis-[80.80%] md:basis-[33.33%] lg:basis-[28.28%] ">
-                  <div class="rounded-4xl drop-shadow-[#0000001F] drop-shadow-2xl p-5 flex flex-col gap-y-6 bg-white">
-                    <div class="relative">
+                  <div className="rounded-4xl  p-5 flex flex-col gap-y-6 bg-white">
+                    <div className="relative">
                       <Image
-                        loading="lazy"
-                        fetchPriority="low"
-                        src={InsightGirl}
-                        alt="file icon"
-                        title="file icon"
+                        src="/images/insightGirl.webp"
+                        alt="How Can School ERP Software Streamline Administrative
+                        Tasks"
                         width={112}
                         height={112}
-                        class="size-full mx-auto object-contain"
+                        className="size-full mx-auto object-contain"
                       />
 
-                      <div class="absolute right-5 bottom-1 ">
-                        <button class="group cursor-pointer size-10 rounded-full bg-white border flex items-center justify-center border-[#454444] hover:bg-[#39C0FFE3] hover:border-white duration-300">
+                      <div className="absolute right-5 bottom-1 ">
+                        <button className="group cursor-pointer size-10 rounded-full bg-white border flex items-center justify-center border-[#454444] hover:bg-[#39C0FFE3] hover:border-white duration-300">
                           <span>
                             <svg
                               width="16"
@@ -176,43 +166,41 @@ const LatestInsight = () => {
                         </button>
                       </div>
                     </div>
-                    <div class="fw-full lex flex-col">
-                      <h3 class="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
+                    <div className="fw-full lex flex-col">
+                      <h3 className="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
                         How Can School ERP Software Streamline Administrative
                         Tasks
                       </h3>
-                      <p class="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
+                      <p className="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
                         Curious about creating a dating app like Grindr? Here,
                         we break down the essential features, development costs,
                       </p>
-                      <div class="w-full flex mt-3.5 justify-between">
-                        <div class="flex flex-row items-center gap-2">
-                          <div class="w-10 h-10 rounded-full overflow-hidden ">
+                      <div className="w-full flex mt-3.5 justify-between">
+                        <div className="flex flex-row items-center gap-2">
+                          <div className="w-10 h-10 rounded-full overflow-hidden ">
                             <Image
-                              loading="lazy"
-                              fetchPriority="low"
-                              src={BlogEditor}
-                              alt="file icon"
-                              title="file icon"
+                              src="/images/mm.webp"
+                              alt="How Can School ERP Software Streamline Administrative
+                        Tasks"
                               width={40}
                               height={40}
-                              class="size-10 mx-auto object-contain"
+                              className="size-10 mx-auto object-contain"
                             />
                           </div>
-                          <div class="flex flex-col gap-1">
-                            <span class="text-xs font-normal text-[#454444]">
+                          <div className="flex flex-col gap-1">
+                            <span className="text-xs font-normal text-[#454444]">
                               Written By
                             </span>
-                            <span class="text-xs font-semibold text-[#454444]">
+                            <span className="text-xs font-semibold text-[#454444]">
                               Mohit Mittal
                             </span>
                           </div>
                         </div>
-                        <div class="flex  flex-col gap-1">
-                          <span class="text-xs md:block hidden font-normal text-[#454444]">
+                        <div className="flex  flex-col gap-1">
+                          <span className="text-xs md:block hidden font-normal text-[#454444]">
                             Written on
                           </span>
-                          <span class="text-xs font-semibold text-[#454444]">
+                          <span className="text-xs font-semibold text-[#454444]">
                             22 Jul 2025
                           </span>
                         </div>
@@ -221,21 +209,19 @@ const LatestInsight = () => {
                   </div>
                 </div>
                 <div className="embla__slide  shrink-0 px-2 basis-[80.80%] md:basis-[33.33%] lg:basis-[28.28%] ">
-                  <div class="rounded-4xl drop-shadow-[#0000001F] drop-shadow-2xl p-5 flex flex-col gap-y-6 bg-white">
-                    <div class="relative">
+                  <div className="rounded-4xl  p-5 flex flex-col gap-y-6 bg-white">
+                    <div className="relative">
                       <Image
-                        loading="lazy"
-                        fetchPriority="low"
-                        src={InsightGirl}
-                        alt="file icon"
-                        title="file icon"
+                        src="/images/insightGirl.webp"
+                        alt="How Can School ERP Software Streamline Administrative
+                        Tasks"
                         width={112}
                         height={112}
-                        class="size-full mx-auto object-contain"
+                        className="size-full mx-auto object-contain"
                       />
 
-                      <div class="absolute right-5 bottom-1 ">
-                        <button class="group cursor-pointer size-10 rounded-full bg-white border flex items-center justify-center border-[#454444] hover:bg-[#39C0FFE3] hover:border-white duration-300">
+                      <div className="absolute right-5 bottom-1 ">
+                        <button className="group cursor-pointer size-10 rounded-full bg-white border flex items-center justify-center border-[#454444] hover:bg-[#39C0FFE3] hover:border-white duration-300">
                           <span>
                             <svg
                               width="16"
@@ -275,43 +261,41 @@ const LatestInsight = () => {
                         </button>
                       </div>
                     </div>
-                    <div class="w-full flex flex-col">
-                      <h3 class="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
+                    <div className="w-full flex flex-col">
+                      <h3 className="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
                         How Can School ERP Software Streamline Administrative
                         Tasks
                       </h3>
-                      <p class="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
+                      <p className="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
                         Curious about creating a dating app like Grindr? Here,
                         we break down the essential features, development costs,
                       </p>
-                      <div class="w-full flex mt-3.5 justify-between">
-                        <div class="flex flex-row items-center gap-2">
-                          <div class="w-10 h-10 rounded-full overflow-hidden ">
+                      <div className="w-full flex mt-3.5 justify-between">
+                        <div className="flex flex-row items-center gap-2">
+                          <div className="w-10 h-10 rounded-full overflow-hidden ">
                             <Image
-                              loading="lazy"
-                              fetchPriority="low"
-                              src={BlogEditor}
-                              alt="file icon"
-                              title="file icon"
+                              src="/images/mm.webp"
+                              alt="How Can School ERP Software Streamline Administrative
+                        Tasks"
                               width={40}
                               height={40}
-                              class="size-10 mx-auto object-contain"
+                              className="size-10 mx-auto object-contain"
                             />
                           </div>
-                          <div class="flex flex-col gap-1">
-                            <span class="text-xs font-normal text-[#454444]">
+                          <div className="flex flex-col gap-1">
+                            <span className="text-xs font-normal text-[#454444]">
                               Written By
                             </span>
-                            <span class="text-xs font-semibold text-[#454444]">
+                            <span className="text-xs font-semibold text-[#454444]">
                               Mohit Mittal
                             </span>
                           </div>
                         </div>
-                        <div class="flex  flex-col gap-1">
-                          <span class="text-xs md:block hidden font-normal text-[#454444]">
+                        <div className="flex  flex-col gap-1">
+                          <span className="text-xs md:block hidden font-normal text-[#454444]">
                             Written on
                           </span>
-                          <span class="text-xs font-semibold text-[#454444]">
+                          <span className="text-xs font-semibold text-[#454444]">
                             22 Jul 2025
                           </span>
                         </div>
@@ -320,21 +304,19 @@ const LatestInsight = () => {
                   </div>
                 </div>
                 <div className="embla__slide  shrink-0 px-2 basis-[80.80%] md:basis-[33.33%] lg:basis-[28.28%] ">
-                  <div class="rounded-4xl drop-shadow-[#0000001F] drop-shadow-2xl p-5 flex flex-col gap-y-6 bg-white">
-                    <div class="relative">
+                  <div className="rounded-4xl  p-5 flex flex-col gap-y-6 bg-white">
+                    <div className="relative">
                       <Image
-                        loading="lazy"
-                        fetchPriority="low"
-                        src={InsightGirl}
-                        alt="file icon"
-                        title="file icon"
+                        src="/images/insightGirl.webp"
+                        alt="How Can School ERP Software Streamline Administrative
+                        Tasks"
                         width={112}
                         height={112}
-                        class="size-full mx-auto object-contain"
+                        className="size-full mx-auto object-contain"
                       />
 
-                      <div class="absolute right-5 bottom-1 ">
-                        <button class="group cursor-pointer size-10 rounded-full bg-white border flex items-center justify-center border-[#454444] hover:bg-[#39C0FFE3] hover:border-white duration-300">
+                      <div className="absolute right-5 bottom-1 ">
+                        <button className="group cursor-pointer size-10 rounded-full bg-white border flex items-center justify-center border-[#454444] hover:bg-[#39C0FFE3] hover:border-white duration-300">
                           <span>
                             <svg
                               width="16"
@@ -374,43 +356,41 @@ const LatestInsight = () => {
                         </button>
                       </div>
                     </div>
-                    <div class="w-full flex flex-col">
-                      <h3 class="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
+                    <div className="w-full flex flex-col">
+                      <h3 className="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
                         How Can School ERP Software Streamline Administrative
                         Tasks
                       </h3>
-                      <p class="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
+                      <p className="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
                         Curious about creating a dating app like Grindr? Here,
                         we break down the essential features, development costs,
                       </p>
-                      <div class="w-full flex mt-3.5 justify-between">
-                        <div class="flex flex-row items-center gap-2">
-                          <div class="w-10 h-10 rounded-full overflow-hidden ">
+                      <div className="w-full flex mt-3.5 justify-between">
+                        <div className="flex flex-row items-center gap-2">
+                          <div className="w-10 h-10 rounded-full overflow-hidden ">
                             <Image
-                              loading="lazy"
-                              fetchPriority="low"
-                              src={BlogEditor}
-                              alt="file icon"
-                              title="file icon"
+                              src="/images/mm.webp"
+                              alt="How Can School ERP Software Streamline Administrative
+                        Tasks"
                               width={40}
                               height={40}
-                              class="size-10 mx-auto object-contain"
+                              className="size-10 mx-auto object-contain"
                             />
                           </div>
-                          <div class="flex flex-col gap-1">
-                            <span class="text-xs font-normal text-[#454444]">
+                          <div className="flex flex-col gap-1">
+                            <span className="text-xs font-normal text-[#454444]">
                               Written By
                             </span>
-                            <span class="text-xs font-semibold text-[#454444]">
+                            <span className="text-xs font-semibold text-[#454444]">
                               Mohit Mittal
                             </span>
                           </div>
                         </div>
-                        <div class="flex flex-col gap-1">
-                          <span class="text-xs md:block hidden font-normal text-[#454444]">
+                        <div className="flex flex-col gap-1">
+                          <span className="text-xs md:block hidden font-normal text-[#454444]">
                             Written on
                           </span>
-                          <span class="text-xs font-semibold text-[#454444]">
+                          <span className="text-xs font-semibold text-[#454444]">
                             22 Jul 2025
                           </span>
                         </div>
@@ -419,21 +399,19 @@ const LatestInsight = () => {
                   </div>
                 </div>
                 <div className="embla__slide  shrink-0 px-2 basis-[80.80%] md:basis-[33.33%] lg:basis-[28.28%] ">
-                  <div class="rounded-4xl drop-shadow-[#0000001F] drop-shadow-2xl p-5 flex flex-col gap-y-6 bg-white">
-                    <div class="relative">
+                  <div className="rounded-4xl  p-5 flex flex-col gap-y-6 bg-white">
+                    <div className="relative">
                       <Image
-                        loading="lazy"
-                        fetchPriority="low"
-                        src={InsightGirl}
-                        alt="file icon"
-                        title="file icon"
+                        src="/images/insightGirl.webp"
+                        alt="How Can School ERP Software Streamline Administrative
+                        Tasks"
                         width={112}
                         height={112}
-                        class="size-full mx-auto object-contain"
+                        className="size-full mx-auto object-contain"
                       />
 
-                      <div class="absolute right-5 bottom-1 ">
-                        <button class="group cursor-pointer size-10 rounded-full bg-white border flex items-center justify-center border-[#454444] hover:bg-[#39C0FFE3] hover:border-white duration-300">
+                      <div className="absolute right-5 bottom-1 ">
+                        <button className="group cursor-pointer size-10 rounded-full bg-white border flex items-center justify-center border-[#454444] hover:bg-[#39C0FFE3] hover:border-white duration-300">
                           <span>
                             <svg
                               width="16"
@@ -473,43 +451,41 @@ const LatestInsight = () => {
                         </button>
                       </div>
                     </div>
-                    <div class="w-full flex flex-col">
-                      <h3 class="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
+                    <div className="w-full flex flex-col">
+                      <h3 className="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
                         How Can School ERP Software Streamline Administrative
                         Tasks
                       </h3>
-                      <p class="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
+                      <p className="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
                         Curious about creating a dating app like Grindr? Here,
                         we break down the essential features, development costs,
                       </p>
-                      <div class="w-full flex mt-3.5 justify-between">
-                        <div class="flex flex-row items-center gap-2">
-                          <div class="w-10 h-10 rounded-full overflow-hidden ">
+                      <div className="w-full flex mt-3.5 justify-between">
+                        <div className="flex flex-row items-center gap-2">
+                          <div className="w-10 h-10 rounded-full overflow-hidden ">
                             <Image
-                              loading="lazy"
-                              fetchPriority="low"
-                              src={BlogEditor}
-                              alt="file icon"
-                              title="file icon"
+                              src="/images/mm.webp"
+                              alt="How Can School ERP Software Streamline Administrative
+                        Tasks"
                               width={40}
                               height={40}
-                              class="size-10 mx-auto object-contain"
+                              className="size-10 mx-auto object-contain"
                             />
                           </div>
-                          <div class="flex flex-col gap-1">
-                            <span class="text-xs font-normal text-[#454444]">
+                          <div className="flex flex-col gap-1">
+                            <span className="text-xs font-normal text-[#454444]">
                               Written By
                             </span>
-                            <span class="text-xs font-semibold text-[#454444]">
+                            <span className="text-xs font-semibold text-[#454444]">
                               Mohit Mittal
                             </span>
                           </div>
                         </div>
-                        <div class="flex flex-col gap-1">
-                          <span class="text-xs md:block hidden font-normal text-[#454444]">
+                        <div className="flex flex-col gap-1">
+                          <span className="text-xs md:block hidden font-normal text-[#454444]">
                             Written on
                           </span>
-                          <span class="text-xs font-semibold text-[#454444]">
+                          <span className="text-xs font-semibold text-[#454444]">
                             22 Jul 2025
                           </span>
                         </div>
