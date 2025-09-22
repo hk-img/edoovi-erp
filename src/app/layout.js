@@ -5,98 +5,27 @@ import Footer from "@/components/comman/Footer";
 
 const lufga = localFont({
   src: [
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaThinRegular.woff2",
-      weight: "100",
-      style: "normal",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaThinItalic.woff2",
-      weight: "100",
-      style: "italic",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaExtraLightRegular.woff2",
-      weight: "200",
-      style: "normal",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaExtraLightItalic.woff2",
-      weight: "200",
-      style: "italic",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaLightRegular.woff2",
-      weight: "300",
-      style: "normal",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaLightItalic.woff2",
-      weight: "300",
-      style: "italic",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaRegular.woff2",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaItalic.woff2",
-      weight: "400",
-      style: "italic",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaMediumRegular.woff2",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaMediumItalic.woff2",
-      weight: "500",
-      style: "italic",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaSemiBoldRegular.woff2",
-      weight: "600",
-      style: "normal",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaSemiBoldItalic.woff2",
-      weight: "600",
-      style: "italic",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaBold.woff2",
-      weight: "700",
-      style: "normal",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaBoldItalic.woff2",
-      weight: "700",
-      style: "italic",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaExtraBoldRegular.woff2",
-      weight: "800",
-      style: "normal",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaExtraBoldItalic.woff2",
-      weight: "800",
-      style: "italic",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaBlackRegular.woff2",
-      weight: "900",
-      style: "normal",
-    },
-    {
-      path: "/fonts/FONTSPRINGDEMO-LufgaBlackItalic.woff2",
-      weight: "900",
-      style: "italic",
-    },
+    { path: "/fonts/Lufga-Thin.woff2", weight: "100", style: "normal" },
+    { path: "/fonts/Lufga-ThinItalic.woff2", weight: "100", style: "italic" },
+    { path: "/fonts/Lufga-ExtraLight.woff2", weight: "200", style: "normal" },
+    { path: "/fonts/Lufga-ExtraLightItalic.woff2", weight: "200", style: "italic" },
+    { path: "/fonts/Lufga-Light.woff2", weight: "300", style: "normal" },
+    { path: "/fonts/Lufga-LightItalic.woff2", weight: "300", style: "italic" },
+    { path: "/fonts/Lufga-Regular.woff2", weight: "400", style: "normal" },
+    { path: "/fonts/Lufga-Italic.woff2", weight: "400", style: "italic" },
+    { path: "/fonts/Lufga-Medium.woff2", weight: "500", style: "normal" },
+    { path: "/fonts/Lufga-MediumItalic.woff2", weight: "500", style: "italic" },
+    { path: "/fonts/Lufga-SemiBold.woff2", weight: "600", style: "normal" },
+    { path: "/fonts/Lufga-SemiBoldItalic.woff2", weight: "600", style: "italic" },
+    { path: "/fonts/Lufga-Bold.woff2", weight: "700", style: "normal" },
+    { path: "/fonts/Lufga-BoldItalic.woff2", weight: "700", style: "italic" },
+    { path: "/fonts/Lufga-ExtraBold.woff2", weight: "800", style: "normal" },
+    { path: "/fonts/Lufga-ExtraBoldItalic.woff2", weight: "800", style: "italic" },
+    { path: "/fonts/Lufga-Black.woff2", weight: "900", style: "normal" },
+    { path: "/fonts/Lufga-BlackItalic.woff2", weight: "900", style: "italic" },
   ],
   display: "swap",
+  variable: "--font-lufga", // optional if you want to use it as a CSS variable
 });
 
 export const metadata = {
