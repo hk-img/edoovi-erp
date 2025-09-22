@@ -10,7 +10,7 @@ const Faq = () => {
             <div className="flex flex-wrap justify-between">
               <div className="md:w-1/2 w-full">
                 <div className="w-full flex flex-col gap-y-3">
-                  <h2 className="w-full  2xl:text-4xl xl:text-4xl max-sm:text-center lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#272727] text-balance relative z-10  md:pb-8 pb-4">
+                  <h2 className="w-full  2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl max-sm:text-center  font-bold text-[#272727] text-balance relative z-10  md:pb-8 pb-4">
                     Frequently Asked Questions
                   </h2>
                   <div className="w-full">

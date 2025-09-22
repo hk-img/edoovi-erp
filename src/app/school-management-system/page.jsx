@@ -38,7 +38,7 @@ const page = () => {
             <div className="flex flex-wrap justify-between relative">
               <div className="md:w-1/2 w-full ">
                 <div className="w-full flex flex-col gap-y-3 md:sticky md:top-0">
-                  <h2 className="w-full  2xl:text-4xl xl:text-4xl max-sm:text-center lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#393A8C] text-balance relative z-10  md:pb-8 pb-4">
+                  <h2 className="w-full  2xl:text-5xl xl:text-5xl max-sm:text-center lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#393A8C] text-balance relative z-10  md:pb-8 pb-4">
                     Fuel Your School Growth with Advanced AI Features
                   </h2>
                   <div className="w-full">
@@ -273,7 +273,7 @@ const page = () => {
         />
         <div className="view xl:py-4 lg:py-3">
           <div className="flex flex-col">
-            <h2 className="w-full  2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-8 pb-4">
+            <h2 className="w-full  2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-8 pb-4">
               Real Impact of Our School ERP
             </h2>
             <div className="w-full pt-5">
@@ -318,7 +318,7 @@ const page = () => {
       <section className="keyBenefits relative overflow-hidden py-8 bg-white">
         <div className="view xl:py-4 lg:py-3">
           <div className="flex flex-col">
-            <h2 className="w-full  2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#393A8C] text-balance relative z-10 text-center md:pb-8 pb-4">
+            <h2 className="w-full 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#393A8C] text-balance relative z-10 text-center md:pb-8 pb-4">
               Key Benefits of Edoovi ERP For Everyone
             </h2>
             <div className="w-full [&_.dot-nav]:md:hidden block">
@@ -612,7 +612,7 @@ const page = () => {
           <div className="flex flex-col w-full">
             <div className="flex flex-wrap justify-between items-end ">
               <div className="md:w-8/12 w-full">
-                <h2 className="w-full 2xl:text-4xl xl:text-3xl lg:text-xl text-2xl md:leading-10 font-semibold text-white text-balance relative z-10 pb-6">
+                <h2 className="w-full 2xl:text-4xl xl:text-4xl lg:text-4xl text-3xl  font-semibold text-white text-balance relative z-10 pb-6">
                   <span className="font-normal">
                     Your vision is smart. Your decisions are sharp.
                   </span>
@@ -663,7 +663,7 @@ const page = () => {
       <section className="servicesSection w-full group/cs relative overflow-hidden bg-gradient-to-br from-[#0B2751] to-[#015E89E3] py-8">
         <div className="view  xl:py-4 lg:py-3">
           <div className="flex flex-col w-full">
-            <h2 className="w-full  2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-8 pb-4">
+            <h2 className="w-full  2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-8 pb-4">
               Our Every Module is{" "}
               <span className="text-[#04D9FF]">AI-Powered</span>
             </h2>
@@ -1007,7 +1007,7 @@ const page = () => {
             <div className="flex flex-wrap relative md:items-end justify-between">
               <div className="md:w-1/2 w-full md:sticky md:bottom-0">
                 <div className="w-full flex flex-col gap-y-3">
-                  <h2 className="w-full md:grow 2xl:text-4xl xl:text-4xl text-center lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#272727] text-balance relative z-10  md:pb-8 pb-4">
+                  <h2 className="w-full md:grow 2xl:text-5xl xl:text-5xl text-center lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#272727] text-balance relative z-10  md:pb-8 pb-4">
                     Frequently Asked Questions
                   </h2>
                   <div className="w-1/2 mx-auto ">

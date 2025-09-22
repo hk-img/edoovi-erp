@@ -14,7 +14,7 @@ const AwardCarousel = () => {
         />
         <div className="view xl:py-4 lg:py-3 py-4">
           <div className="flex flex-col">
-            <h2 className="w-full  2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-8 pb-4">
+            <h2 className="w-full 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-8 pb-4">
               Awards & Recognizations
             </h2>
             <div className="w-full">

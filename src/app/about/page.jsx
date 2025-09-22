@@ -11,7 +11,7 @@ const page = () => {
           <div className="flex flex-wrap justify-between ">
             <div className="md:w-6/12 w-full mx-auto xl:py-4 lg:py-3 py-4">
               <div className="flex flex-col gap-y-4">
-                <h1 className="w-full xl:text-4xl lg:text-4xl text-3xl pt-4 md:font-bold leading-12 max-sm:text-center font-semibold text-[#393A8C] relative ">
+                <h1 className="w-full xl:text-5xl lg:text-5xl md:text-4xl text-3xl pt-4 md:font-bold  max-sm:text-center font-semibold text-[#393A8C] relative ">
                   Building Brighter Futures With Innovative EDOOVI ERP Solutions
                 </h1>
                 <div className="flex items-center gap-4 text-lg text-[#272727] font-semibold">
@@ -44,7 +44,7 @@ const page = () => {
             <div className="flex flex-wrap justify-between">
               <div className="md:w-1/2 w-full flex flex-col gap-y-6 md:pr-6">
                 <div className="flex flex-col">
-                  <h2 className="w-full 2xl:text-4xl mx-auto xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#393A8C] text-balance relative z-10 ">
+                  <h2 className="w-full 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#393A8C] text-balance relative z-10 ">
                     Our Journey
                   </h2>
                   <p className="md:text-base text-sm font-normal text-[#595959] leading-7 text-balance">
@@ -222,7 +222,7 @@ const page = () => {
               <div className="w-full flex flex-wrap items-center justify-between">
                 <div className="md:w-6/12 w-full">
                   <div className="flex flex-col gap-y-3">
-                    <h2 className="w-full  2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 ">
+                    <h2 className="w-full 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 ">
                       Our Mission
                     </h2>
                     <div className="w-full text-white md:text-base text-sm txt-balance">
@@ -264,7 +264,7 @@ const page = () => {
                 </div>
                 <div className="md:w-6/12 w-full mx-auto xl:py-4 lg:py-3 py-4">
                   <div className="flex flex-col gap-y-3">
-                    <h2 className="w-full  2xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#272727] text-balance relative z-10 ">
+                    <h2 className="w-full 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#272727] text-balance relative z-10 ">
                       Our Vision
                     </h2>
                     <div className="w-full font-semibold text-[#595959] md:text-base text-sm txt-balance">
