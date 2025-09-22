@@ -1,44 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-  --text-xs: 0rem;
-  --text-xs: 0.75rem;
-  --text-sm: 0.875rem;
-  --text-base: 1rem;
-  --text-lg: 1.125rem;
-  --text-xl: 1.25rem;
-  --text-2xl: 1.5rem;
-  --text-3xl: 1.875rem;
-  --text-4xl: 2.25rem;
-  --text-5xl: 3rem;
-  --text-6xl: 3.75rem;
-  --text-7xl: 4.5rem;
-  --text-8xl: 6rem;
-  --text-9xl: 8rem;
-
-  --text-xs--line-height: initial;
-  --text-sm--line-height: initial;
-  --text-base--line-height: initial;
-  --text-lg--line-height: initial;
-  --text-xl--line-height: initial;
-  --text-2xl--line-height: initial;
-  --text-3xl--line-height: initial;
-  --text-4xl--line-height: initial;
-  --text-5xl--line-height: initial;
-  --text-6xl--line-height: initial;
-  --text-7xl--line-height: initial;
-  --text-8xl--line-height: initial;
-  --text-9xl--line-height: initial;
-
-  --container-padding-DEFAULT: 1rem;
-  --container-padding-sm: 1.5rem;
-  --container-padding-md: 2rem;
-  --container-padding-lg: 3rem;
-  --container-padding-xl: 4rem;
-  --container-padding-2xl: 5rem;
-
-  --color-theme1: #011422;
-  --color-theme2: #04272f;
 
   --animate-progress-circle: progressCircle 3s 1s ease-out forwards;
 
@@ -52,37 +14,26 @@
   }
 }
 
-/* Define your custom .container class after @tailwind utilities */
-.\!container,
-.container {
-  padding-left: var(--container-padding-DEFAULT);
-  padding-right: var(--container-padding-DEFAULT);
 
-  /* Define responsive max-width */
-  @media (min-width: 640px) {
-    padding-left: var(--container-padding-sm);
-    padding-right: var(--container-padding-sm);
-  }
-  @media (min-width: 768px) {
-    padding-left: var(--container-padding-md);
-    padding-right: var(--container-padding-md);
-  }
-  @media (min-width: 1024px) {
-    padding-left: var(--container-padding-lg);
-    padding-right: var(--container-padding-lg);
-  }
-  @media (min-width: 1280px) {
-    padding-left: var(--container-padding-xl);
-    padding-right: var(--container-padding-xl);
-  }
-  @media (min-width: 1536px) {
-    padding-left: var(--container-padding-2xl);
-    padding-right: var(--container-padding-2xl);
-  }
-
-  margin-left: auto;
-  margin-right: auto;
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
 }
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
 
 .\!view,
 .view {
@@ -110,27 +61,8 @@
 }
 
 body {
-  font-family: var(--font-poppins), sans-serif;
   background: var(--background);
   color: var(--foreground);
   line-height: normal;
 }
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
