@@ -353,7 +353,7 @@ const Result = ({ duration = 1000 }) => {
                           alt="dollar image"
                           width={141}
                           height={141}
-                          className="md:size-36 size-28 mx-auto object-contain aspect-auto"
+                          className="md:size-36 size-28 mx-auto object-contain aspect-square"
                         />
                       </div>
                     </div>
@@ -370,7 +370,7 @@ const Result = ({ duration = 1000 }) => {
         </div>
         <div className="arrowSec pt-8">
           <div className="view xl:py-4 lg:py-3 py-4 px-4 lg:px-6 xl:px-8">
-            <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-2 gap-y-6">
+            <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 grid-cols-2 gap-y-6">
               <div className="flex items-end gap-4">
                 <div className="lg:w-24 md:w-20 w-14 relative overflow-hidden shrink-0">
                   {/* <!-- Arrow SVG --> */}

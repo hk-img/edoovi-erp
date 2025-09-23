@@ -1,31 +1,14 @@
 import "./globals.css";
-import localFont from "next/font/local";
+import { Nata_Sans } from "next/font/google";
 import Header from "@/components/comman/Header";
 import Footer from "@/components/comman/Footer";
 
-const lufga = localFont({
-  src: [
-    { path: "/fonts/Lufga-Thin.woff2", weight: "100", style: "normal" },
-    { path: "/fonts/Lufga-ThinItalic.woff2", weight: "100", style: "italic" },
-    { path: "/fonts/Lufga-ExtraLight.woff2", weight: "200", style: "normal" },
-    { path: "/fonts/Lufga-ExtraLightItalic.woff2", weight: "200", style: "italic" },
-    { path: "/fonts/Lufga-Light.woff2", weight: "300", style: "normal" },
-    { path: "/fonts/Lufga-LightItalic.woff2", weight: "300", style: "italic" },
-    { path: "/fonts/Lufga-Regular.woff2", weight: "400", style: "normal" },
-    { path: "/fonts/Lufga-Italic.woff2", weight: "400", style: "italic" },
-    { path: "/fonts/Lufga-Medium.woff2", weight: "500", style: "normal" },
-    { path: "/fonts/Lufga-MediumItalic.woff2", weight: "500", style: "italic" },
-    { path: "/fonts/Lufga-SemiBold.woff2", weight: "600", style: "normal" },
-    { path: "/fonts/Lufga-SemiBoldItalic.woff2", weight: "600", style: "italic" },
-    { path: "/fonts/Lufga-Bold.woff2", weight: "700", style: "normal" },
-    { path: "/fonts/Lufga-BoldItalic.woff2", weight: "700", style: "italic" },
-    { path: "/fonts/Lufga-ExtraBold.woff2", weight: "800", style: "normal" },
-    { path: "/fonts/Lufga-ExtraBoldItalic.woff2", weight: "800", style: "italic" },
-    { path: "/fonts/Lufga-Black.woff2", weight: "900", style: "normal" },
-    { path: "/fonts/Lufga-BlackItalic.woff2", weight: "900", style: "italic" },
-  ],
+const nata = Nata_Sans({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700", "900"],
+  style: "normal",
   display: "swap",
-  variable: "--font-lufga", // optional if you want to use it as a CSS variable
+  variable: "--font-nata",
 });
 
 export const metadata = {
@@ -36,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="md:text-[1vw]">
-      <body className={`${lufga.className} antialiased`}>
+      <body className={`${nata.className} antialiased`}>
         <Header />
         {children}
         <Footer />

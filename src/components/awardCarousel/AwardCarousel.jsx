@@ -31,9 +31,9 @@ const AwardCarousel = () => {
                         <Image
                           src="/images/goodFirmsLogo.webp"
                           alt="goodfirms logo"
-                          width={80}
-                          height={80}
-                          className="lg:size-20 md:size-16 size-14 mx-auto"
+                          width={62}
+                          height={62}
+                          className="lg:size-20 md:size-16 size-14 mx-auto aspect-square"
                         />
                       </div>
                       <div className="flex flex-col gap-1">
@@ -129,9 +129,9 @@ const AwardCarousel = () => {
                         <Image
                           src="/images/G2Logo.webp"
                           alt="g2 logo"
-                          width={80}
-                          height={80}
-                          className="lg:size-20 md:size-16 size-14 mx-auto"
+                          width={62}
+                          height={62}
+                          className="lg:size-20 md:size-16 size-14 mx-auto aspect-square"
                         />
                       </div>
                       <div className="flex flex-col gap-1">
@@ -227,9 +227,9 @@ const AwardCarousel = () => {
                         <Image
                           src="/images/techJockeyLogo.webp"
                           alt="tech joykey logo"
-                          width={80}
-                          height={80}
-                          className="lg:size-20 md:size-16 size-14 mx-auto"
+                          width={62}
+                          height={62}
+                          className="lg:size-20 md:size-16 size-14 mx-auto aspect-square"
                         />
                       </div>
                       <div className="flex flex-col gap-1">

@@ -12,9 +12,9 @@ const Footer = () => {
                 <Image
                   src="/images/footerImage.webp"
                   alt="file icon"
-                  width={381}
-                  height={254}
-                  className="size-full rounded-lg mx-auto object-contain"
+                  width={549}
+                  height={404}
+                  className="size-full rounded-lg mx-auto object-contain aspect-[549/404]"
                 />
               </div>
               <div className="md:w-1/2 w-full xl:py-12 lg:py-10 py-6">
@@ -98,18 +98,18 @@ const Footer = () => {
                           <Image
                             src="/images/googleStoreBlack.webp"
                             alt="play store"
-                            width={102}
-                            height={30}
-                            className="size-full mx-auto object-contain"
+                            width={137}
+                            height={46}
+                            className="size-full mx-auto object-contain aspect-[137/46]"
                           />
                         </div>
                         <div className="w-full">
                           <Image
                             src="/images/appStoreBlack.webp"
                             alt="app store"
-                            width={248}
-                            height={40}
-                            className="size-full mx-auto object-contain"
+                            width={137}
+                            height={46}
+                            className="size-full mx-auto object-contain aspect-[137/46]"
                           />
                         </div>
                       </div>

@@ -77,9 +77,9 @@ const WhyChoose = () => {
                   <Image
                     src="/images/whyChooseRobotImg.webp"
                     alt="Why choose edoovi as your school partner?"
-                    width={392}
-                    height={392}
-                    className="size-full mx-auto aspect-auto"
+                    width={332}
+                    height={332}
+                    className="size-full mx-auto aspect-square"
                   />
                 </div>
                 <div className="flex flex-col gap-y-8">
@@ -264,9 +264,9 @@ const WhyChoose = () => {
                   <Image
                     src="/images/whyChooseRobotImg.webp"
                     alt="Why choose edoovi as your school partner?"
-                    width={392}
-                    height={392}
-                    className="size-full mx-auto aspect-auto"
+                    width={332}
+                    height={332}
+                    className="size-full mx-auto aspect-square"
                   />
                 </div>
               </div>

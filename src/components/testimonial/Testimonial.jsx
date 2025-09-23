@@ -15,8 +15,8 @@ const Testimonial = () => {
                     <Image
                       src="/images/styleSchoolLogo.webp"
                       alt="testimonial school logo"
-                      width={224}
-                      height={141}
+                      width={179}
+                      height={59}
                       className="lg:max-w-56 md:max-w-48 max-w-44 h-auto mx-auto object-contain "
                     />
                     <h2 className="w-full 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#272727] text-balance relative z-10 text-center md:pb-8 pb-4">
@@ -39,9 +39,9 @@ const Testimonial = () => {
                             <Image
                               src="/images/DrRajniAvasthiImg.webp"
                               alt="rajni awasthi logo"
-                              width={56}
-                              height={56}
-                              className="md:size-14 size-10 rounded-full mx-auto object-contain "
+                              width={45}
+                              height={45}
+                              className="md:size-14 size-10 rounded-full mx-auto object-contain aspect-square"
                             />
                           </span>
                           <div className="flex flex-col gap-y-1">
@@ -91,9 +91,9 @@ const Testimonial = () => {
                             <Image
                               src="/images/DrRajniAvasthiImg.webp"
                               alt="rajni awasthi logo"
-                              width={56}
-                              height={56}
-                              className="md:size-14 size-10 rounded-full mx-auto object-contain "
+                              width={45}
+                              height={45}
+                              className="md:size-14 size-10 rounded-full mx-auto object-contain aspect-square"
                             />
                           </span>
                           <div className="flex flex-col gap-y-1">

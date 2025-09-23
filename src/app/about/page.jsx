@@ -25,10 +25,10 @@ const page = () => {
             </div>
             <div className="md:w-5/12 w-full">
               <Image
-                className="size-full object-contain"
+                className="size-full object-contain aspect-[79/72]"
                 src="/images/aboutHero.webp"
-                width={1200}
-                height={477}
+                width={474}
+                height={432}
                 alt=" Building Brighter Futures With Innovative EDOOVI ERP Solutions"
               />
             </div>
@@ -38,16 +38,13 @@ const page = () => {
       <section className="ourJourney bg-white relative py-8">
         <div className="view xl:py-4 lg:py-3 py-4">
           <div className="flex flex-col">
-            <h2 className="w-full 2xl:text-4xl mx-auto xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-8 pb-4">
-              Latest Insights
-            </h2>
             <div className="flex flex-wrap justify-between">
               <div className="md:w-1/2 w-full flex flex-col gap-y-6 md:pr-6">
-                <div className="flex flex-col">
+                <div className="flex flex-col gap-y-3">
                   <h2 className="w-full 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#393A8C] text-balance relative z-10 ">
                     Our Journey
                   </h2>
-                  <p className="md:text-base text-sm font-normal text-[#595959] leading-7 text-balance">
+                  <p className="md:text-base text-sm font-normal text-[#595959]  text-balance">
                     Launched in 2020, Edoovi provides an end-to-end cloud
                     management solution for schools worldwide.
                   </p>
@@ -56,9 +53,9 @@ const page = () => {
                   <Image
                     src="/images/journey.webp"
                     alt="Our Journey"
-                    width={381}
-                    height={254}
-                    className="size-full mx-auto object-contain"
+                    width={549}
+                    height={671}
+                    className="size-full mx-auto object-contain aspect-[9/11]"
                   />
                 </div>
               </div>
@@ -212,9 +209,9 @@ const page = () => {
         <Image
           src="/images/impactSolutionBg.webp"
           alt="Easy Appointment Booking"
-          width={400}
-          height={525}
-          className="size-full mx-auto absolute inset-0 -z-10 object-cover object-center"
+          width={1265}
+          height={348}
+          className="size-full mx-auto absolute inset-0 -z-10 object-cover object-center aspect-[1265/348]"
         />
         <div className="view xl:py-4 lg:py-3 py-4">
           <div className="flex flex-col">
@@ -238,9 +235,9 @@ const page = () => {
                   <Image
                     src="/images/aboutMission.webp"
                     alt=" Our Mission"
-                    width={803}
-                    height={650}
-                    className="w-full mx-auto object-contain object-center"
+                    width={379}
+                    height={307}
+                    className="w-full mx-auto object-contain object-center aspect-[379/307]"
                   />
                 </div>
               </div>
@@ -248,6 +245,7 @@ const page = () => {
           </div>
         </div>
       </section>
+
       <section className="vision relative overflow-hidden bg-[#EFFDFF]">
         <div className="view">
           <div className="flex flex-col">
@@ -257,9 +255,9 @@ const page = () => {
                   <Image
                     src="/images/aboutVision.webp"
                     alt=" Our Vision"
-                    width="700"
-                    height="600"
-                    className="w-full mx-auto object-contain object-center"
+                    width="474"
+                    height="467"
+                    className="w-full mx-auto object-contain object-center aspect-[474/467]"
                   />
                 </div>
                 <div className="md:w-6/12 w-full mx-auto xl:py-4 lg:py-3 py-4">
@@ -320,9 +318,9 @@ const page = () => {
                       fetchPriority="low"
                       src="/images/schoolManagementFaq.webp"
                       alt="Easy Appointment Booking"
-                      width={396}
-                      height={467}
-                      className="size-full mx-auto object-contain"
+                      width={284}
+                      height={330}
+                      className="size-full mx-auto object-contain aspect-[142/165]"
                     />
                   </div>
                 </div>

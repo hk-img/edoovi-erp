@@ -17,9 +17,9 @@ const Faq = () => {
                     <Image
                       src="/images/faqImage.webp"
                       alt=" Frequently Asked Questions"
-                      width={599}
-                      height={463}
-                      className="size-full mx-auto object-contain"
+                      width={568}
+                      height={397}
+                      className="size-full mx-auto object-contain aspect-[568/379]"
                     />
                   </div>
                 </div>

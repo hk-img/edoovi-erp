@@ -25,9 +25,9 @@ const AiFeatures = () => {
                       <Image
                         src="/images/smartAlerts.webp"
                         alt="Smart alerts for low attendance, fees, exam schedules, and school circulars."
-                        width={346}
+                        width={347}
                         height={234}
-                        className="size-full rounded-lg mx-auto object-contain"
+                        className="size-full rounded-lg mx-auto object-contain aspect-[347/234]"
                       />
                     </div>
                     <div className="w-full flex flex-col gap-y-3">
@@ -55,9 +55,9 @@ const AiFeatures = () => {
                       <Image
                         src="/images/tableGenerator.webp"
                         alt="First Ever AI Powered Time table Generator with auto teacher assign"
-                        width={346}
+                        width={347}
                         height={234}
-                        className="size-full rounded-lg mx-auto object-contain"
+                        className="size-full rounded-lg mx-auto object-contain aspect-[347/234]"
                       />
                     </div>
                     <div className="w-full flex flex-col gap-y-3">
@@ -86,9 +86,9 @@ const AiFeatures = () => {
                         src="/images/firstEverFace.webp"
                         alt="First Ever Face Recognized Visitor Module for Child
                         safety"
-                        width={346}
+                        width={347}
                         height={234}
-                        className="size-full rounded-lg mx-auto object-contain"
+                        className="size-full rounded-lg mx-auto object-contain aspect-[347/234]"
                       />
                     </div>
                     <div className="w-full flex flex-col gap-y-3">

@@ -208,58 +208,58 @@ const AdvanceFeatures = () => {
                   <Image
                     src="/images/schoolFees.webp"
                     alt="Fees Management Monitor"
-                    width={375}
-                    height={374}
-                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel1:checked]/key:md:block"
+                    width={223}
+                    height={446}
+                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel1:checked]/key:md:block aspect-[115/223]"
                   />
                   <Image
                     src="/images/schoolEvent.webp"
                     alt="Event & Holiday Generator"
-                    width={375}
-                    height={374}
-                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel2:checked]/key:md:block"
+                    width={223}
+                    height={446}
+                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel2:checked]/key:md:block aspect-[115/223]"
                   />
                   <Image
                     src="/images/schoolQuickActions.webp"
                     alt="Quick Actions on Requests"
-                    width={375}
-                    height={374}
-                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel3:checked]/key:md:block"
+                    width={223}
+                    height={446}
+                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel3:checked]/key:md:block aspect-[115/223]"
                   />
                   <Image
                     src="/images/schoolConcern.webp"
                     alt="Concern & Feedback"
-                    width={375}
-                    height={374}
-                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel4:checked]/key:md:block"
+                    width={223}
+                    height={446}
+                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel4:checked]/key:md:block aspect-[115/223]"
                   />
                   <Image
                     src="/images/schoolNotification.webp"
                     alt="Notifications & Communication"
-                    width={375}
-                    height={374}
-                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel5:checked]/key:md:block"
+                    width={223}
+                    height={446}
+                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel5:checked]/key:md:block aspect-[115/223]"
                   />
                   <Image
                     src="/images/schoolRealTimeAttendance.webp"
                     alt="Real Time Attendance Monitoring"
-                    width={375}
-                    height={374}
-                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel6:checked]/key:md:block"
+                    width={223}
+                    height={446}
+                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel6:checked]/key:md:block aspect-[115/223]"
                   />
                   <Image
                     src="/images/schoolNews.webp"
                     alt="News, Circular & Announcements"
-                    width={375}
-                    height={374}
-                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel7:checked]/key:md:block"
+                    width={223}
+                    height={446}
+                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel7:checked]/key:md:block aspect-[115/223]"
                   />
                   <Image
                     src="/images/schoolTimetable.webp"
                     alt="First Ever AI Powered Time Table Management"
-                    width={375}
-                    height={374}
-                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel8:checked]/key:md:block"
+                    width={223}
+                    height={446}
+                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#userPanel8:checked]/key:md:block aspect-[115/223]"
                   />
                 </div>
                 <div className="md:flex hidden flex-col gap-y-12">
@@ -439,9 +439,9 @@ const AdvanceFeatures = () => {
                         <Image
                           src="/images/schoolFees.webp"
                           alt="Fees Management Monitor"
-                          width={375}
-                          height={374}
-                          className="size-full mx-auto max-w-64"
+                          width={256}
+                          height={495}
+                          className="size-full mx-auto max-w-64 aspect-[256/495]"
                         />
                       </div>
                       <div className="w-full flex flex-col justify-center gap-2">
@@ -462,9 +462,9 @@ const AdvanceFeatures = () => {
                         <Image
                           src="/images/schoolEvent.webp"
                           alt="Event & Holiday Generator"
-                          width={375}
-                          height={374}
-                          className="size-full mx-auto max-w-64"
+                          width={256}
+                          height={495}
+                          className="size-full mx-auto max-w-64 aspect-[256/495]"
                         />
                       </div>
                       <div className="flex flex-col justify-center gap-2">
@@ -485,9 +485,9 @@ const AdvanceFeatures = () => {
                         <Image
                           src="/images/schoolQuickActions.webp"
                           alt="Quick Actions on Requests"
-                          width={375}
-                          height={374}
-                          className="size-full mx-auto max-w-64"
+                          width={256}
+                          height={495}
+                          className="size-full mx-auto max-w-64 aspect-[256/495]"
                         />
                       </div>
                       <div className="flex flex-col justify-center gap-2">
@@ -508,9 +508,9 @@ const AdvanceFeatures = () => {
                         <Image
                           src="/images/schoolConcern.webp"
                           alt="Concern & Feedback"
-                          width={375}
-                          height={374}
-                          className="size-full mx-auto max-w-64"
+                          width={256}
+                          height={495}
+                          className="size-full mx-auto max-w-64 aspect-[256/495]"
                         />
                       </div>
                       <div className="flex flex-col justify-center gap-2">
@@ -531,9 +531,9 @@ const AdvanceFeatures = () => {
                         <Image
                           src="/images/schoolNotification.webp"
                           alt="Notifications & Communication"
-                          width={375}
-                          height={374}
-                          className="size-full mx-auto max-w-64"
+                          width={256}
+                          height={495}
+                          className="size-full mx-auto max-w-64 aspect-[256/495]"
                         />
                       </div>
                       <div className="flex flex-col justify-center gap-2">
@@ -554,9 +554,9 @@ const AdvanceFeatures = () => {
                         <Image
                           src="/images/schoolRealTimeAttendance.webp"
                           alt="Real Time Attendance Monitoring"
-                          width={375}
-                          height={374}
-                          className="size-full mx-auto max-w-64"
+                          width={256}
+                          height={495}
+                          className="size-full mx-auto max-w-64 aspect-[256/495]"
                         />
                       </div>
                       <div className="flex flex-col justify-center gap-2">
@@ -577,9 +577,9 @@ const AdvanceFeatures = () => {
                         <Image
                           src="/images/schoolNews.webp"
                           alt="News, Circular & Announcements"
-                          width={375}
-                          height={374}
-                          className="size-full mx-auto max-w-64"
+                          width={256}
+                          height={495}
+                          className="size-full mx-auto max-w-64 aspect-[256/495]"
                         />
                       </div>
                       <div className="flex flex-col justify-center gap-2">
@@ -600,9 +600,9 @@ const AdvanceFeatures = () => {
                         <Image
                           src="/images/schoolTimetable.webp"
                           alt="First Ever AI Powered Time Table Management"
-                          width={375}
-                          height={374}
-                          className="size-full mx-auto max-w-64"
+                          width={256}
+                          height={495}
+                          className="size-full mx-auto max-w-64 aspect-[256/495]"
                         />
                       </div>
                       <div className="flex flex-col justify-center gap-2">
@@ -766,44 +766,44 @@ const AdvanceFeatures = () => {
                   <Image
                     src="/images/studentRealTimeUpdate.webp"
                     alt="Real Time Updates"
-                    width={375}
-                    height={374}
-                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel1:checked]/key:md:block"
+                    width={223}
+                    height={446}
+                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel1:checked]/key:md:block aspect-[115/223]"
                   />
                   <Image
                     src="/images/studentBehavior.webp"
                     alt="AI- Powered Behavior Insight"
-                    width={375}
-                    height={374}
-                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel2:checked]/key:md:block"
+                    width={223}
+                    height={446}
+                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel2:checked]/key:md:block aspect-[115/223]"
                   />
                   <Image
                     src="/images/studentAttendance.webp"
                     alt="AI-Powered Attendance"
-                    width={375}
-                    height={374}
-                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel3:checked]/key:md:block"
+                    width={223}
+                    height={446}
+                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel3:checked]/key:md:block aspect-[115/223]"
                   />
                   <Image
                     src="/images/studentProgress.webp"
                     alt="Smart Progress Reports"
-                    width={375}
-                    height={374}
-                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel4:checked]/key:md:block"
+                    width={223}
+                    height={446}
+                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel4:checked]/key:md:block aspect-[115/223]"
                   />
                   <Image
                     src="/images/studentInsights.webp"
                     alt="Realtime Insights"
-                    width={375}
-                    height={374}
-                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel5:checked]/key:md:block"
+                    width={223}
+                    height={446}
+                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel5:checked]/key:md:block aspect-[115/223]"
                   />
                   <Image
                     src="/images/studentFees.webp"
                     alt="Fees Reminder"
-                    width={375}
-                    height={374}
-                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel6:checked]/key:md:block"
+                    width={223}
+                    height={446}
+                    className="w-full mx-auto xl:max-w-72 max-w-64  hidden group-has-[#studentPanel6:checked]/key:md:block aspect-[115/223]"
                   />
                 </div>
                 <div className="md:flex hidden flex-col gap-y-12">
@@ -940,9 +940,9 @@ const AdvanceFeatures = () => {
                         <Image
                           src="/images/studentRealTimeUpdate.webp"
                           alt="Real Time Updates"
-                          width={375}
-                          height={374}
-                          className="size-full mx-auto max-w-64"
+                          width={256}
+                          height={495}
+                          className="size-full mx-auto max-w-64 aspect-[256/495]"
                         />
                       </div>
                       <div className="flex flex-col justify-center gap-2">
@@ -962,9 +962,9 @@ const AdvanceFeatures = () => {
                         <Image
                           src="/images/studentBehavior.webp"
                           alt="AI- Powered Behavior Insight"
-                          width={375}
-                          height={374}
-                          className="size-full mx-auto max-w-64"
+                          width={256}
+                          height={495}
+                          className="size-full mx-auto max-w-64 aspect-[256/495]"
                         />
                       </div>
                       <div className="flex flex-col justify-center gap-2">
@@ -984,9 +984,9 @@ const AdvanceFeatures = () => {
                         <Image
                           src="/images/studentAttendance.webp"
                           alt="AI-Powered Attendance"
-                          width={375}
-                          height={374}
-                          className="size-full mx-auto max-w-64"
+                          width={256}
+                          height={495}
+                          className="size-full mx-auto max-w-64 aspect-[256/495]"
                         />
                       </div>
                       <div className="flex flex-col justify-center gap-2">
@@ -1006,9 +1006,9 @@ const AdvanceFeatures = () => {
                         <Image
                           src="/images/studentProgress.webp"
                           alt="Smart Progress Reports"
-                          width={375}
-                          height={374}
-                          className="size-full mx-auto max-w-64"
+                          width={256}
+                          height={495}
+                          className="size-full mx-auto max-w-64 aspect-[256/495]"
                         />
                       </div>
                       <div className="flex flex-col justify-center gap-2">
@@ -1028,9 +1028,9 @@ const AdvanceFeatures = () => {
                         <Image
                           src="/images/studentInsights.webp"
                           alt="Realtime Insights"
-                          width={375}
-                          height={374}
-                          className="size-full mx-auto max-w-64"
+                          width={256}
+                          height={495}
+                          className="size-full mx-auto max-w-64 aspect-[256/495]"
                         />
                       </div>
                       <div className="flex flex-col justify-center gap-2">
@@ -1050,9 +1050,9 @@ const AdvanceFeatures = () => {
                         <Image
                           src="/images/studentFees.webp"
                           alt="Fees Reminder"
-                          width={375}
-                          height={374}
-                          className="size-full mx-auto max-w-64"
+                          width={256}
+                          height={495}
+                          className="size-full mx-auto max-w-64 aspect-[256/495]"
                         />
                       </div>
                       <div className="flex flex-col justify-center gap-2">
