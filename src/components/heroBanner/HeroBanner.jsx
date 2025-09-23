@@ -9,7 +9,7 @@ const HeroBanner = () => {
             <div className="xl:w-6/12 lg:w-1/2 md:w-5/12 sm:w-full w-full flex flex-col ">
               <div className="flex gap-3 max-md:justify-center items-center relative lg:-bottom-10">
                 <div className="text-[#454444] max-md:text-center  xl:text-2xl lg:text-xl md:text-lg sm:text-base text-base font-semibold">
-                  Manage school On the go
+                  Comprehensive School
                 </div>
                 <Image
                   className="lg:w-36 lg:h-40 w-28 h-32  object-contain object-center lg:block hidden aspect-[9/10]"
@@ -27,11 +27,11 @@ const HeroBanner = () => {
                 <span className="text-[#00BBF5]"> AI</span>
               </h1>
               <div className="w-full xl:text-base md:text-sm text-sm font-normal text-[#393A8C] md:pt-4 pt-2 pb-6 max-md:text-center">
-                An Affordable
-                <span className="font-semibold"> All-in-one ERP</span> for
+                Get Cost-Effective
+                <span className="font-semibold"> ERP </span> solutions for
                 <span className="font-semibold">
                   {" "}
-                  Schools, Teachers & Students
+                  Schools, Teachers, and Students.
                 </span>
               </div>
               <div className="w-full flex md:justify-start justify-center pt-3">
