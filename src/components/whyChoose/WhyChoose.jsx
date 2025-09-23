@@ -40,12 +40,12 @@ const WhyChoose = () => {
                       </svg>
                     </div>
                     <div className="md:text-2xl text-xl font-semibold text-white text-balanced">
-                      Event & Holiday Generator
+                      AI-Powered Insights
                     </div>
                     <div className="md:text-sm text-xs text-white text-balanced">
-                      Monitor Collected and pending fees with custom date range
-                      selection, Admin also send reminders to student who did
-                      not paid their fees on time
+                      Leverage artificial intelligence for smart reports,
+                      predictions, and performance tracking to support better
+                      decision-making.
                     </div>
                   </div>
                   <div className="w-full flex flex-col gap-y-2">
@@ -64,12 +64,12 @@ const WhyChoose = () => {
                       </svg>
                     </div>
                     <div className="md:text-2xl text-xl font-semibold text-white text-balanced">
-                      Event & Holiday Generator
+                      Intelligent Notifications
                     </div>
                     <div className="md:text-sm text-xs text-white text-balanced">
-                      Monitor Collected and pending fees with custom date range
-                      selection, Admin also send reminders to student who did
-                      not paid their fees on time
+                      Leverage artificial intelligence for smart reports,
+                      predictions, and performance tracking to support better
+                      decision-making.
                     </div>
                   </div>
                 </div>
@@ -99,12 +99,12 @@ const WhyChoose = () => {
                       </svg>
                     </div>
                     <div className="md:text-2xl text-xl font-semibold text-white text-balanced">
-                      Event & Holiday Generator
+                      Smart Parent Connect
                     </div>
                     <div className="md:text-sm text-xs text-white text-balanced">
-                      Monitor Collected and pending fees with custom date range
-                      selection, Admin also send reminders to student who did
-                      not paid their fees on time
+                      Leverage artificial intelligence for smart reports,
+                      predictions, and performance tracking to support better
+                      decision-making.
                     </div>
                   </div>
                   <div className="w-full flex flex-col gap-y-2">
@@ -123,7 +123,7 @@ const WhyChoose = () => {
                       </svg>
                     </div>
                     <div className="md:text-2xl text-xl font-semibold text-white text-balanced">
-                      Event & Holiday Generator
+                      24/7 Smart Support
                     </div>
                     <div className="md:text-sm text-xs text-white text-balanced">
                       Monitor Collected and pending fees with custom date range
@@ -163,12 +163,12 @@ const WhyChoose = () => {
                         </svg>
                       </div>
                       <div className="text-xl font-semibold text-white text-balanced">
-                        Event & Holiday Generator
+                        AI-Powered Insights
                       </div>
                       <div className=" text-xs text-white text-balanced">
-                        Monitor Collected and pending fees with custom date
-                        range selection, Admin also send reminders to student
-                        who did not paid their fees on time
+                        Leverage artificial intelligence for smart reports,
+                        predictions, and performance tracking to support better
+                        decision-making.
                       </div>
                     </div>
                   </div>
@@ -192,12 +192,70 @@ const WhyChoose = () => {
                         </svg>
                       </div>
                       <div className="text-xl font-semibold text-white text-balanced">
-                        Event & Holiday Generator
+                        Intelligent Notifications
                       </div>
                       <div className=" text-xs text-white text-balanced">
-                        Monitor Collected and pending fees with custom date
-                        range selection, Admin also send reminders to student
-                        who did not paid their fees on time
+                        Leverage artificial intelligence for smart reports,
+                        predictions, and performance tracking to support better
+                        decision-making.
+                      </div>
+                    </div>
+                  </div>
+                  <div className="embla__slide  shrink-0 px-2 basis-[85%] ">
+                    <div
+                      className="w-full flex flex-col gap-y-2 rounded-3xl py-8 px-4 shadow-[0px_2px_8px_2px_#0000001A,0px_8px_8px_0px_#FFFFFF00_inset,-2px_-2px_0.5px_-2px_#FFFFFF_inset,2px_2px_0.5px_-2px_#FFFFFF_inset] 
+            bg-white/10 backdrop-blur inner-shadow"
+                    >
+                      <div className="pb-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="49"
+                          height="48"
+                          viewBox="0 0 42 62"
+                          fill="none"
+                        >
+                          <path
+                            d="M6.25 61.25C4.7375 61.25 3.44271 60.7115 2.36563 59.6344C1.28854 58.5573 0.75 57.2625 0.75 55.75V6.25C0.75 4.7375 1.28854 3.44271 2.36563 2.36563C3.44271 1.28854 4.7375 0.75 6.25 0.75H33.75C35.2625 0.75 36.5573 1.28854 37.6344 2.36563C38.7115 3.44271 39.25 4.7375 39.25 6.25V14.775C40.075 15.0958 40.7396 15.6 41.2438 16.2875C41.7479 16.975 42 17.7542 42 18.625V24.125C42 24.9958 41.7479 25.775 41.2438 26.4625C40.7396 27.15 40.075 27.6542 39.25 27.975V55.75C39.25 57.2625 38.7115 58.5573 37.6344 59.6344C36.5573 60.7115 35.2625 61.25 33.75 61.25H6.25ZM6.25 55.75H33.75V6.25H6.25V55.75ZM14.5 53H25.5C26.2792 53 26.9323 52.7365 27.4594 52.2094C27.9865 51.6823 28.25 51.0292 28.25 50.25C28.25 49.4708 27.9865 48.8177 27.4594 48.2906C26.9323 47.7635 26.2792 47.5 25.5 47.5H14.5C13.7208 47.5 13.0677 47.7635 12.5406 48.2906C12.0135 48.8177 11.75 49.4708 11.75 50.25C11.75 51.0292 12.0135 51.6823 12.5406 52.2094C13.0677 52.7365 13.7208 53 14.5 53Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </div>
+                      <div className="text-xl font-semibold text-white text-balanced">
+                        Smart Parent Connect
+                      </div>
+                      <div className=" text-xs text-white text-balanced">
+                        Leverage artificial intelligence for smart reports,
+                        predictions, and performance tracking to support better
+                        decision-making.
+                      </div>
+                    </div>
+                  </div>
+                  <div className="embla__slide  shrink-0 px-2 basis-[85%] ">
+                    <div
+                      className="w-full flex flex-col gap-y-2 rounded-3xl py-8 px-4 shadow-[0px_2px_8px_2px_#0000001A,0px_8px_8px_0px_#FFFFFF00_inset,-2px_-2px_0.5px_-2px_#FFFFFF_inset,2px_2px_0.5px_-2px_#FFFFFF_inset] 
+            bg-white/10 backdrop-blur inner-shadow"
+                    >
+                      <div className="pb-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="49"
+                          height="48"
+                          viewBox="0 0 42 62"
+                          fill="none"
+                        >
+                          <path
+                            d="M6.25 61.25C4.7375 61.25 3.44271 60.7115 2.36563 59.6344C1.28854 58.5573 0.75 57.2625 0.75 55.75V6.25C0.75 4.7375 1.28854 3.44271 2.36563 2.36563C3.44271 1.28854 4.7375 0.75 6.25 0.75H33.75C35.2625 0.75 36.5573 1.28854 37.6344 2.36563C38.7115 3.44271 39.25 4.7375 39.25 6.25V14.775C40.075 15.0958 40.7396 15.6 41.2438 16.2875C41.7479 16.975 42 17.7542 42 18.625V24.125C42 24.9958 41.7479 25.775 41.2438 26.4625C40.7396 27.15 40.075 27.6542 39.25 27.975V55.75C39.25 57.2625 38.7115 58.5573 37.6344 59.6344C36.5573 60.7115 35.2625 61.25 33.75 61.25H6.25ZM6.25 55.75H33.75V6.25H6.25V55.75ZM14.5 53H25.5C26.2792 53 26.9323 52.7365 27.4594 52.2094C27.9865 51.6823 28.25 51.0292 28.25 50.25C28.25 49.4708 27.9865 48.8177 27.4594 48.2906C26.9323 47.7635 26.2792 47.5 25.5 47.5H14.5C13.7208 47.5 13.0677 47.7635 12.5406 48.2906C12.0135 48.8177 11.75 49.4708 11.75 50.25C11.75 51.0292 12.0135 51.6823 12.5406 52.2094C13.0677 52.7365 13.7208 53 14.5 53Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </div>
+                      <div className="text-xl font-semibold text-white text-balanced">
+                        24/7 Smart Support
+                      </div>
+                      <div className=" text-xs text-white text-balanced">
+                        Leverage artificial intelligence for smart reports,
+                        predictions, and performance tracking to support better
+                        decision-making.
                       </div>
                     </div>
                   </div>

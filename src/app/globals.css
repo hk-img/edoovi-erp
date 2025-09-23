@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-
   --animate-progress-circle: progressCircle 3s 1s ease-out forwards;
 
   @keyframes progressCircle {
@@ -14,7 +13,20 @@
   }
 }
 
+@layer utilities {
+  @keyframes waveMove {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
 
+  .animate-wave {
+    animation: waveMove 6s linear infinite;
+  }
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -33,7 +45,6 @@
     --foreground: #ededed;
   }
 }
-
 
 .\!view,
 .view {
@@ -65,4 +76,3 @@ body {
   color: var(--foreground);
   line-height: normal;
 }
-

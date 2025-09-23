@@ -334,8 +334,8 @@ const page = () => {
                     <div className="top-0 absolute right-0">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="70"
-                        height="70"
+                        width="65"
+                        height="65"
                         viewBox="0 0 83 84"
                         fill="white"
                       >
@@ -425,8 +425,8 @@ const page = () => {
                     <div className="top-0 absolute right-0">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="70"
-                        height="70"
+                        width="65"
+                        height="65"
                         viewBox="0 0 83 84"
                         fill="white"
                       >
@@ -516,8 +516,8 @@ const page = () => {
                     <div className="top-0 absolute right-0">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="70"
-                        height="70"
+                        width="65"
+                        height="65"
                         viewBox="0 0 83 84"
                         fill="white"
                       >
@@ -923,11 +923,11 @@ const page = () => {
           </div>
         </div>
       </section>
-      <section className="ourProductSection w-full group/cs relative overflow-hidden bg-[#6D55FD] md:py-8 pt-8">
+      <section className="ourProductSection w-full group/cs relative overflow-hidden bg-[#6D55FD] md:pt-8 pt-4">
         <div className="view ">
           <div className="flex flex-col w-full">
             <div className="flex flex-col pt-5">
-              <div className="w-full [&_.prev-btn>svg]:text-white [&_.next-btn>svg]:text-white">
+              <div className="w-full [&_.embla-btn]:absolute [&_.embla-btn]:bottom-8 [&_.embla-btn]:right-4 [&_.prev-btn>svg]:text-white [&_.next-btn>svg]:text-white">
                 <EmblaCarousel
                   className=""
                   options={{
@@ -938,8 +938,8 @@ const page = () => {
                 >
                   <div className="embla__slide shrink-0 px-2 basis-[100%]">
                     <div className="flex flex-wrap w-full md:items-end gap-y-6">
-                      <div className="md:w-1/2 w-full xl:py-4 lg:py-3">
-                        <div className="w-full flex flex-col gap-y-5">
+                      <div className="md:w-1/2 w-full xl:py-8 lg:py-8 md:py-6 py-4">
+                        <div className="w-full flex flex-col md:gap-y-5 gap-y-3">
                           <div className="lg:text-2xl md:text-xl text-white font-semibold">
                             Our Product
                           </div>

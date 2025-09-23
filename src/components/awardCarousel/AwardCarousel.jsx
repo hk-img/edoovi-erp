@@ -25,7 +25,7 @@ const AwardCarousel = () => {
                     loop: true,
                   }}
                 >
-                  <div className="embla__slide shrink-0 px-2  basis-[70.70%] md:basis-[66.66%] lg:basis-[33.33%]">
+                  <div className="embla__slide shrink-0 px-2  basis-[70.70%] sm:basis-[66.66%] md:basis-[40.40%] lg:basis-[33.33%]">
                     <div className="bg-white rounded-2xl p-6 flex items-center gap-3">
                       <div className="shrink-0">
                         <Image
@@ -123,7 +123,7 @@ const AwardCarousel = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="embla__slide shrink-0 px-2 basis-[70.70%] md:basis-[40.40%] lg:basis-[33.33%]">
+                  <div className="embla__slide shrink-0 px-2 basis-[70.70%] sm:basis-[66.66%] md:basis-[40.40%] lg:basis-[33.33%]">
                     <div className="bg-white rounded-2xl p-6 flex items-center gap-3">
                       <div className="shrink-0">
                         <Image
@@ -221,7 +221,7 @@ const AwardCarousel = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="embla__slide shrink-0 px-2 basis-[70.70%] md:basis-[40.40%] lg:basis-[33.33%]">
+                  <div className="embla__slide shrink-0 px-2 basis-[70.70%] sm:basis-[66.66%] md:basis-[40.40%] lg:basis-[33.33%]">
                     <div className="bg-white rounded-2xl p-6 flex items-center gap-3">
                       <div className="shrink-0">
                         <Image

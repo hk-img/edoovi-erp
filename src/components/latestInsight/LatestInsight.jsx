@@ -19,7 +19,7 @@ const LatestInsight = () => {
                 }}
               >
                 <div className="embla__slide  shrink-0 px-2 basis-[80.80%] md:basis-[33.33%] lg:basis-[28.28%] ">
-                  <div className="rounded-4xl  p-5 flex flex-col gap-y-6 bg-white">
+                  <div className="rounded-4xl  p-5 flex flex-col gap-y-6 bg-white h-full">
                     <div className="relative">
                       <Image
                         src="/images/insightGirl.webp"
@@ -71,15 +71,18 @@ const LatestInsight = () => {
                         </button>
                       </div>
                     </div>
-                    <div className="w-full flex flex-col">
-                      <h3 className="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
-                        How Can School ERP Software Streamline Administrative
-                        Tasks
-                      </h3>
-                      <p className="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
-                        Curious about creating a dating app like Grindr? Here,
-                        we break down the essential features, development costs,
-                      </p>
+                    <div className="w-full flex flex-col justify-between h-full">
+                      <div className="w-full">
+                        <h3 className="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
+                          How Can School ERP Software Streamline Administrative
+                          Tasks
+                        </h3>
+                        <p className="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
+                          Curious about creating a dating app like Grindr? Here,
+                          we break down the essential features, development
+                          costs,
+                        </p>
+                      </div>
                       <div className="w-full flex mt-3.5 justify-between">
                         <div className="flex flex-row items-center gap-2">
                           <div className="w-10 h-10 rounded-full overflow-hidden ">
@@ -114,7 +117,7 @@ const LatestInsight = () => {
                   </div>
                 </div>
                 <div className="embla__slide  shrink-0 px-2 basis-[80.80%] md:basis-[33.33%] lg:basis-[28.28%] ">
-                  <div className="rounded-4xl  p-5 flex flex-col gap-y-6 bg-white">
+                  <div className="rounded-4xl  p-5 flex flex-col gap-y-6 bg-white h-full">
                     <div className="relative">
                       <Image
                         src="/images/insightGirl.webp"
@@ -166,15 +169,18 @@ const LatestInsight = () => {
                         </button>
                       </div>
                     </div>
-                    <div className="fw-full lex flex-col">
-                      <h3 className="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
-                        How Can School ERP Software Streamline Administrative
-                        Tasks
-                      </h3>
-                      <p className="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
-                        Curious about creating a dating app like Grindr? Here,
-                        we break down the essential features, development costs,
-                      </p>
+                    <div className="w-full flex flex-col justify-between h-full">
+                      <div className="w-full">
+                        <h3 className="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
+                          How Can School ERP Software Streamline Administrative
+                          Tasks
+                        </h3>
+                        <p className="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
+                          Curious about creating a dating app like Grindr? Here,
+                          we break down the essential features, development
+                          costs,
+                        </p>
+                      </div>
                       <div className="w-full flex mt-3.5 justify-between">
                         <div className="flex flex-row items-center gap-2">
                           <div className="w-10 h-10 rounded-full overflow-hidden ">
@@ -209,7 +215,7 @@ const LatestInsight = () => {
                   </div>
                 </div>
                 <div className="embla__slide  shrink-0 px-2 basis-[80.80%] md:basis-[33.33%] lg:basis-[28.28%] ">
-                  <div className="rounded-4xl  p-5 flex flex-col gap-y-6 bg-white">
+                  <div className="rounded-4xl  p-5 flex flex-col gap-y-6 bg-white h-full">
                     <div className="relative">
                       <Image
                         src="/images/insightGirl.webp"
@@ -261,15 +267,18 @@ const LatestInsight = () => {
                         </button>
                       </div>
                     </div>
-                    <div className="w-full flex flex-col">
-                      <h3 className="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
-                        How Can School ERP Software Streamline Administrative
-                        Tasks
-                      </h3>
-                      <p className="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
-                        Curious about creating a dating app like Grindr? Here,
-                        we break down the essential features, development costs,
-                      </p>
+                    <div className="w-full flex flex-col justify-between h-full">
+                      <div className="w-full">
+                        <h3 className="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
+                          How Can School ERP Software Streamline Administrative
+                          Tasks
+                        </h3>
+                        <p className="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
+                          Curious about creating a dating app like Grindr? Here,
+                          we break down the essential features, development
+                          costs,
+                        </p>
+                      </div>
                       <div className="w-full flex mt-3.5 justify-between">
                         <div className="flex flex-row items-center gap-2">
                           <div className="w-10 h-10 rounded-full overflow-hidden ">
@@ -304,7 +313,7 @@ const LatestInsight = () => {
                   </div>
                 </div>
                 <div className="embla__slide  shrink-0 px-2 basis-[80.80%] md:basis-[33.33%] lg:basis-[28.28%] ">
-                  <div className="rounded-4xl  p-5 flex flex-col gap-y-6 bg-white">
+                  <div className="rounded-4xl  p-5 flex flex-col gap-y-6 bg-white h-full">
                     <div className="relative">
                       <Image
                         src="/images/insightGirl.webp"
@@ -356,15 +365,18 @@ const LatestInsight = () => {
                         </button>
                       </div>
                     </div>
-                    <div className="w-full flex flex-col">
-                      <h3 className="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
-                        How Can School ERP Software Streamline Administrative
-                        Tasks
-                      </h3>
-                      <p className="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
-                        Curious about creating a dating app like Grindr? Here,
-                        we break down the essential features, development costs,
-                      </p>
+                    <div className="w-full flex flex-col justify-between h-full">
+                      <div className="w-full">
+                        <h3 className="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
+                          How Can School ERP Software Streamline Administrative
+                          Tasks
+                        </h3>
+                        <p className="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
+                          Curious about creating a dating app like Grindr? Here,
+                          we break down the essential features, development
+                          costs,
+                        </p>
+                      </div>
                       <div className="w-full flex mt-3.5 justify-between">
                         <div className="flex flex-row items-center gap-2">
                           <div className="w-10 h-10 rounded-full overflow-hidden ">
@@ -386,7 +398,7 @@ const LatestInsight = () => {
                             </span>
                           </div>
                         </div>
-                        <div className="flex flex-col gap-1">
+                        <div className="flex  flex-col gap-1">
                           <span className="text-xs md:block hidden font-normal text-[#454444]">
                             Written on
                           </span>
@@ -399,7 +411,7 @@ const LatestInsight = () => {
                   </div>
                 </div>
                 <div className="embla__slide  shrink-0 px-2 basis-[80.80%] md:basis-[33.33%] lg:basis-[28.28%] ">
-                  <div className="rounded-4xl  p-5 flex flex-col gap-y-6 bg-white">
+                  <div className="rounded-4xl  p-5 flex flex-col gap-y-6 bg-white h-full">
                     <div className="relative">
                       <Image
                         src="/images/insightGirl.webp"
@@ -451,15 +463,18 @@ const LatestInsight = () => {
                         </button>
                       </div>
                     </div>
-                    <div className="w-full flex flex-col">
-                      <h3 className="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
-                        How Can School ERP Software Streamline Administrative
-                        Tasks
-                      </h3>
-                      <p className="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
-                        Curious about creating a dating app like Grindr? Here,
-                        we break down the essential features, development costs,
-                      </p>
+                    <div className="w-full flex flex-col justify-between h-full">
+                      <div className="w-full">
+                        <h3 className="md:text-base text-sm font-semibold text-ellipsis text-[#454444] line-clamp-3">
+                          How Can School ERP Software Streamline Administrative
+                          Tasks
+                        </h3>
+                        <p className="text-xs md:block hidden font-normal text-[#454444] mt-1.5 leading-5">
+                          Curious about creating a dating app like Grindr? Here,
+                          we break down the essential features, development
+                          costs,
+                        </p>
+                      </div>
                       <div className="w-full flex mt-3.5 justify-between">
                         <div className="flex flex-row items-center gap-2">
                           <div className="w-10 h-10 rounded-full overflow-hidden ">
@@ -481,7 +496,7 @@ const LatestInsight = () => {
                             </span>
                           </div>
                         </div>
-                        <div className="flex flex-col gap-1">
+                        <div className="flex  flex-col gap-1">
                           <span className="text-xs md:block hidden font-normal text-[#454444]">
                             Written on
                           </span>

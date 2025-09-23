@@ -28,7 +28,7 @@ const Footer = () => {
                     action=""
                     className="lg:w-6/12 md:w-8/12 w-full mx-auto flex flex-col gap-y-4"
                   >
-                    <div className="rounded-2xl p-0.5 w-full  text-white overflow-hidden bg-gradient-to-r  from-[#004C9F] via-[#00D9FF] to-[#014A9E]">
+                    <div className="rounded-2xl p-0.5 w-full text-white overflow-hidden bg-gradient-to-r  from-[#004C9F] via-[#00D9FF] to-[#014A9E]">
                       <input
                         type="text"
                         placeholder="Your Name"

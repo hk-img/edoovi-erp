@@ -1,8 +1,53 @@
+"use client";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import EmblaCarousel from "../emblaCarousel/EmblaCarousel";
 
-const Result = () => {
+const Result = ({ duration = 1000 }) => {
+  const [oddoVal, setOddoVal] = useState({
+    first: 71,
+    second: 54,
+    third: 67,
+    four: 80,
+  });
+
+  const [values, setValues] = useState({
+    first: 0,
+    second: 0,
+    third: 0,
+    four: 0,
+  });
+  console.log(values, "val");
+
+  useEffect(() => {
+    const startValues = { ...values };
+    const targets = { ...oddoVal };
+    const increments = {};
+    const steps = duration / 16; // ~60fps
+
+    // Calculate increment per frame for each value
+    Object.keys(targets).forEach((key) => {
+      increments[key] = targets[key] / steps;
+    });
+
+    let frame = 0;
+    const animate = () => {
+      frame++;
+      const newValues = {};
+      Object.keys(targets).forEach((key) => {
+        let val = startValues[key] + increments[key] * frame;
+        if (val > targets[key]) val = targets[key];
+        newValues[key] = Math.round(val);
+      });
+      setValues(newValues);
+
+      if (frame < steps) requestAnimationFrame(animate);
+    };
+
+    requestAnimationFrame(animate);
+  }, [oddoVal, duration]);
+
   return (
     <>
       <section className="resultSec bg-[#190F4E] relative py-8">
@@ -37,8 +82,7 @@ const Result = () => {
                       <div className="top-0 absolute right-0">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          width="70"
-                          height="70"
+                          className="size-20"
                           viewBox="0 0 83 84"
                           fill="none"
                         >
@@ -58,7 +102,7 @@ const Result = () => {
                       </div>
                       <button
                         type="button"
-                        className="absolute right-0 top-0 cursor-pointer md:size-12 size-8 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] justify-center items-center flex  rounded-full"
+                        className="absolute right-0 top-0 cursor-pointer md:size-12 size-10 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] justify-center items-center flex  rounded-full"
                       >
                         <svg
                           width="20"
@@ -134,8 +178,7 @@ const Result = () => {
                       <div className="top-0 absolute right-0">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          width="70"
-                          height="70"
+                          className="size-20"
                           viewBox="0 0 83 84"
                           fill="none"
                         >
@@ -155,7 +198,7 @@ const Result = () => {
                       </div>
                       <button
                         type="button"
-                        className="absolute right-0 top-0 cursor-pointer md:size-12 size-8 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] justify-center items-center flex  rounded-full"
+                        className="absolute right-0 top-0 cursor-pointer md:size-12 size-10 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] justify-center items-center flex  rounded-full"
                       >
                         <svg
                           width="20"
@@ -232,8 +275,7 @@ const Result = () => {
                   <div className="top-0 absolute right-0">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="70"
-                      height="70"
+                      className="size-20"
                       viewBox="0 0 83 84"
                       fill="none"
                     >
@@ -253,7 +295,7 @@ const Result = () => {
                   </div>
                   <button
                     type="button"
-                    className="absolute right-0 top-0 cursor-pointer md:size-12 size-8 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] justify-center items-center flex  rounded-full"
+                    className="absolute right-0 top-0 cursor-pointer md:size-12 size-10 bg-gradient-to-r from-[#DBE8FF] to-[#FFFFFF] justify-center items-center flex  rounded-full"
                   >
                     <svg
                       width="20"
@@ -363,7 +405,10 @@ const Result = () => {
 
                   {/* <!-- Wave Container (71% height) --> */}
                   <div className="overflow-hidden absolute inset-0.5 z-0 flex items-end">
-                    <div className="flex w-full h-[71%] bg-[#2D86FF] relative mt-5">
+                    <div
+                      className="flex w-full bg-[#2D86FF] relative mt-5"
+                      style={{ height: `${values?.first}%` }}
+                    >
                       <svg
                         width="1024"
                         height="94"
@@ -376,10 +421,12 @@ const Result = () => {
                           <path
                             d="M1024 52.259C1024 52.259 916.437 -1.86688 806.415 48.9824C752.172 74.0524 711.972 91.0646 668.507 93.6554H645.275C606.764 91.3895 563.668 77.8157 505.239 48.9824C366.329 -19.5664 320.544 -13.0063 204.062 48.9824C87.5809 110.971 6.10352e-05 52.259 6.10352e-05 52.259V93.6554H645.275C653.181 94.1206 660.894 94.1092 668.507 93.6554H1024V52.259Z"
                             fill="#A0C8FF"
+                            className="animate-wave"
                           ></path>
                           <path
                             d="M217.585 49.3136C107.563 -1.55102 0 52.5912 0 52.5912V94H1024V52.5912C1024 52.5912 936.419 111.321 819.938 49.3136C703.456 -12.6938 670.579 -17.471 518.761 49.3136C366.944 116.098 327.606 100.178 217.585 49.3136Z"
                             fill="#2D86FF"
+                            className="animate-wave"
                           ></path>
                         </g>
                         <defs>
@@ -419,7 +466,7 @@ const Result = () => {
 
                 <div className="inline-flex flex-col">
                   <div className="lg:text-5xl md:text-3xl text-2xl italic font-bold text-white">
-                    71%
+                    {values?.first}%
                   </div>
                   <div className="lg:text-xl md:text-lg sm:text-sm text-xs italic md:font-bold font-semibold text-white text-balance">
                     Increase in Patient Appointment
@@ -460,7 +507,10 @@ const Result = () => {
 
                   {/* <!-- Wave Container (71% height) --> */}
                   <div className="overflow-hidden absolute inset-0.5 z-0 flex items-end">
-                    <div className="flex w-full h-[71%] bg-[#2D86FF] relative mt-5">
+                    <div
+                      className="flex w-full bg-[#2D86FF] relative mt-5"
+                      style={{ height: `${values?.second}%` }}
+                    >
                       <svg
                         width="1024"
                         height="94"
@@ -473,10 +523,12 @@ const Result = () => {
                           <path
                             d="M1024 52.259C1024 52.259 916.437 -1.86688 806.415 48.9824C752.172 74.0524 711.972 91.0646 668.507 93.6554H645.275C606.764 91.3895 563.668 77.8157 505.239 48.9824C366.329 -19.5664 320.544 -13.0063 204.062 48.9824C87.5809 110.971 6.10352e-05 52.259 6.10352e-05 52.259V93.6554H645.275C653.181 94.1206 660.894 94.1092 668.507 93.6554H1024V52.259Z"
                             fill="#A0C8FF"
+                            className="animate-wave"
                           ></path>
                           <path
                             d="M217.585 49.3136C107.563 -1.55102 0 52.5912 0 52.5912V94H1024V52.5912C1024 52.5912 936.419 111.321 819.938 49.3136C703.456 -12.6938 670.579 -17.471 518.761 49.3136C366.944 116.098 327.606 100.178 217.585 49.3136Z"
                             fill="#2D86FF"
+                            className="animate-wave"
                           ></path>
                         </g>
                         <defs>
@@ -516,7 +568,7 @@ const Result = () => {
 
                 <div className="inline-flex flex-col">
                   <div className="lg:text-5xl md:text-3xl text-2xl italic font-bold text-white">
-                    71%
+                    {values?.second}%
                   </div>
                   <div className="lg:text-xl md:text-lg sm:text-sm text-xs italic md:font-bold font-semibold text-white text-balance">
                     Increase in Patient Appointment
@@ -557,7 +609,10 @@ const Result = () => {
 
                   {/* <!-- Wave Container (71% height) --> */}
                   <div className="overflow-hidden absolute inset-0.5 z-0 flex items-end">
-                    <div className="flex w-full h-[71%] bg-[#2D86FF] relative mt-5">
+                    <div
+                      className="flex w-full bg-[#2D86FF] relative mt-5"
+                      style={{ height: `${values?.third}%` }}
+                    >
                       <svg
                         width="1024"
                         height="94"
@@ -570,10 +625,12 @@ const Result = () => {
                           <path
                             d="M1024 52.259C1024 52.259 916.437 -1.86688 806.415 48.9824C752.172 74.0524 711.972 91.0646 668.507 93.6554H645.275C606.764 91.3895 563.668 77.8157 505.239 48.9824C366.329 -19.5664 320.544 -13.0063 204.062 48.9824C87.5809 110.971 6.10352e-05 52.259 6.10352e-05 52.259V93.6554H645.275C653.181 94.1206 660.894 94.1092 668.507 93.6554H1024V52.259Z"
                             fill="#A0C8FF"
+                            className="animate-wave"
                           ></path>
                           <path
                             d="M217.585 49.3136C107.563 -1.55102 0 52.5912 0 52.5912V94H1024V52.5912C1024 52.5912 936.419 111.321 819.938 49.3136C703.456 -12.6938 670.579 -17.471 518.761 49.3136C366.944 116.098 327.606 100.178 217.585 49.3136Z"
                             fill="#2D86FF"
+                            className="animate-wave"
                           ></path>
                         </g>
                         <defs>
@@ -613,7 +670,7 @@ const Result = () => {
 
                 <div className="inline-flex flex-col">
                   <div className="lg:text-5xl md:text-3xl text-2xl italic font-bold text-white">
-                    71%
+                    {values?.third}%
                   </div>
                   <div className="lg:text-xl md:text-lg sm:text-sm text-xs italic md:font-bold font-semibold text-white text-balance">
                     Increase in Patient Appointment
@@ -654,7 +711,10 @@ const Result = () => {
 
                   {/* <!-- Wave Container (71% height) --> */}
                   <div className="overflow-hidden absolute inset-0.5 z-0 flex items-end">
-                    <div className="flex w-full h-[71%] bg-[#2D86FF] relative mt-5">
+                    <div
+                      className="flex w-full bg-[#2D86FF] relative mt-5"
+                      style={{ height: `${values?.four}%` }}
+                    >
                       <svg
                         width="1024"
                         height="94"
@@ -667,10 +727,12 @@ const Result = () => {
                           <path
                             d="M1024 52.259C1024 52.259 916.437 -1.86688 806.415 48.9824C752.172 74.0524 711.972 91.0646 668.507 93.6554H645.275C606.764 91.3895 563.668 77.8157 505.239 48.9824C366.329 -19.5664 320.544 -13.0063 204.062 48.9824C87.5809 110.971 6.10352e-05 52.259 6.10352e-05 52.259V93.6554H645.275C653.181 94.1206 660.894 94.1092 668.507 93.6554H1024V52.259Z"
                             fill="#A0C8FF"
+                            className="animate-wave"
                           ></path>
                           <path
                             d="M217.585 49.3136C107.563 -1.55102 0 52.5912 0 52.5912V94H1024V52.5912C1024 52.5912 936.419 111.321 819.938 49.3136C703.456 -12.6938 670.579 -17.471 518.761 49.3136C366.944 116.098 327.606 100.178 217.585 49.3136Z"
                             fill="#2D86FF"
+                            className="animate-wave"
                           ></path>
                         </g>
                         <defs>
@@ -710,7 +772,7 @@ const Result = () => {
 
                 <div className="inline-flex flex-col">
                   <div className="lg:text-5xl md:text-3xl text-2xl italic font-bold text-white">
-                    71%
+                    {values?.four}%
                   </div>
                   <div className="lg:text-xl md:text-lg sm:text-sm text-xs italic md:font-bold font-semibold text-white text-balance">
                     Increase in Patient Appointment

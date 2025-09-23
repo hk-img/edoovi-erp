@@ -40,7 +40,7 @@ export default function EmblaCarousel({ children, options, showViewAll }) {
         <div className="flex gap-1 md:pt-3">{children}</div>
       </div>
       {options?.showButton && (
-        <div className="md:flex hidden items-center justify-end gap-4 pt-8">
+        <div className="md:flex hidden items-center justify-end gap-4 pt-8 embla-btn">
           <div className="flex items-center gap-6">
             <PrevButton
               onClick={onPrevButtonClick}

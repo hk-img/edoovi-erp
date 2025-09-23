@@ -29,7 +29,7 @@ const Header = () => {
 
           {/* <!-- Logo --> */}
           <div className="lg:flex hidden">
-            <Link href="" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5">
               <Image
                 className="xl:h-14 xl:w-52 lg:w-44 w-32 lg:h-10 h-8  object-contain aspect-[26/7]"
                 src="/images/edooviLogo.webp"

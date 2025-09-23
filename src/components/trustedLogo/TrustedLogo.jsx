@@ -18,7 +18,7 @@ const TrustedLogo = () => {
                     alt="nirmla school logo"
                     width={175}
                     height={63}
-                    className="xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
@@ -27,7 +27,7 @@ const TrustedLogo = () => {
                     alt="LPS avni logo"
                     width={175}
                     height={63}
-                    className="xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
@@ -36,7 +36,7 @@ const TrustedLogo = () => {
                     alt="shanti school logo"
                     width={175}
                     height={63}
-                    className="xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
@@ -45,7 +45,7 @@ const TrustedLogo = () => {
                     alt="navrachana international logo"
                     width={175}
                     height={63}
-                    className="xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
@@ -54,7 +54,7 @@ const TrustedLogo = () => {
                     alt="salmiya indian modal schoolLogo"
                     width={175}
                     height={63}
-                    className="xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
@@ -63,7 +63,7 @@ const TrustedLogo = () => {
                     alt="kimjhi ramdas logo"
                     width={175}
                     height={63}
-                    className="xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
@@ -72,7 +72,7 @@ const TrustedLogo = () => {
                     alt="vedic group logo"
                     width={175}
                     height={63}
-                    className="xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
@@ -81,7 +81,7 @@ const TrustedLogo = () => {
                     alt="centuration international school"
                     width={175}
                     height={63}
-                    className="xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
@@ -90,7 +90,7 @@ const TrustedLogo = () => {
                     alt="international indian school logo"
                     width={175}
                     height={63}
-                    className="xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
@@ -99,7 +99,7 @@ const TrustedLogo = () => {
                     alt="IS inter national schoolLogo"
                     width={175}
                     height={63}
-                    className="xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
                   />
                 </div>
               </div>

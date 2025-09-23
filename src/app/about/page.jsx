@@ -286,7 +286,7 @@ const page = () => {
                         </p>
                       </div>
                       <div className="flex gap-3">
-                        <div className="w-1 bg-[#393A8C] rounded-lg"></div>
+                        <div className="w-2 bg-[#393A8C] rounded-lg"></div>
                         <p className="text-[#595959] md:text-base text-sm leading-relaxed">
                           Build on 5 years of experience to continuously
                           improve, adapt, and offer reliable solutions that meet
