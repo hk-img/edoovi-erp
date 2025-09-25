@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Nata_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import Header from "@/components/comman/Header";
 import Footer from "@/components/comman/Footer";
 
@@ -34,7 +34,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="md:text-[1vw]">
-      <body className={`${nata.className} antialiased`}>
+      <body className={`${lufga.className} antialiased`}>
         <Header />
         {children}
         <Footer />
