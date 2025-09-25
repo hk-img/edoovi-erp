@@ -90,7 +90,7 @@ const Footer = () => {
                     <div className="md:w-1/2 w-full flex flex-col gap-y-3 justify-center ">
                       <div className="lg:text-xl md:text-lg text-lg font-bold text-white text-balance">
                         Download India’s First
-                        <span className="text-[#04D9FF]">AI Powered</span>{" "}
+                        <span className="text-[#04D9FF]"> AI Powered</span>{" "}
                         School App
                       </div>
                       <div className="flex flex-row gap-3">
