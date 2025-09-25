@@ -280,7 +280,8 @@ const page = () => {
                       className="flex items-center cursor-pointer gap-2 before:absolute before:-inset-4 relative"
                     >
                       <h3 className="grow lg:text-base text-sm font-semibold text-[#454444]">
-                        How Much Does It Cost To Create a Doctor On-Demand App?
+                        How Do I Get Support for Technical Issues with edoovi
+                        ERP?
                       </h3>
                       <div className="shrink-0 relative  group-has-[:checked]/faq:rotate-180   duration-300">
                         <svg
@@ -299,12 +300,12 @@ const page = () => {
                     </label>
                     <div className="text-xs font-normal text-[#454444] hidden group-has-[:checked]/faq:block">
                       <p>
-                        Depending on the platform, doctor appointment app
-                        development company hourly, and its features, the cost
-                        can greatly vary; however, most often, the cost usually
-                        is between $15000 and $49000+. Your further
-                        specifications will add to the cost while also
-                        increasing the quality and scalability of your service
+                        Contact our support staff by email or the in-app help
+                        center if you're having technical problems or have
+                        questions about edoovi ERP. We aim for prompt resolution
+                        and place a high priority on user satisfaction. Our
+                        staff is on hand 24/7 to help with troubleshooting and
+                        provide advice on system features.
                       </p>
                     </div>
                   </li>
@@ -320,7 +321,7 @@ const page = () => {
                       className="flex items-center cursor-pointer gap-2 before:absolute before:-inset-4 relative"
                     >
                       <h3 className="grow lg:text-base text-sm font-semibold text-[#454444]">
-                        How Much Does It Cost To Create a Doctor On-Demand App?
+                        What Is the Usual Response Time After I Contact Support?
                       </h3>
                       <div className="shrink-0 relative  group-has-[:checked]/faq:rotate-180  duration-300">
                         <svg
@@ -339,12 +340,12 @@ const page = () => {
                     </label>
                     <div className="text-xs font-normal text-[#454444] hidden group-has-[:checked]/faq:block">
                       <p>
-                        Depending on the platform, doctor appointment app
-                        development company hourly, and its features, the cost
-                        can greatly vary; however, most often, the cost usually
-                        is between $15000 and $49000+. Your further
-                        specifications will add to the cost while also
-                        increasing the quality and scalability of your service
+                        You can anticipate hearing back from our team within a
+                        day after submitting a request or question. We recognize
+                        how critical it is to address your concerns as soon as
+                        possible. To guarantee that your operations are
+                        disrupted as little as possible, high-priority issues
+                        are addressed right away.
                       </p>
                     </div>
                   </li>
@@ -360,7 +361,7 @@ const page = () => {
                       className="flex items-center cursor-pointer gap-2 before:absolute before:-inset-4 relative"
                     >
                       <h3 className="grow lg:text-base text-sm font-semibold text-[#454444]">
-                        How Much Does It Cost To Create a Doctor On-Demand App?
+                        How Is My Feedback Handled by edoovi ERP?
                       </h3>
                       <div className="shrink-0 relative  group-has-[:checked]/faq:rotate-180  duration-300">
                         <svg
@@ -379,12 +380,11 @@ const page = () => {
                     </label>
                     <div className="text-xs font-normal text-[#454444] hidden group-has-[:checked]/faq:block">
                       <p>
-                        Depending on the platform, doctor appointment app
-                        development company hourly, and its features, the cost
-                        can greatly vary; however, most often, the cost usually
-                        is between $15000 and $49000+. Your further
-                        specifications will add to the cost while also
-                        increasing the quality and scalability of your service
+                        We appreciate every comment and recommendation from our
+                        users since it aids in the development and enhancement
+                        of Kanoovi ERP. After feedback is received, our product
+                        team reviews it and uses it to inform future updates, if
+                        applicable.
                       </p>
                     </div>
                   </li>
