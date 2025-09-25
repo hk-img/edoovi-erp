@@ -2,15 +2,7 @@
 
 @theme {
   --animate-progress-circle: progressCircle 3s 1s ease-out forwards;
-
-  @keyframes progressCircle {
-    0% {
-      stroke-dashoffset: 251.2;
-    }
-    100% {
-      stroke-dashoffset: 0;
-    }
-  }
+  --animate-wave: waveMove 6s linear infinite;
 }
 
 @layer utilities {
@@ -22,9 +14,13 @@
       transform: translateX(-50%);
     }
   }
-
-  .animate-wave {
-    animation: waveMove 6s linear infinite;
+  @keyframes progressCircle {
+    0% {
+      stroke-dashoffset: 251.2;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
   }
 }
 :root {
@@ -46,33 +42,12 @@
   }
 }
 
-.\!view,
+.\view,
 .view {
-  padding-inline: 1rem;
-  width: 100%;
+  @apply px-4 w-full mx-auto min-[640px]:px-12 min-[768px]:px-16 min-[1024px]:px-20 min-[1280px]:px-20 min-[1536px]:px-20;
 
-  /* Define responsive max-width */
-  @media (min-width: 640px) {
-    padding-inline: 3rem;
-  }
-  @media (min-width: 768px) {
-    padding-inline: 4rem;
-  }
-  @media (min-width: 1024px) {
-    padding-inline: 5rem;
-  }
-  @media (min-width: 1280px) {
-    padding-inline: 5rem;
-  }
-  @media (min-width: 1536px) {
-    padding-inline: 5rem;
-  }
-
-  margin-inline: auto;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  line-height: normal;
+  @apply bg-[var(--background)] text-[var(--foreground)] leading-[normal];
 }
