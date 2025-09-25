@@ -63,10 +63,10 @@ const page = () => {
               <div className="md:w-1/2 w-full ">
                 <div className="flex flex-row">
                   <div className="flex flex-col relative">
-                    <div className="group/jj flex flex-row mt-1 gap-5 ">
+                    <div className="group/jj flex flex-row mt- md:items-end items-center1 gap-5 ">
                       <div className="justify-center items-center flex flex-col gap-2">
                         <div className="w-1.5 h-11 bg-[#DCDCDC] group-hover/jj:bg-[#0EAFF0]"></div>
-                        <div className="w-16 h-16 flex items-center font-bold justify-center text-[#272727] cursor-pointer rounded-full bg-white border-[#DCDCDC] border-4 group-hover/jj:text-white group-hover/jj:border-[#39C0FFE3]  group-hover/jj:bg-[#0EAFF0] duration-300s">
+                        <div className="w-16 h-16 flex items-center font-bold justify-center text-[#272727] cursor-pointer rounded-full bg-white border-[#DCDCDC] border-4 group-hover/jj:text-white group-hover/jj:border-[#39C0FFE3]  group-hover/jj:bg-[#0EAFF0] duration-300">
                           2020
                         </div>
                       </div>
@@ -79,7 +79,7 @@ const page = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="group/jj flex flex-row mt-1 gap-5 ">
+                    <div className="group/jj flex flex-row mt- md:items-end items-center1 gap-5 ">
                       <div className="justify-center items-center flex flex-col gap-2">
                         <div className="w-1.5 h-11 bg-[#DCDCDC] group-hover/jj:bg-[#0EAFF0]"></div>
                         <div className="w-16 h-16 flex items-center font-bold justify-center text-[#272727] cursor-pointer rounded-full bg-white border-[#DCDCDC] border-4 group-hover/jj:text-white group-hover/jj:border-[#39C0FFE3]  group-hover/jj:bg-[#0EAFF0]">
@@ -94,7 +94,7 @@ const page = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="group/jj flex flex-row mt-1 gap-5 ">
+                    <div className="group/jj flex flex-row mt-1 md:items-end items-center gap-5 ">
                       <div className=" justify-center items-center flex flex-col gap-2">
                         <div className="w-1.5 h-11 bg-[#DCDCDC] group-hover/jj:bg-[#0EAFF0]"></div>
                         <div className="w-16 h-16 flex items-center font-bold justify-center text-[#272727] cursor-pointer rounded-full bg-white border-[#DCDCDC] border-4 group-hover/jj:text-white group-hover/jj:border-[#39C0FFE3]  group-hover/jj:bg-[#0EAFF0]">
@@ -110,7 +110,7 @@ const page = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="group/jj flex flex-row mt-1 gap-5 ">
+                    <div className="group/jj flex flex-row mt-1 md:items-end items-center gap-5 ">
                       <div className=" justify-center items-center flex flex-col gap-2">
                         <div className="w-1.5 h-11 bg-[#DCDCDC] group-hover/jj:bg-[#0EAFF0]"></div>
                         <div className="w-16 h-16 flex items-center font-bold justify-center text-[#272727] cursor-pointer rounded-full bg-white border-[#DCDCDC] border-4 group-hover/jj:text-white group-hover/jj:border-[#39C0FFE3]  group-hover/jj:bg-[#0EAFF0]">
@@ -126,7 +126,7 @@ const page = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="group/jj flex flex-row mt-1 gap-5 ">
+                    <div className="group/jj flex flex-row mt-1 md:items-end items-center gap-5 ">
                       <div className=" justify-center items-center flex flex-col gap-2">
                         <div className="w-1.5 h-11 bg-[#DCDCDC] group-hover/jj:bg-[#0EAFF0]"></div>
                         <div className="w-16 h-16 flex items-center font-bold justify-center text-[#272727] cursor-pointer rounded-full bg-white border-[#DCDCDC] border-4 group-hover/jj:text-white group-hover/jj:border-[#39C0FFE3]  group-hover/jj:bg-[#0EAFF0]">
