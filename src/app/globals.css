@@ -4,10 +4,7 @@
 @theme {
   --animate-progress-circle: progressCircle 3s 1s ease-out forwards;
   --animate-wave: waveMove 6s linear infinite;
-}
 
-/* Keyframes ko utilities ke andar rakho */
-@layer utilities {
   @keyframes waveMove {
     0% {
       transform: translateX(0);
