@@ -24,8 +24,6 @@ const lufga = localFont({
     { path: "/fonts/Lufga-Black.woff2", weight: "900", style: "normal" },
     { path: "/fonts/Lufga-BlackItalic.woff2", weight: "900", style: "italic" },
   ],
-  display: "swap",
-  variable: "--font-lufga", // optional if you want to use it as a CSS variable
 });
 
 export const metadata = {
