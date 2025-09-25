@@ -24,10 +24,10 @@ const page = () => {
         </div>
         <div className="w-full">
           <Image
-            className="size-full object-cover"
+            className="size-full object-cover aspect-[1265/496]"
             src="/images/schoolManagementHeroImg.webp"
-            width={500}
-            height={477}
+            width={1265}
+            height={496}
             alt="The Next Gen School ERP"
           />
         </div>
@@ -44,10 +44,10 @@ const page = () => {
                   <div className="w-full">
                     <Image
                       src="/images/markAttendance.webp"
-                      alt="Easy Appointment Booking"
-                      width={704}
-                      height={533}
-                      className="size-full mx-auto object-contain"
+                      alt="Fuel Your School Growth with Advanced AI Features"
+                      width={568}
+                      height={431}
+                      className="size-full mx-auto object-contain aspect-[568/431]"
                     />
                   </div>
                 </div>
@@ -71,9 +71,9 @@ const page = () => {
                           <Image
                             src="/images/fileRound.svg"
                             alt="file icon"
-                            width={54}
-                            height={54}
-                            className="md:size-14 size-10 mx-auto object-contain"
+                            width={45}
+                            height={45}
+                            className="md:size-14 size-10 mx-auto object-contain aspect-square"
                           />
                         </span>
                         Mark Attendance
@@ -121,9 +121,9 @@ const page = () => {
                           <Image
                             src="/images/fileRound.svg"
                             alt="file icon"
-                            width={54}
-                            height={54}
-                            className="md:size-14 size-10 mx-auto object-contain"
+                            width={45}
+                            height={45}
+                            className="md:size-14 size-10 mx-auto object-contain aspect-square"
                           />
                         </span>
                         Admission Manager
@@ -171,9 +171,9 @@ const page = () => {
                           <Image
                             src="/images/fileRound.svg"
                             alt="file icon"
-                            width={54}
-                            height={54}
-                            className="md:size-14 size-10 mx-auto object-contain"
+                            width={45}
+                            height={45}
+                            className="md:size-14 size-10 mx-auto object-contain aspect-square"
                           />
                         </span>
                         Mark Attendance
@@ -224,9 +224,9 @@ const page = () => {
                           <Image
                             src="/images/fileRound.svg"
                             alt="file icon"
-                            width={54}
-                            height={54}
-                            className="md:size-14 size-10 mx-auto object-contain"
+                            width={45}
+                            height={45}
+                            className="md:size-14 size-10 mx-auto object-contain aspect-square"
                           />
                         </span>
                         Mark Attendance
@@ -411,9 +411,9 @@ const page = () => {
                           <Image
                             src="/images/keyBenefitImg.webp"
                             alt="AI Predict and send alert for due fees"
-                            width={381}
-                            height={254}
-                            className="size-full mx-auto object-contain"
+                            width={84}
+                            height={114}
+                            className="size-full mx-auto object-contain aspect-[14/19]"
                           />
                         </div>
                       </div>
@@ -502,9 +502,9 @@ const page = () => {
                           <Image
                             src="/images/keyBenefitImg.webp"
                             alt="AI Predict and send alert for due fees"
-                            width={381}
-                            height={254}
-                            className="size-full mx-auto object-contain"
+                            width={84}
+                            height={114}
+                            className="size-full mx-auto object-contain aspect-[14/19]"
                           />
                         </div>
                       </div>
@@ -593,9 +593,9 @@ const page = () => {
                           <Image
                             src="/images/keyBenefitImg.webp"
                             alt="AI Predict and send alert for due fees"
-                            width={381}
-                            height={254}
-                            className="size-full mx-auto object-contain"
+                            width={84}
+                            height={114}
+                            className="size-full mx-auto object-contain aspect-[14/19]"
                           />
                         </div>
                       </div>
@@ -652,10 +652,10 @@ const page = () => {
         </div>
         <div className="xl:w-1/5 lg:w-1/5 md:w-1/5  md:absolute md:right-0 md:bottom-0 w-full rounded-3xl flex items-center justify-center relative max-md:order-first  max-md:mx-auto">
           <Image
-            className="size-full object-contain object-right-bottom"
+            className="size-full object-contain object-right-bottom aspect-[253/219]"
             src="/images/schoolManagmentCta1.webp"
-            width={463}
-            height={401}
+            width={253}
+            height={219}
             alt="Your vision is smart. Your decisions are sharp."
           />
         </div>
@@ -674,10 +674,10 @@ const page = () => {
                   <div className="w-full flex flex-col relative rounded-3xl p-6 gap-2.5 shadow-[0px_2px_8px_2px_#0000001A,0px_8px_8px_0px_#FFFFFF00_inset,-2px_-2px_0.5px_-2px_#FFFFFF_inset,2px_2px_0.5px_-2px_#FFFFFF_inset]  bg-white/10 backdrop-blur inner-shadow]">
                     <div className="w-full flex justify-center">
                       <Image
-                        className="md:size-36 size-28  object-contain"
+                        className="md:size-36 size-28  object-contain aspect-square"
                         src="/images/timeImage.webp"
-                        width={141}
-                        height={141}
+                        width={115}
+                        height={115}
                         alt="Time table Manager"
                       />
                     </div>
@@ -700,10 +700,10 @@ const page = () => {
                   <div className="w-full flex flex-col relative rounded-3xl p-6 gap-2.5 shadow-[0px_2px_8px_2px_#0000001A,0px_8px_8px_0px_#FFFFFF00_inset,-2px_-2px_0.5px_-2px_#FFFFFF_inset,2px_2px_0.5px_-2px_#FFFFFF_inset]  bg-white/10 backdrop-blur inner-shadow]">
                     <div className="w-full flex justify-center">
                       <Image
-                        className="md:size-36 size-28  object-contain"
+                        className="md:size-36 size-28  object-contain aspect-square"
                         src="/images/timeImage.webp"
-                        width={141}
-                        height={141}
+                        width={115}
+                        height={115}
                         alt="Time table Manager"
                       />
                     </div>
@@ -726,10 +726,10 @@ const page = () => {
                   <div className="w-full flex flex-col relative rounded-3xl p-6 gap-2.5 shadow-[0px_2px_8px_2px_#0000001A,0px_8px_8px_0px_#FFFFFF00_inset,-2px_-2px_0.5px_-2px_#FFFFFF_inset,2px_2px_0.5px_-2px_#FFFFFF_inset]  bg-white/10 backdrop-blur inner-shadow]">
                     <div className="w-full flex justify-center">
                       <Image
-                        className="md:size-36 size-28  object-contain"
+                        className="md:size-36 size-28  object-contain aspect-square"
                         src="/images/timeImage.webp"
-                        width={141}
-                        height={141}
+                        width={115}
+                        height={115}
                         alt="Time table Manager"
                       />
                     </div>
@@ -752,10 +752,10 @@ const page = () => {
                   <div className="w-full flex flex-col relative rounded-3xl p-6 gap-2.5 shadow-[0px_2px_8px_2px_#0000001A,0px_8px_8px_0px_#FFFFFF00_inset,-2px_-2px_0.5px_-2px_#FFFFFF_inset,2px_2px_0.5px_-2px_#FFFFFF_inset]  bg-white/10 backdrop-blur inner-shadow]">
                     <div className="w-full flex justify-center">
                       <Image
-                        className="md:size-36 size-28  object-contain"
+                        className="md:size-36 size-28  object-contain aspect-square"
                         src="/images/timeImage.webp"
-                        width={141}
-                        height={141}
+                        width={115}
+                        height={115}
                         alt="Time table Manager"
                       />
                     </div>
@@ -778,10 +778,10 @@ const page = () => {
                   <div className="w-full flex flex-col relative rounded-3xl p-6 gap-2.5 shadow-[0px_2px_8px_2px_#0000001A,0px_8px_8px_0px_#FFFFFF00_inset,-2px_-2px_0.5px_-2px_#FFFFFF_inset,2px_2px_0.5px_-2px_#FFFFFF_inset]  bg-white/10 backdrop-blur inner-shadow]">
                     <div className="w-full flex justify-center">
                       <Image
-                        className="md:size-36 size-28  object-contain"
+                        className="md:size-36 size-28  object-contain aspect-square"
                         src="/images/timeImage.webp"
-                        width={141}
-                        height={141}
+                        width={115}
+                        height={115}
                         alt="Time table Manager"
                       />
                     </div>
@@ -804,10 +804,10 @@ const page = () => {
                   <div className="w-full flex flex-col relative rounded-3xl p-6 gap-2.5 shadow-[0px_2px_8px_2px_#0000001A,0px_8px_8px_0px_#FFFFFF00_inset,-2px_-2px_0.5px_-2px_#FFFFFF_inset,2px_2px_0.5px_-2px_#FFFFFF_inset]  bg-white/10 backdrop-blur inner-shadow]">
                     <div className="w-full flex justify-center">
                       <Image
-                        className="md:size-36 size-28  object-contain"
+                        className="md:size-36 size-28  object-contain aspect-square"
                         src="/images/timeImage.webp"
-                        width={141}
-                        height={141}
+                        width={115}
+                        height={115}
                         alt="Time table Manager"
                       />
                     </div>
@@ -840,10 +840,10 @@ const page = () => {
                     <div className="w-full flex flex-col relative rounded-3xl p-6 gap-2.5 shadow-[0px_2px_8px_2px_#0000001A,0px_8px_8px_0px_#FFFFFF00_inset,-2px_-2px_0.5px_-2px_#FFFFFF_inset,2px_2px_0.5px_-2px_#FFFFFF_inset]  bg-white/10 backdrop-blur inner-shadow]">
                       <div className="w-full flex justify-center">
                         <Image
-                          className="md:size-36 size-28  object-contain"
+                          className="md:size-36 size-28  object-contain aspect-square"
                           src="/images/timeImage.webp"
-                          width={141}
-                          height={141}
+                          width={115}
+                          height={115}
                           alt="Time table Manager"
                         />
                       </div>
@@ -867,10 +867,10 @@ const page = () => {
                     <div className="w-full flex flex-col relative rounded-3xl p-6 gap-2.5 shadow-[0px_2px_8px_2px_#0000001A,0px_8px_8px_0px_#FFFFFF00_inset,-2px_-2px_0.5px_-2px_#FFFFFF_inset,2px_2px_0.5px_-2px_#FFFFFF_inset]  bg-white/10 backdrop-blur inner-shadow]">
                       <div className="w-full flex justify-center">
                         <Image
-                          className="md:size-36 size-28  object-contain"
+                          className="md:size-36 size-28  object-contain aspect-square"
                           src="/images/timeImage.webp"
-                          width={141}
-                          height={141}
+                          width={115}
+                          height={115}
                           alt="Time table Manager"
                         />
                       </div>
@@ -894,10 +894,10 @@ const page = () => {
                     <div className="w-full flex flex-col relative rounded-3xl p-6 gap-2.5 shadow-[0px_2px_8px_2px_#0000001A,0px_8px_8px_0px_#FFFFFF00_inset,-2px_-2px_0.5px_-2px_#FFFFFF_inset,2px_2px_0.5px_-2px_#FFFFFF_inset]  bg-white/10 backdrop-blur inner-shadow]">
                       <div className="w-full flex justify-center">
                         <Image
-                          className="md:size-36 size-28  object-contain"
+                          className="md:size-36 size-28  object-contain aspect-square"
                           src="/images/timeImage.webp"
-                          width={141}
-                          height={141}
+                          width={115}
+                          height={115}
                           alt="Time table Manager"
                         />
                       </div>
@@ -984,9 +984,9 @@ const page = () => {
                         <Image
                           src="/images/studentApp.webp"
                           alt="Student & Parent App"
-                          width={599}
-                          height={463}
-                          className="size-full mx-auto object-contain  object-bottom"
+                          width={562}
+                          height={382}
+                          className="size-full mx-auto object-contain object-bottom aspect-[281/191]"
                         />
                       </div>
                     </div>
@@ -1014,9 +1014,9 @@ const page = () => {
                     <Image
                       src="/images/schoolManagementFaq.webp"
                       alt="Easy Appointment Booking"
-                      width={396}
-                      height={467}
-                      className="size-full mx-auto object-contain"
+                      width={284}
+                      height={330}
+                      className="size-full mx-auto object-contain aspect-[142/165]"
                     />
                   </div>
                 </div>

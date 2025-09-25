@@ -14,8 +14,8 @@ const WhyChoose = () => {
         />
         <div className="view xl:py-4 lg:py-3 py-4 ">
           <div className="flex flex-col">
-            <h2 className="w-full 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-12 pb-4">
-              Why choose edoovi as your school partner?
+            <h2 className="md:w-10/12 w-full 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-12 pb-4 mx-auto">
+              Why Choose Edvooi ERP Software As Your School Partner
             </h2>
             {/* desktop view */}
             <div
@@ -40,12 +40,13 @@ const WhyChoose = () => {
                       </svg>
                     </div>
                     <div className="md:text-2xl text-xl font-semibold text-white text-balanced">
-                      AI-Powered Insights
+                      AI-Enabled Insights
                     </div>
                     <div className="md:text-sm text-xs text-white text-balanced">
-                      Leverage artificial intelligence for smart reports,
-                      predictions, and performance tracking to support better
-                      decision-making.
+                      Leverage artificial intelligence to generate actionable
+                      analytics, performance trends, and detailed reports of
+                      progress to support data-driven choices and improve school
+                      management effectiveness daily.
                     </div>
                   </div>
                   <div className="w-full flex flex-col gap-y-2">
@@ -64,22 +65,23 @@ const WhyChoose = () => {
                       </svg>
                     </div>
                     <div className="md:text-2xl text-xl font-semibold text-white text-balanced">
-                      Intelligent Notifications
+                      Smart Notifications
                     </div>
                     <div className="md:text-sm text-xs text-white text-balanced">
-                      Leverage artificial intelligence for smart reports,
-                      predictions, and performance tracking to support better
-                      decision-making.
+                      Receive timely, accurate alerts powered by AI for
+                      attendance, assessments, or updates from schools—allowing
+                      parents, students, and teachers to stay connected and
+                      fully informed together.
                     </div>
                   </div>
                 </div>
                 <div className="px-4">
                   <Image
                     src="/images/whyChooseRobotImg.webp"
-                    alt="Why choose edoovi as your school partner?"
-                    width={392}
-                    height={392}
-                    className="size-full mx-auto aspect-auto"
+                    alt="Why Choose Edvooi ERP Software As Your School Partner "
+                    width={332}
+                    height={332}
+                    className="size-full mx-auto aspect-square"
                   />
                 </div>
                 <div className="flex flex-col gap-y-8">
@@ -102,9 +104,10 @@ const WhyChoose = () => {
                       Smart Parent Connect
                     </div>
                     <div className="md:text-sm text-xs text-white text-balanced">
-                      Leverage artificial intelligence for smart reports,
-                      predictions, and performance tracking to support better
-                      decision-making.
+                      Use advanced AI to efficiently connect parents and schools
+                      by providing real-time academic updates, monitoring
+                      progress, and helping parents personalize communication
+                      and support child growth.
                     </div>
                   </div>
                   <div className="w-full flex flex-col gap-y-2">
@@ -123,12 +126,12 @@ const WhyChoose = () => {
                       </svg>
                     </div>
                     <div className="md:text-2xl text-xl font-semibold text-white text-balanced">
-                      24/7 Smart Support
+                      Smart Support 24/7
                     </div>
                     <div className="md:text-sm text-xs text-white text-balanced">
-                      Monitor Collected and pending fees with custom date range
-                      selection, Admin also send reminders to student who did
-                      not paid their fees on time
+                      Experience ongoing, responsive support using AI for
+                      guidance, answering quick queries, or general support for
+                      parents, teachers, or staff in any school year, anytime.
                     </div>
                   </div>
                 </div>
@@ -163,12 +166,13 @@ const WhyChoose = () => {
                         </svg>
                       </div>
                       <div className="text-xl font-semibold text-white text-balanced">
-                        AI-Powered Insights
+                        AI-Enabled Insights
                       </div>
                       <div className=" text-xs text-white text-balanced">
-                        Leverage artificial intelligence for smart reports,
-                        predictions, and performance tracking to support better
-                        decision-making.
+                        Leverage artificial intelligence to generate actionable
+                        analytics, performance trends, and detailed reports of
+                        progress to support data-driven choices and improve
+                        school management effectiveness daily.
                       </div>
                     </div>
                   </div>
@@ -192,12 +196,13 @@ const WhyChoose = () => {
                         </svg>
                       </div>
                       <div className="text-xl font-semibold text-white text-balanced">
-                        Intelligent Notifications
+                        Smart Notifications
                       </div>
                       <div className=" text-xs text-white text-balanced">
-                        Leverage artificial intelligence for smart reports,
-                        predictions, and performance tracking to support better
-                        decision-making.
+                        Receive timely, accurate alerts powered by AI for
+                        attendance, assessments, or updates from
+                        schools—allowing parents, students, and teachers to stay
+                        connected and fully informed together.
                       </div>
                     </div>
                   </div>
@@ -224,9 +229,10 @@ const WhyChoose = () => {
                         Smart Parent Connect
                       </div>
                       <div className=" text-xs text-white text-balanced">
-                        Leverage artificial intelligence for smart reports,
-                        predictions, and performance tracking to support better
-                        decision-making.
+                        Use advanced AI to efficiently connect parents and
+                        schools by providing real-time academic updates,
+                        monitoring progress, and helping parents personalize
+                        communication and support child growth.
                       </div>
                     </div>
                   </div>
@@ -250,12 +256,13 @@ const WhyChoose = () => {
                         </svg>
                       </div>
                       <div className="text-xl font-semibold text-white text-balanced">
-                        24/7 Smart Support
+                        Smart Support 24/7
                       </div>
                       <div className=" text-xs text-white text-balanced">
-                        Leverage artificial intelligence for smart reports,
-                        predictions, and performance tracking to support better
-                        decision-making.
+                        Experience ongoing, responsive support using AI for
+                        guidance, answering quick queries, or general support
+                        for parents, teachers, or staff in any school year,
+                        anytime.
                       </div>
                     </div>
                   </div>
@@ -263,10 +270,10 @@ const WhyChoose = () => {
                 <div className="w-full">
                   <Image
                     src="/images/whyChooseRobotImg.webp"
-                    alt="Why choose edoovi as your school partner?"
-                    width={392}
-                    height={392}
-                    className="size-full mx-auto aspect-auto"
+                    alt="Why Choose Edvooi ERP Software As Your School Partner "
+                    width={332}
+                    height={332}
+                    className="size-full mx-auto aspect-square"
                   />
                 </div>
               </div>

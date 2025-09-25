@@ -12,10 +12,10 @@ const page = () => {
             <div className="md:w-6/12 w-full mx-auto xl:py-4 lg:py-3 py-4">
               <div className="flex flex-col gap-y-4">
                 <h1 className="w-full xl:text-5xl lg:text-5xl md:text-4xl text-3xl pt-4 md:font-bold  max-sm:text-center font-semibold text-[#393A8C] relative ">
-                  Building Brighter Futures With Innovative EDOOVI ERP Solutions
+                  Stepping Ahead into Future with Extensive Edoovi ERP Solutions
                 </h1>
                 <div className="flex items-center gap-4 text-lg text-[#272727] font-semibold">
-                  <span>School App</span>
+                  <span>School</span>
                   <span className="text-[#272727]">|</span>
                   <span>ERP</span>
                   <span className="text-[#272727]">|</span>
@@ -25,10 +25,10 @@ const page = () => {
             </div>
             <div className="md:w-5/12 w-full">
               <Image
-                className="size-full object-contain"
+                className="size-full object-contain aspect-[79/72]"
                 src="/images/aboutHero.webp"
-                width={1200}
-                height={477}
+                width={474}
+                height={432}
                 alt=" Building Brighter Futures With Innovative EDOOVI ERP Solutions"
               />
             </div>
@@ -38,166 +38,107 @@ const page = () => {
       <section className="ourJourney bg-white relative py-8">
         <div className="view xl:py-4 lg:py-3 py-4">
           <div className="flex flex-col">
-            <h2 className="w-full 2xl:text-4xl mx-auto xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-bold text-white text-balance relative z-10 text-center md:pb-8 pb-4">
-              Latest Insights
-            </h2>
             <div className="flex flex-wrap justify-between">
               <div className="md:w-1/2 w-full flex flex-col gap-y-6 md:pr-6">
-                <div className="flex flex-col">
+                <div className="flex flex-col gap-y-3">
                   <h2 className="w-full 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#393A8C] text-balance relative z-10 ">
                     Our Journey
                   </h2>
-                  <p className="md:text-base text-sm font-normal text-[#595959] leading-7 text-balance">
-                    Launched in 2020, Edoovi provides an end-to-end cloud
-                    management solution for schools worldwide.
+                  <p className="md:text-base text-sm font-normal text-[#595959]  text-balance">
+                    Introduced in 2020, Edoovi offers a comprehensive cloud
+                    management solution designed for use in global educational
+                    institutions.
                   </p>
                 </div>
-                <div className="w-full">
+                <div className="w-full md:pr-14">
                   <Image
                     src="/images/journey.webp"
                     alt="Our Journey"
-                    width={381}
-                    height={254}
-                    className="size-full mx-auto object-contain"
+                    width={549}
+                    height={671}
+                    className="size-full mx-auto object-contain aspect-[9/11]"
                   />
                 </div>
               </div>
               <div className="md:w-1/2 w-full ">
                 <div className="flex flex-row">
                   <div className="flex flex-col relative">
-                    <div className="group flex flex-row mt-1 gap-5 ">
-                      <div className=" justify-center items-center flex flex-col gap-2">
-                        <input
-                          type="radio"
-                          name="tab"
-                          id="tab1"
-                          className="hidden peer  "
-                        />
-                        <label
-                          htmlFor="tab1"
-                          className="w-1.5 h-11 bg-[#DCDCDC] group-has-[:checked]:bg-[#0EAFF0]"
-                        ></label>
-                        <label
-                          htmlFor="tab1"
-                          className="w-16 h-16 flex items-center font-bold justify-center text-[#272727] cursor-pointer rounded-full bg-white border-[#DCDCDC] border-4 group-has-[:checked]:text-white group-has-[:checked]:border-[#39C0FFE3]  group-has-[:checked]:bg-[#0EAFF0]"
-                        >
-                          2018
-                        </label>
+                    <div className="group/jj flex flex-row mt-1 gap-5 ">
+                      <div className="justify-center items-center flex flex-col gap-2">
+                        <div className="w-1.5 h-11 bg-[#DCDCDC] group-hover/jj:bg-[#0EAFF0]"></div>
+                        <div className="w-16 h-16 flex items-center font-bold justify-center text-[#272727] cursor-pointer rounded-full bg-white border-[#DCDCDC] border-4 group-hover/jj:text-white group-hover/jj:border-[#39C0FFE3]  group-hover/jj:bg-[#0EAFF0] duration-300s">
+                          2020
+                        </div>
                       </div>
                       <div className="flex justify-center items-center">
                         <p className="text-base font-semibold text-[#595959] leading-7">
-                          Launched the first version of our EDOOVI SOFTWARE,
-                          with a focus on simplifying school management tasks
-                          that includes advanced student tracking, attendance
-                          management, and reporting tools.
+                          Released the first version of our EDOOVI SOFTWARE,
+                          with a focus on providing an all-in-one solution for
+                          school management tasks that incorporates advanced
+                          student tracking, attendance, and reporting features.
                         </p>
                       </div>
                     </div>
-                    <div className="group flex flex-row mt-1 gap-5 ">
-                      <div className=" justify-center items-center flex flex-col gap-2">
-                        <input
-                          type="radio"
-                          name="tab"
-                          id="tab2"
-                          className="hidden peer  "
-                        />
-                        <label
-                          htmlFor="tab2"
-                          className="w-1.5 h-11 bg-[#DCDCDC] group-has-[:checked]:bg-[#0EAFF0]"
-                        ></label>
-                        <label
-                          htmlFor="tab2"
-                          className="w-16 h-16 flex items-center font-bold justify-center text-[#272727] cursor-pointer rounded-full bg-white border-[#DCDCDC] border-4 group-has-[:checked]:text-white group-has-[:checked]:border-[#39C0FFE3]  group-has-[:checked]:bg-[#0EAFF0]"
-                        >
+                    <div className="group/jj flex flex-row mt-1 gap-5 ">
+                      <div className="justify-center items-center flex flex-col gap-2">
+                        <div className="w-1.5 h-11 bg-[#DCDCDC] group-hover/jj:bg-[#0EAFF0]"></div>
+                        <div className="w-16 h-16 flex items-center font-bold justify-center text-[#272727] cursor-pointer rounded-full bg-white border-[#DCDCDC] border-4 group-hover/jj:text-white group-hover/jj:border-[#39C0FFE3]  group-hover/jj:bg-[#0EAFF0]">
                           2021
-                        </label>
+                        </div>
                       </div>
                       <div className="flex justify-center items-center">
                         <p className="text-base font-semibold text-[#595959] leading-7">
-                          Integrated real-time communication systems, allowing
-                          instant updates for students, parents, and teachers.
+                          Implemented real-time communication features, allowing
+                          for real-time updates for students, parents, and
+                          teachers.
                         </p>
                       </div>
                     </div>
-                    <div className="group flex flex-row mt-1 gap-5 ">
+                    <div className="group/jj flex flex-row mt-1 gap-5 ">
                       <div className=" justify-center items-center flex flex-col gap-2">
-                        <input
-                          type="radio"
-                          name="tab"
-                          id="tab3"
-                          className="hidden peer  "
-                        />
-                        <label
-                          htmlFor="tab3"
-                          className="w-1.5 h-11 bg-[#DCDCDC] group-has-[:checked]:bg-[#0EAFF0]"
-                        ></label>
-                        <label
-                          htmlFor="tab3"
-                          className="w-16 h-16 flex items-center font-bold justify-center text-[#272727] cursor-pointer rounded-full bg-white border-[#DCDCDC] border-4 group-has-[:checked]:text-white group-has-[:checked]:border-[#39C0FFE3]  group-has-[:checked]:bg-[#0EAFF0]"
-                        >
+                        <div className="w-1.5 h-11 bg-[#DCDCDC] group-hover/jj:bg-[#0EAFF0]"></div>
+                        <div className="w-16 h-16 flex items-center font-bold justify-center text-[#272727] cursor-pointer rounded-full bg-white border-[#DCDCDC] border-4 group-hover/jj:text-white group-hover/jj:border-[#39C0FFE3]  group-hover/jj:bg-[#0EAFF0]">
                           2022
-                        </label>
+                        </div>
                       </div>
                       <div className="flex justify-center items-center">
                         <p className="text-base font-semibold text-[#595959] leading-7">
-                          Our ERP software also helps build strong communication
-                          with teachers, students, parents, candidates, and
-                          alumni.
+                          Created multiple additional modules to help schools
+                          customize the EDOOVI ERP software uniquely and
+                          distinctively to their needs to help do more to
+                          automate their school operations.
                         </p>
                       </div>
                     </div>
-                    <div className="group flex flex-row mt-1 gap-5 ">
+                    <div className="group/jj flex flex-row mt-1 gap-5 ">
                       <div className=" justify-center items-center flex flex-col gap-2">
-                        <input
-                          type="radio"
-                          name="tab"
-                          id="tab4"
-                          className="hidden peer  "
-                        />
-                        <label
-                          htmlFor="tab4"
-                          className="w-1.5 h-11 bg-[#DCDCDC] group-has-[:checked]:bg-[#0EAFF0]"
-                        ></label>
-                        <label
-                          htmlFor="tab4"
-                          className="w-16 h-16 flex items-center font-bold justify-center text-[#272727] cursor-pointer rounded-full bg-white border-[#DCDCDC] border-4 group-has-[:checked]:text-white group-has-[:checked]:border-[#39C0FFE3]  group-has-[:checked]:bg-[#0EAFF0]"
-                        >
+                        <div className="w-1.5 h-11 bg-[#DCDCDC] group-hover/jj:bg-[#0EAFF0]"></div>
+                        <div className="w-16 h-16 flex items-center font-bold justify-center text-[#272727] cursor-pointer rounded-full bg-white border-[#DCDCDC] border-4 group-hover/jj:text-white group-hover/jj:border-[#39C0FFE3]  group-hover/jj:bg-[#0EAFF0]">
                           2023
-                        </label>
+                        </div>
                       </div>
                       <div className="flex justify-center items-center">
                         <p className="text-base font-semibold text-[#595959] leading-7">
-                          Introduced more useful modules, enabling schools to
-                          tailor the EDOOVI ERP software to their unique needs
-                          that helps schools to automate their operations more.
+                          More practical modules were added, allowing schools to
+                          customize the EDOOVI ERP software to meet their
+                          particular requirements and increase operational
+                          automation.
                         </p>
                       </div>
                     </div>
-                    <div className="group flex flex-row mt-1 gap-5 ">
+                    <div className="group/jj flex flex-row mt-1 gap-5 ">
                       <div className=" justify-center items-center flex flex-col gap-2">
-                        <input
-                          type="radio"
-                          name="tab"
-                          id="tab5"
-                          className="hidden peer  "
-                        />
-                        <label
-                          htmlFor="tab5"
-                          className="w-1.5 h-11 bg-[#DCDCDC] group-has-[:checked]:bg-[#0EAFF0]"
-                        ></label>
-                        <label
-                          htmlFor="tab5"
-                          className="w-16 h-16 flex items-center font-bold justify-center text-[#272727] cursor-pointer rounded-full bg-white border-[#DCDCDC] border-4 group-has-[:checked]:text-white group-has-[:checked]:border-[#39C0FFE3]  group-has-[:checked]:bg-[#0EAFF0]"
-                        >
+                        <div className="w-1.5 h-11 bg-[#DCDCDC] group-hover/jj:bg-[#0EAFF0]"></div>
+                        <div className="w-16 h-16 flex items-center font-bold justify-center text-[#272727] cursor-pointer rounded-full bg-white border-[#DCDCDC] border-4 group-hover/jj:text-white group-hover/jj:border-[#39C0FFE3]  group-hover/jj:bg-[#0EAFF0]">
                           2024
-                        </label>
+                        </div>
                       </div>
                       <div className="flex justify-center items-center">
                         <p className="text-base font-semibold text-[#595959] leading-7">
-                          Since its launch, 100+ schools have been using this
-                          software to manage admissions, registration,
-                          timetabling, academic, learning, payments,
-                          transportation, and library operations effectively.
+                          Prior to the pandemic, EDOOVI was used by 100+ schools
+                          to more efficiently manage the admissions, onboarding,
+                          registration, timetabling, academics, learning,
+                          payment, transportation, and library functions.
                         </p>
                       </div>
                     </div>
@@ -212,9 +153,9 @@ const page = () => {
         <Image
           src="/images/impactSolutionBg.webp"
           alt="Easy Appointment Booking"
-          width={400}
-          height={525}
-          className="size-full mx-auto absolute inset-0 -z-10 object-cover object-center"
+          width={1265}
+          height={348}
+          className="size-full mx-auto absolute inset-0 -z-10 object-cover object-center aspect-[1265/348]"
         />
         <div className="view xl:py-4 lg:py-3 py-4">
           <div className="flex flex-col">
@@ -226,11 +167,10 @@ const page = () => {
                       Our Mission
                     </h2>
                     <div className="w-full text-white md:text-base text-sm txt-balance">
-                      Our Mission is to deliver cost-effective and reasonable
-                      ERP solutions for schools worldwide. With maximum
-                      attention, we aim to provide an outstanding ERP software
-                      to schools for enhancing and streamlining their day-to-day
-                      tasks.
+                      Our goal is to provide schools around the world with
+                      affordable and sensible ERP solutions. Our goal is to give
+                      schools the best ERP software possible so they can improve
+                      and streamline their daily operations.
                     </div>
                   </div>
                 </div>
@@ -238,9 +178,9 @@ const page = () => {
                   <Image
                     src="/images/aboutMission.webp"
                     alt=" Our Mission"
-                    width={803}
-                    height={650}
-                    className="w-full mx-auto object-contain object-center"
+                    width={379}
+                    height={307}
+                    className="w-full mx-auto object-contain object-center aspect-[379/307]"
                   />
                 </div>
               </div>
@@ -248,6 +188,7 @@ const page = () => {
           </div>
         </div>
       </section>
+
       <section className="vision relative overflow-hidden bg-[#EFFDFF]">
         <div className="view">
           <div className="flex flex-col">
@@ -257,9 +198,9 @@ const page = () => {
                   <Image
                     src="/images/aboutVision.webp"
                     alt=" Our Vision"
-                    width="700"
-                    height="600"
-                    className="w-full mx-auto object-contain object-center"
+                    width="474"
+                    height="467"
+                    className="w-full mx-auto object-contain object-center aspect-[474/467]"
                   />
                 </div>
                 <div className="md:w-6/12 w-full mx-auto xl:py-4 lg:py-3 py-4">
@@ -268,31 +209,28 @@ const page = () => {
                       Our Vision
                     </h2>
                     <div className="w-full font-semibold text-[#595959] md:text-base text-sm txt-balance">
-                      Our Mission is to deliver cost-effective and reasonable
-                      ERP solutions for schools worldwide. With maximum
-                      attention, we aim to provide an outstanding ERP software
-                      to schools for enhancing and streamlining their day-to-day
-                      tasks.
+                      Enable educational services in a dynamic setting to give
+                      teachers and students better opportunities for ongoing
+                      development."
                     </div>
                     <div className="space-y-8 pt-3">
                       <div className="flex gap-3">
                         <div className="w-2 bg-[#39C0FFE3] rounded-lg"></div>
                         <p className="text-[#595959] md:text-base text-sm leading-relaxed">
-                          Our goal is to establish a strong chain of schools
-                          that can interact and communicate through a single
-                          platform, where educators, administrators, students,
-                          and parents connect seamlessly — making school
-                          management not just easier, but smarter.
+                          In order to make school management not only simpler
+                          but also more intelligent, we want to build a robust
+                          network of schools that can engage and communicate
+                          with one another via a common platform.
                         </p>
                       </div>
                       <div className="flex gap-3">
                         <div className="w-2 bg-[#393A8C] rounded-lg"></div>
                         <p className="text-[#595959] md:text-base text-sm leading-relaxed">
-                          Build on 5 years of experience to continuously
-                          improve, adapt, and offer reliable solutions that meet
-                          evolving educational needs. Drive the shift towards
-                          paperless, efficient, and tech-driven education
-                          management.
+                          Build on your five years of experience to provide
+                          dependable solutions that satisfy changing educational
+                          needs while also constantly improving and
+                          adapting.Encourage the transition to tech-driven,
+                          paperless, and efficient education management.
                         </p>
                       </div>
                     </div>
@@ -320,9 +258,9 @@ const page = () => {
                       fetchPriority="low"
                       src="/images/schoolManagementFaq.webp"
                       alt="Easy Appointment Booking"
-                      width={396}
-                      height={467}
-                      className="size-full mx-auto object-contain"
+                      width={284}
+                      height={330}
+                      className="size-full mx-auto object-contain aspect-[142/165]"
                     />
                   </div>
                 </div>

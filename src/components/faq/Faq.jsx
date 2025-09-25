@@ -16,10 +16,10 @@ const Faq = () => {
                   <div className="w-full">
                     <Image
                       src="/images/faqImage.webp"
-                      alt=" Frequently Asked Questions"
-                      width={599}
-                      height={463}
-                      className="size-full mx-auto object-contain"
+                      alt=" Frequently Asked Questions "
+                      width={568}
+                      height={397}
+                      className="size-full mx-auto object-contain aspect-[568/379]"
                     />
                   </div>
                 </div>
@@ -39,7 +39,8 @@ const Faq = () => {
                       className="flex items-center cursor-pointer gap-2 before:absolute before:-inset-4 relative"
                     >
                       <h3 className="grow lg:text-base text-sm font-semibold text-[#454444]">
-                        How Much Does It Cost To Create a Doctor On-Demand App?
+                        Do You Offer Custom School Management Software
+                        Development Solutions?
                       </h3>
                       <div className="shrink-0 relative  group-has-[:checked]/faq:rotate-180   duration-300">
                         <svg
@@ -58,12 +59,11 @@ const Faq = () => {
                     </label>
                     <div className="text-xs font-normal text-[#454444] hidden group-has-[:checked]/faq:block">
                       <p>
-                        Depending on the platform, doctor appointment app
-                        development company hourly, and its features, the cost
-                        can greatly vary; however, most often, the cost usually
-                        is between $15000 and $49000+. Your further
-                        specifications will add to the cost while also
-                        increasing the quality and scalability of your service
+                        Our school management software development company
+                        provides tailored solutions to satisfy the unique
+                        demands and specifications of businesses. These
+                        solutions allow companies to incorporate features based
+                        on their requirements.
                       </p>
                     </div>
                   </li>
@@ -79,7 +79,8 @@ const Faq = () => {
                       className="flex items-center cursor-pointer gap-2 before:absolute before:-inset-4 relative"
                     >
                       <h3 className="grow lg:text-base text-sm font-semibold text-[#454444]">
-                        How Much Does It Cost To Create a Doctor On-Demand App?
+                        Do You Provide Maintenance And Support Services For The
+                        School Management Software?
                       </h3>
                       <div className="shrink-0 relative  group-has-[:checked]/faq:rotate-180  duration-300">
                         <svg
@@ -98,12 +99,12 @@ const Faq = () => {
                     </label>
                     <div className="text-xs font-normal text-[#454444] hidden group-has-[:checked]/faq:block">
                       <p>
-                        Depending on the platform, doctor appointment app
-                        development company hourly, and its features, the cost
-                        can greatly vary; however, most often, the cost usually
-                        is between $15000 and $49000+. Your further
-                        specifications will add to the cost while also
-                        increasing the quality and scalability of your service
+                        In order to keep the software current and track its
+                        overall performance, our school management software
+                        development company offers maintenance and support
+                        services. It offers a number of services, including
+                        performance optimization, frequent updates, OS version
+                        upgrades, and updating out-of-date features.
                       </p>
                     </div>
                   </li>
@@ -119,7 +120,8 @@ const Faq = () => {
                       className="flex items-center cursor-pointer gap-2 before:absolute before:-inset-4 relative"
                     >
                       <h3 className="grow lg:text-base text-sm font-semibold text-[#454444]">
-                        How Much Does It Cost To Create a Doctor On-Demand App?
+                        Can You Upgrade or Redesign My Existing School
+                        Management Software?
                       </h3>
                       <div className="shrink-0 relative  group-has-[:checked]/faq:rotate-180  duration-300">
                         <svg
@@ -138,12 +140,12 @@ const Faq = () => {
                     </label>
                     <div className="text-xs font-normal text-[#454444] hidden group-has-[:checked]/faq:block">
                       <p>
-                        Depending on the platform, doctor appointment app
-                        development company hourly, and its features, the cost
-                        can greatly vary; however, most often, the cost usually
-                        is between $15000 and $49000+. Your further
-                        specifications will add to the cost while also
-                        increasing the quality and scalability of your service
+                        With cutting-edge features and designs, our education
+                        app development company can revamp and improve the
+                        current school administration software. We optimize
+                        overall performance by integrating a variety of
+                        upgrades, including new technologies and UI/UX
+                        improvements.
                       </p>
                     </div>
                   </li>

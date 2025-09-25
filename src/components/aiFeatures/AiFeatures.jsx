@@ -9,7 +9,7 @@ const AiFeatures = () => {
         <div className="view xl:py-4 lg:py-3">
           <div className="flex flex-col">
             <h2 className="md:w-10/12 w-full 2xl:text-5xl mx-auto xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-2xl font-bold text-[#393A8C] text-balance relative z-10 text-center md:pb-8 pb-4">
-              Never Before AI- Features that make Our School ERP Stand Out
+              AI Core Features of Our School ERP Software
             </h2>
             <div className="w-full flex  flex-col">
               <EmblaCarousel
@@ -24,27 +24,24 @@ const AiFeatures = () => {
                     <div className="relative">
                       <Image
                         src="/images/smartAlerts.webp"
-                        alt="Smart alerts for low attendance, fees, exam schedules, and school circulars."
-                        width={346}
+                        alt="Instant Alerts Features  "
+                        width={347}
                         height={234}
-                        className="size-full rounded-lg mx-auto object-contain"
+                        className="size-full rounded-lg mx-auto object-contain aspect-[347/234]"
                       />
                     </div>
                     <div className="w-full flex flex-col gap-y-3">
                       <h3 className="lg:text-xl md:text-lg text-base  font-semibold text-ellipsis text-[#55575B] line-clamp-3">
-                        Smart alerts for low attendance, fees, exam schedules,
-                        and school circulars.
+                        Instant Alerts Features
                       </h3>
                       <p className="text-xs  font-normal text-[#454444]  leading-5">
-                        An intelligent system that automatically detects
-                        important events (like fees due, homework deadlines,
-                        exams, attendance issues, transport updates, or
-                        birthdays), analyzes class and individual student data,
-                        and sends timely reminders to the right people. It
-                        supports multiple channels—WhatsApp, SMS, push
-                        notifications, and emaimanual follow-ups, and ensure
-                        parents, students, and teachers never miss critical
-                        updates.
+                        An intelligent engine that detects essential updates
+                        (late attendance, unpaid fees, approaching exams, bus
+                        alerts, or birthdays), evaluates class-to-student
+                        records, and alerts the correct contacts in seconds.
+                        Alerts are sent out on every channel: WhatsApp, SMS,
+                        push notifications, and scheduled email alerts, so
+                        everyone remains updated, always.
                       </p>
                     </div>
                   </div>
@@ -54,27 +51,25 @@ const AiFeatures = () => {
                     <div className="relative">
                       <Image
                         src="/images/tableGenerator.webp"
-                        alt="First Ever AI Powered Time table Generator with auto teacher assign"
-                        width={346}
+                        alt="AI Timetable Generator "
+                        width={347}
                         height={234}
-                        className="size-full rounded-lg mx-auto object-contain"
+                        className="size-full rounded-lg mx-auto object-contain aspect-[347/234]"
                       />
                     </div>
                     <div className="w-full flex flex-col gap-y-3">
                       <h3 className="lg:text-xl md:text-lg text-base  font-semibold text-ellipsis text-[#55575B] line-clamp-3">
-                        First Ever AI Powered Time table Generator with auto
-                        teacher assign
+                        AI Timetable Generator
                       </h3>
                       <p className="text-xs  font-normal text-[#454444]  leading-5">
-                        An intelligent system that automatically detects
-                        important events (like fees due, homework deadlines,
-                        exams, attendance issues, transport updates, or
-                        birthdays), analyzes class and individual student data,
-                        and sends timely reminders to the right people. It
-                        supports multiple channels—WhatsApp, SMS, push
-                        notifications, and emaimanual follow-ups, and ensure
-                        parents, students, and teachers never miss critical
-                        updates.
+                        A revolutionary AI system watches any changes
+                        (attendance, fees, exams, bus, and holiday
+                        notifications), checks teachers' schedules and classroom
+                        setups, and assigns the best available teacher for any
+                        subject. Notifications are immediate and sent out
+                        through WhatsApp, SMS, push, or email, keeping all
+                        staff, students, and parents informed and connected
+                        instantly.
                       </p>
                     </div>
                   </div>
@@ -84,28 +79,24 @@ const AiFeatures = () => {
                     <div className="relative">
                       <Image
                         src="/images/firstEverFace.webp"
-                        alt="First Ever Face Recognized Visitor Module for Child
-                        safety"
-                        width={346}
+                        alt="Face Recognition Visitor Report"
+                        width={347}
                         height={234}
-                        className="size-full rounded-lg mx-auto object-contain"
+                        className="size-full rounded-lg mx-auto object-contain aspect-[347/234]"
                       />
                     </div>
                     <div className="w-full flex flex-col gap-y-3">
                       <h3 className="lg:text-xl md:text-lg text-base  font-semibold text-ellipsis text-[#55575B] line-clamp-3">
-                        First Ever Face Recognized Visitor Module for Child
-                        safety
+                        Face Recognition Visitor Report
                       </h3>
                       <p className="text-xs  font-normal text-[#454444]  leading-5">
-                        An intelligent system that automatically detects
-                        important events (like fees due, homework deadlines,
-                        exams, attendance issues, transport updates, or
-                        birthdays), analyzes class and individual student data,
-                        and sends timely reminders to the right people. It
-                        supports multiple channels—WhatsApp, SMS, push
-                        notifications, and emaimanual follow-ups, and ensure
-                        parents, students, and teachers never miss critical
-                        updates.
+                        For the first time, visitors are checked through a face
+                        recognition module for child safety, and any
+                        unrecognized entry is detected immediately, and strict
+                        campus access logs are kept. Parents and school
+                        administrators receive alerts instantly through
+                        WhatsApp, SMS, push notifications, or email, completely
+                        keeping you up-to-date and informed.
                       </p>
                     </div>
                   </div>

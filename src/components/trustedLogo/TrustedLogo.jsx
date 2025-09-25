@@ -16,90 +16,90 @@ const TrustedLogo = () => {
                   <Image
                     src="/images/nirmlaSchoolLogo.webp"
                     alt="nirmla school logo"
-                    width={175}
-                    height={63}
-                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    width={141}
+                    height={49}
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-44 sm:max-w-36 max-w-24 mx-auto object-contain aspect-[141/49]"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
                   <Image
                     src="/images/LPSavniLogo.webp"
                     alt="LPS avni logo"
-                    width={175}
-                    height={63}
-                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    width={141}
+                    height={49}
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-44 sm:max-w-36 max-w-24 mx-auto object-contain aspect-[141/49]"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
                   <Image
                     src="/images/shantiSchoolLogo.webp"
                     alt="shanti school logo"
-                    width={175}
-                    height={63}
-                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    width={141}
+                    height={49}
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-44 sm:max-w-36 max-w-24 mx-auto object-contain aspect-[141/49]"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
                   <Image
                     src="/images/navrachanaInternationalLogo.webp"
                     alt="navrachana international logo"
-                    width={175}
-                    height={63}
-                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    width={141}
+                    height={49}
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-44 sm:max-w-36 max-w-24 mx-auto object-contain aspect-[141/49]"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
                   <Image
                     src="/images/salmiyaIndianModalSchoolLogo.webp"
                     alt="salmiya indian modal schoolLogo"
-                    width={175}
-                    height={63}
-                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    width={141}
+                    height={49}
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-44 sm:max-w-36 max-w-24 mx-auto object-contain aspect-[141/49]"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
                   <Image
                     src="/images/kimjhiRamdasLogo.webp"
                     alt="kimjhi ramdas logo"
-                    width={175}
-                    height={63}
-                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    width={141}
+                    height={49}
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-44 sm:max-w-36 max-w-24 mx-auto object-contain aspect-[141/49]"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
                   <Image
                     src="/images/vedicGroupLogo.webp"
                     alt="vedic group logo"
-                    width={175}
-                    height={63}
-                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    width={141}
+                    height={49}
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-44 sm:max-w-36 max-w-24 mx-auto object-contain aspect-[141/49]"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
                   <Image
                     src="/images/centurationInternationalSchool.webp"
                     alt="centuration international school"
-                    width={175}
-                    height={63}
-                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    width={141}
+                    height={49}
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-44 sm:max-w-36 max-w-24 mx-auto object-contain aspect-[141/49]"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
                   <Image
                     src="/images/internationalIndianSchoolLogo.webp"
                     alt="international indian school logo"
-                    width={175}
-                    height={63}
-                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    width={141}
+                    height={49}
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-44 sm:max-w-36 max-w-24 mx-auto object-contain aspect-[141/49]"
                   />
                 </div>
                 <div className="logo1 md:p-4 p-3">
                   <Image
                     src="/images/ISInterNationalSchoolLogo.webp"
                     alt="IS inter national schoolLogo"
-                    width={175}
-                    height={63}
-                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-36 max-w-24 mx-auto object-contain"
+                    width={141}
+                    height={49}
+                    className="3xl:max-w-52 xl:max-w-44 lg:max-w-40 md:max-w-44 sm:max-w-36 max-w-24 mx-auto object-contain aspect-[141/49]"
                   />
                 </div>
               </div>

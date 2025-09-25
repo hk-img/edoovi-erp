@@ -25,9 +25,9 @@ const LatestInsight = () => {
                         src="/images/insightGirl.webp"
                         alt="How Can School ERP Software Streamline Administrative
                         Tasks"
-                        width={112}
-                        height={112}
-                        className="size-full mx-auto object-contain"
+                        width={295}
+                        height={253}
+                        className="size-full mx-auto object-contain aspect-[295/253]"
                       />
 
                       <div className="absolute right-5 bottom-1 ">
@@ -90,9 +90,9 @@ const LatestInsight = () => {
                               src="/images/mm.webp"
                               alt="How Can School ERP Software Streamline Administrative
                         Tasks"
-                              width={40}
-                              height={40}
-                              className="size-10 mx-auto object-contain"
+                              width={32}
+                              height={32}
+                              className="size-10 mx-auto object-contain aspect-square"
                             />
                           </div>
                           <div className="flex flex-col gap-1">
@@ -123,9 +123,9 @@ const LatestInsight = () => {
                         src="/images/insightGirl.webp"
                         alt="How Can School ERP Software Streamline Administrative
                         Tasks"
-                        width={112}
-                        height={112}
-                        className="size-full mx-auto object-contain"
+                        width={295}
+                        height={253}
+                        className="size-full mx-auto object-contain aspect-[295/253]"
                       />
 
                       <div className="absolute right-5 bottom-1 ">
@@ -188,9 +188,9 @@ const LatestInsight = () => {
                               src="/images/mm.webp"
                               alt="How Can School ERP Software Streamline Administrative
                         Tasks"
-                              width={40}
-                              height={40}
-                              className="size-10 mx-auto object-contain"
+                              width={32}
+                              height={32}
+                              className="size-10 mx-auto object-contain aspect-square"
                             />
                           </div>
                           <div className="flex flex-col gap-1">
@@ -221,9 +221,9 @@ const LatestInsight = () => {
                         src="/images/insightGirl.webp"
                         alt="How Can School ERP Software Streamline Administrative
                         Tasks"
-                        width={112}
-                        height={112}
-                        className="size-full mx-auto object-contain"
+                        width={295}
+                        height={253}
+                        className="size-full mx-auto object-contain aspect-[295/253]"
                       />
 
                       <div className="absolute right-5 bottom-1 ">
@@ -286,9 +286,9 @@ const LatestInsight = () => {
                               src="/images/mm.webp"
                               alt="How Can School ERP Software Streamline Administrative
                         Tasks"
-                              width={40}
-                              height={40}
-                              className="size-10 mx-auto object-contain"
+                              width={32}
+                              height={32}
+                              className="size-10 mx-auto object-contain aspect-square"
                             />
                           </div>
                           <div className="flex flex-col gap-1">
@@ -319,9 +319,9 @@ const LatestInsight = () => {
                         src="/images/insightGirl.webp"
                         alt="How Can School ERP Software Streamline Administrative
                         Tasks"
-                        width={112}
-                        height={112}
-                        className="size-full mx-auto object-contain"
+                        width={295}
+                        height={253}
+                        className="size-full mx-auto object-contain aspect-[295/253]"
                       />
 
                       <div className="absolute right-5 bottom-1 ">
@@ -384,9 +384,9 @@ const LatestInsight = () => {
                               src="/images/mm.webp"
                               alt="How Can School ERP Software Streamline Administrative
                         Tasks"
-                              width={40}
-                              height={40}
-                              className="size-10 mx-auto object-contain"
+                              width={32}
+                              height={32}
+                              className="size-10 mx-auto object-contain aspect-square"
                             />
                           </div>
                           <div className="flex flex-col gap-1">
@@ -417,9 +417,9 @@ const LatestInsight = () => {
                         src="/images/insightGirl.webp"
                         alt="How Can School ERP Software Streamline Administrative
                         Tasks"
-                        width={112}
-                        height={112}
-                        className="size-full mx-auto object-contain"
+                        width={295}
+                        height={253}
+                        className="size-full mx-auto object-contain aspect-[295/253]"
                       />
 
                       <div className="absolute right-5 bottom-1 ">
@@ -482,9 +482,9 @@ const LatestInsight = () => {
                               src="/images/mm.webp"
                               alt="How Can School ERP Software Streamline Administrative
                         Tasks"
-                              width={40}
-                              height={40}
-                              className="size-10 mx-auto object-contain"
+                              width={32}
+                              height={32}
+                              className="size-10 mx-auto object-contain aspect-square"
                             />
                           </div>
                           <div className="flex flex-col gap-1">
