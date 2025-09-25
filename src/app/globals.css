@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-/* Animations ko theme tokens ke andar rakho */
 @theme {
   --animate-wave: waveMove 6s linear infinite;
 
@@ -15,7 +14,6 @@
 }
 
 
-/* Container utility (responsive paddings with apply) */
 .\view,
 .view {
   @apply px-4 w-full mx-auto 
@@ -26,7 +24,6 @@
     min-[1536px]:px-20;
 }
 
-/* Global body styles */
 body {
   @apply bg-[var(--background)] text-[var(--foreground)] leading-[normal];
 }
