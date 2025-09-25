@@ -2,6 +2,9 @@
 
 /* Animations ko theme tokens ke andar rakho */
 @theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
   --animate-progress-circle: progressCircle 3s 1s ease-out forwards;
   --animate-wave: waveMove 6s linear infinite;
 
@@ -28,12 +31,6 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-/* Tailwind v4 theme inline variables */
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
 }
 
 /* Dark mode colors */
