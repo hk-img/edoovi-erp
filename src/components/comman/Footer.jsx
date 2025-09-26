@@ -4,7 +4,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer>
+      <footer id="footer">
         <div className="w-full bg-gradient-to-t from-[#00398E] to-[#0176C5] flex flex-col">
           <div className="view">
             <div className="flex flex-wrap md:items-end justify-between">
@@ -25,7 +25,8 @@ const Footer = () => {
                   </h2>
 
                   <form
-                    action=""
+                    action="https://formspree.io/f/abhisheksharma.img@gmail.com"
+                    method="POST"
                     className="lg:w-6/12 md:w-8/12 w-full mx-auto flex flex-col gap-y-4"
                   >
                     <div className="rounded-2xl p-0.5 w-full text-white overflow-hidden bg-gradient-to-r  from-[#004C9F] via-[#00D9FF] to-[#014A9E]">
@@ -65,24 +66,7 @@ const Footer = () => {
                             href="/about"
                             className="text-sm font-semibold text-white"
                           >
-                            about
-                          </Link>
-                        </li>
-                        <li className="w-1/2">
-                          {" "}
-                          <Link
-                            href={"#"}
-                            className="text-sm font-semibold text-white"
-                          >
-                            Contact Us
-                          </Link>
-                        </li>
-                        <li className="w-1/2">
-                          <Link
-                            href={"#"}
-                            className="text-sm font-semibold text-white"
-                          >
-                            Privacy Policy
+                            About Us
                           </Link>
                         </li>
                       </ul>

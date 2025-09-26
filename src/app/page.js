@@ -20,7 +20,7 @@ export default function Home() {
       <WhyChoose />
       <AwardCarousel />
       <TrustedLogo />
-      <LatestInsight />
+      {/* <LatestInsight /> */}
       <Testimonial />
       <Faq />
     </>
