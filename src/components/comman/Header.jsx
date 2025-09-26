@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -56,14 +57,14 @@ const Header = () => {
                 </div>
                 <div className="relative group/dd">
                   <Link
-                    href={""}
+                    href={"/school-management-system"}
                     className="xl:text-lg lg:text-lg md:text-base text-sm font-medium leading-6 text-[#1C1B1F] duration-200 capitalize hover:lg:text-black"
                     aria-expanded="false"
                   >
                     Our Solutions
                   </Link>
                   {/* <!-- Dropdown --> */}
-                  <div className="absolute left-0 mt-3 lg:mt-4 w-56 md:w-64 border-t-4 border-white z-20 bg-[#00BBF5] rounded-lg p-6 backdrop-blur-lg transition ease-out duration-300 opacity-0 group-hover/dd:opacity-100 origin-top [transform:rotateX(90deg)] group-hover/dd:[transform:rotateX(0deg)]">
+                  {/* <div className="absolute left-0 mt-3 lg:mt-4 w-56 md:w-64 border-t-4 border-white z-20 bg-[#00BBF5] rounded-lg p-6 backdrop-blur-lg transition ease-out duration-300 opacity-0 group-hover/dd:opacity-100 origin-top [transform:rotateX(90deg)] group-hover/dd:[transform:rotateX(0deg)]">
                     <div className="flex flex-col gap-4">
                       {[
                         "About Us",
@@ -76,7 +77,6 @@ const Header = () => {
                           href=""
                           className="flex items-center gap-2 text-sm font-medium text-white hover:text-gray-100 transition-colors"
                         >
-                          {/* Dot Icon */}
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="w-2.5 h-2.5 fill-current"
@@ -88,7 +88,7 @@ const Header = () => {
                         </Link>
                       ))}
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="group/dd">
                   <Link
@@ -99,7 +99,7 @@ const Header = () => {
                     About Us
                   </Link>
                 </div>
-                <div className="group/dd">
+                <div className="group/dd relative flex flex-col gap-y-3">
                   <Link
                     href=""
                     className="xl:text-lg lg:text-lg md:text-base text-sm font-medium leading-6 text-[#1C1B1F] duration-200 capitalize hover:lg:text-black"
@@ -107,8 +107,17 @@ const Header = () => {
                   >
                     Blogs
                   </Link>
+                  {/* Tooltip */}
+                  <span
+                    className="absolute top-full left-1/2 -translate-x-1/2 mt-1  whitespace-nowrap 
+                   bg-black text-white  px-3 py-1.5 text-xs rounded opacity-0 group-hover/dd:opacity-100 
+                   transition duration-300"
+                  >
+                    Coming Soon
+                  </span>
                 </div>
-                <div className="group/dd">
+
+                <div className="group/dd relative flex flex-col gap-y-3">
                   <Link
                     href=""
                     className="xl:text-lg lg:text-lg md:text-base text-sm font-medium leading-6 text-[#1C1B1F] duration-200 capitalize hover:lg:text-black"
@@ -116,6 +125,14 @@ const Header = () => {
                   >
                     Clients
                   </Link>
+                  {/* Tooltip */}
+                  <span
+                    className="absolute top-full left-1/2 -translate-x-1/2 mt-1  whitespace-nowrap 
+                   bg-black text-white  px-3 py-1.5 text-xs rounded opacity-0 group-hover/dd:opacity-100 
+                   transition duration-300"
+                  >
+                    Coming Soon
+                  </span>
                 </div>
               </div>
             </div>
@@ -123,17 +140,25 @@ const Header = () => {
 
           {/* buttons */}
           <div className="flex items-center justify-end gap-3">
-            <button
-              type="button"
+            <Link
+              href="/EddoviErpBrochure.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
               className="cursor-pointer rounded-full bg-[#00BBF5] text-sm text-white h-10 lg:flex hidden items-center justify-center px-6 py-2 hover:bg-[#25b7e3] font-semibold duration-300"
             >
               Download Brochure
-            </button>
+            </Link>
             <button
               type="button"
+              onClick={() =>
+                document
+                  .getElementById("footer")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
               className="cursor-pointer rounded-full bg-[#393A8C] text-sm text-white h-10 flex items-center justify-center px-6 py-2 hover:bg-[#4748a3] font-semibold duration-300"
             >
-              Request Demo
+              Contact us
             </button>
           </div>
         </nav>
@@ -192,53 +217,14 @@ const Header = () => {
                     </Link>
                   </div>
                   <div className="relative flex flex-col gap-y-3">
-                    <input
-                      className="peer/mm hidden"
-                      type="checkbox"
-                      name="mmMenu"
-                      id="mmCompany"
-                    />
-                    <label
-                      htmlFor="mmCompany"
+                    <Link
+                      href={"/school-management-system"}
                       className="flex items-center justify-between gap-x-0.5 lg:text-base text-lg font-semibold text-[#454444]"
                     >
                       Our Solutions
-                      <svg
-                        stroke="currentColor"
-                        fill="currentColor"
-                        strokeWidth="0"
-                        viewBox="0 0 512 512"
-                        height="20px"
-                        width="20px"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z"></path>
-                      </svg>
-                    </label>
-                    <div className="w-full peer-checked/mm:block hidden ps-2">
-                      <div className="grid grid-cols-1 flex-wrap w-full gap-4">
-                        <div className="w-full text-sm md:text-xs xl:text-sm *:flex *:items-center *:gap-x-3 *:py-1.5 *:relative">
-                          <div>
-                            <div className="flex-auto">
-                              <Link
-                                href={"#"}
-                                className=" font-semibold items-center flex gap-x-2 text-sm text-[#2c2b2e]"
-                              >
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  className="w-2.5 h-2.5 fill-current"
-                                  viewBox="0 0 8 8"
-                                >
-                                  <circle cx="4" cy="4" r="4" />
-                                </svg>
-                                Testimonials
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    </Link>
                   </div>
+
                   <div className="relative flex flex-col gap-y-3">
                     <Link
                       href="/about"

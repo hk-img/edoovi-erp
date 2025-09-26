@@ -1,4 +1,6 @@
+"use client";
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroBanner = () => {
   return (
@@ -37,6 +39,11 @@ const HeroBanner = () => {
               <div className="w-full flex md:justify-start justify-center pt-3">
                 <button
                   type="button"
+                  onClick={() =>
+                    document
+                      .getElementById("footer")
+                      ?.scrollIntoView({ behavior: "smooth" })
+                  }
                   className="cursor-pointer md:h-14 h-10 border-0 xl:text-base sm:text-sm text-xs text-center md:font-semibold font-medium text-white inline-flex items-center justify-center md:px-8 px-6 py-3 gap-2 rounded-full bg-[#4B71FD] duration-500 hover:bg-[#5d7ef5] group/btn"
                 >
                   <span>View Demo</span>

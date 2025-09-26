@@ -37,8 +37,8 @@ const Testimonial = () => {
                         <div className="w-full flex items-center justify-start gap-3">
                           <span className="shrink-0">
                             <Image
-                              src="/images/DrRajniAvasthiImg.webp"
-                              alt="rajni awasthi logo"
+                              src="/images/userTesiImg.webp"
+                              alt="Dr. Anjali Mehta"
                               width={45}
                               height={45}
                               className="md:size-14 size-10 rounded-full mx-auto object-contain aspect-square"
@@ -46,10 +46,10 @@ const Testimonial = () => {
                           </span>
                           <div className="flex flex-col gap-y-1">
                             <h3 className="md:text-xl text-lg font-semibold text-[#4E4E4E] text-balance">
-                              Dr. Rajni Awasthi
+                              Dr. Anjali Mehta
                             </h3>
                             <div className="md:text-sm text-xs font-semibold text-[#4E4E4E] text-balance">
-                              Chairman - SVM Group of Education
+                              Principal – Sunrise International School
                             </div>
                           </div>
                         </div>
@@ -59,7 +59,7 @@ const Testimonial = () => {
                           is most important: students and student learning
                           outcomes.
                         </div>
-                        <div className="w-full pt-3 flex justify-end">
+                        {/* <div className="w-full pt-3 flex justify-end">
                           <button
                             type="button"
                             className="group/btn cursor-pointer md:text-base text-sm text-[#393A8C] font-bold flex items-center gap-2 border-0 bg-transparent p-0 duration-300"
@@ -81,7 +81,7 @@ const Testimonial = () => {
                               </svg>
                             </div>
                           </button>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                     <div className="embla__slide shrink-0 px-2  basis-[80.80%] md:basis-[65.65%] lg:basis-[50%]">
@@ -89,7 +89,7 @@ const Testimonial = () => {
                         <div className="w-full flex items-center justify-start gap-3">
                           <span className="shrink-0">
                             <Image
-                              src="/images/DrRajniAvasthiImg.webp"
+                              src="/images/userTesiImg.webp"
                               alt="rajni awasthi logo"
                               width={45}
                               height={45}
@@ -110,7 +110,7 @@ const Testimonial = () => {
                           platform for every school activity, teachers and
                           parents are always on the same page.
                         </div>
-                        <div className="w-full pt-3 flex justify-end">
+                        {/* <div className="w-full pt-3 flex justify-end">
                           <button
                             type="button"
                             className="group/btn cursor-pointer md:text-base text-sm text-[#393A8C] font-bold flex items-center gap-2 border-0 bg-transparent p-0 duration-300"
@@ -132,7 +132,7 @@ const Testimonial = () => {
                               </svg>
                             </div>
                           </button>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                     <div className="embla__slide shrink-0 px-2  basis-[80.80%] md:basis-[65.65%] lg:basis-[50%]">
@@ -140,8 +140,8 @@ const Testimonial = () => {
                         <div className="w-full flex items-center justify-start gap-3">
                           <span className="shrink-0">
                             <Image
-                              src="/images/DrRajniAvasthiImg.webp"
-                              alt="rajni awasthi logo"
+                              src="/images/userTesiImg.webp"
+                              alt="Prof. Rajesh Nair"
                               width={45}
                               height={45}
                               className="md:size-14 size-10 rounded-full mx-auto object-contain aspect-square"
@@ -149,10 +149,10 @@ const Testimonial = () => {
                           </span>
                           <div className="flex flex-col gap-y-1">
                             <h3 className="md:text-xl text-lg font-semibold text-[#4E4E4E] text-balance">
-                              Dr. Rajni Awasthi
+                              Prof. Rajesh Nair
                             </h3>
                             <div className="md:text-sm text-xs font-semibold text-[#4E4E4E] text-balance">
-                              Chairman - SVM Group of Education
+                              Dean – Global Business Institute
                             </div>
                           </div>
                         </div>
@@ -161,7 +161,7 @@ const Testimonial = () => {
                           and paperless, and grades can be easily accessed and
                           updated at any moment.
                         </div>
-                        <div className="w-full pt-3 flex justify-end">
+                        {/* <div className="w-full pt-3 flex justify-end">
                           <button
                             type="button"
                             className="group/btn cursor-pointer md:text-base text-sm text-[#393A8C] font-bold flex items-center gap-2 border-0 bg-transparent p-0 duration-300"
@@ -183,7 +183,7 @@ const Testimonial = () => {
                               </svg>
                             </div>
                           </button>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                     <div className="embla__slide shrink-0 px-2  basis-[80.80%] md:basis-[65.65%] lg:basis-[50%]">
@@ -191,8 +191,8 @@ const Testimonial = () => {
                         <div className="w-full flex items-center justify-start gap-3">
                           <span className="shrink-0">
                             <Image
-                              src="/images/DrRajniAvasthiImg.webp"
-                              alt="rajni awasthi logo"
+                              src="/images/userTesiImg.webp"
+                              alt="Dr. Kavita Sharma"
                               width={45}
                               height={45}
                               className="md:size-14 size-10 rounded-full mx-auto object-contain aspect-square"
@@ -200,10 +200,10 @@ const Testimonial = () => {
                           </span>
                           <div className="flex flex-col gap-y-1">
                             <h3 className="md:text-xl text-lg font-semibold text-[#4E4E4E] text-balance">
-                              Dr. Rajni Awasthi
+                              Dr. Kavita Sharma
                             </h3>
                             <div className="md:text-sm text-xs font-semibold text-[#4E4E4E] text-balance">
-                              Chairman - SVM Group of Education
+                              Director – Bright Future Academy
                             </div>
                           </div>
                         </div>
@@ -213,7 +213,7 @@ const Testimonial = () => {
                           This app eliminates the workload and handles
                           everything seamlessly as well.
                         </div>
-                        <div className="w-full pt-3 flex justify-end">
+                        {/* <div className="w-full pt-3 flex justify-end">
                           <button
                             type="button"
                             className="group/btn cursor-pointer md:text-base text-sm text-[#393A8C] font-bold flex items-center gap-2 border-0 bg-transparent p-0 duration-300"
@@ -235,7 +235,7 @@ const Testimonial = () => {
                               </svg>
                             </div>
                           </button>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                     <div className="embla__slide shrink-0 px-2  basis-[80.80%] md:basis-[65.65%] lg:basis-[50%]">
@@ -243,8 +243,8 @@ const Testimonial = () => {
                         <div className="w-full flex items-center justify-start gap-3">
                           <span className="shrink-0">
                             <Image
-                              src="/images/DrRajniAvasthiImg.webp"
-                              alt="rajni awasthi logo"
+                              src="/images/userTesiImg.webp"
+                              alt="Mr. Arvind Kapoor"
                               width={45}
                               height={45}
                               className="md:size-14 size-10 rounded-full mx-auto object-contain aspect-square"
@@ -252,10 +252,10 @@ const Testimonial = () => {
                           </span>
                           <div className="flex flex-col gap-y-1">
                             <h3 className="md:text-xl text-lg font-semibold text-[#4E4E4E] text-balance">
-                              Dr. Rajni Awasthi
+                              Mr. Arvind Kapoor
                             </h3>
                             <div className="md:text-sm text-xs font-semibold text-[#4E4E4E] text-balance">
-                              Chairman - SVM Group of Education
+                              Chairman – Green Valley Group of Schools
                             </div>
                           </div>
                         </div>
@@ -264,7 +264,7 @@ const Testimonial = () => {
                           support team quickly responds, and there is never a
                           time when our issues have gone unresolved.
                         </div>
-                        <div className="w-full pt-3 flex justify-end">
+                        {/* <div className="w-full pt-3 flex justify-end">
                           <button
                             type="button"
                             className="group/btn cursor-pointer md:text-base text-sm text-[#393A8C] font-bold flex items-center gap-2 border-0 bg-transparent p-0 duration-300"
@@ -286,7 +286,7 @@ const Testimonial = () => {
                               </svg>
                             </div>
                           </button>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </EmblaCarousel>
