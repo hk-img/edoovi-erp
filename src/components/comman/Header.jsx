@@ -249,6 +249,17 @@ const Header = () => {
                       Clients
                     </Link>
                   </div>
+                  <div className="relative w-full mt-3">
+                    <Link
+                      href="/EddoviErpBrochure.pdf"
+                      download
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cursor-pointer rounded-full bg-[#00BBF5] text-sm text-white h-10 flex  items-center justify-center px-6 py-2 hover:bg-[#25b7e3] font-semibold duration-300"
+                    >
+                      Download Brochure
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
