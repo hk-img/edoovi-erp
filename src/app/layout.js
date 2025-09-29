@@ -2,7 +2,7 @@ import "./globals.css";
 import localFont from "next/font/local";
 import Header from "@/components/comman/Header";
 import Footer from "@/components/comman/Footer";
-import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const lufga = localFont({
   src: [
@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="md:text-[1vw]">
       <body className={`${lufga.className} antialiased`}>
-        <GoogleTagManager gtmId="G-PLKRCEDZ6S" />
+        <GoogleAnalytics gtmId="G-PLKRCEDZ6S" />
         <Header />
         {children}
         <Footer />
