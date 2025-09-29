@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="md:text-[1vw]">
       <body className={`${lufga.className} antialiased`}>
-        <GoogleAnalytics gtmId="G-PLKRCEDZ6S" />
+        <GoogleAnalytics gaId="G-PLKRCEDZ6S" />
         <Header />
         {children}
         <Footer />
