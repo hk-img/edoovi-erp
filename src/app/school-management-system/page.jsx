@@ -1,10 +1,18 @@
-import Link from "next/link";
 import Image from "next/image";
 import EmblaCarousel from "../../components/emblaCarousel/EmblaCarousel";
-import WhyChoose from "@/components/whyChoose/WhyChoose";
 import AwardCarousel from "@/components/awardCarousel/AwardCarousel";
 import TrustedLogo from "@/components/trustedLogo/TrustedLogo";
 import Testimonial from "@/components/testimonial/Testimonial";
+
+export const metadata = {
+  title: "Our Solutions | Edoovi ERP – Smart School Management System",
+  description: "Edoovi ERP offers complete AI-powered School ERP & Management Software solutions. Enjoy 1 Year Free access. Simplify education. Try free today!",
+
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 const page = () => {
   return (

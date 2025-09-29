@@ -1,7 +1,16 @@
-import Link from "next/link";
 import Image from "next/image";
 import TrustedLogo from "@/components/trustedLogo/TrustedLogo";
 import Testimonial from "@/components/testimonial/Testimonial";
+
+export const metadata = {
+  title: "About Us | Leading School ERP & Management Software Provider",
+  description: "Edoovi ERP is a leading name in School ERP & School Management Software. Discover our vision, values & innovation. Join us in shaping digital education.",
+
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 const page = () => {
   return (

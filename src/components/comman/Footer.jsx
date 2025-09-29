@@ -97,7 +97,7 @@ const Footer = () => {
                         </li>
                         <li className="w-1/2">
                           <Link
-                            href="/about"
+                            href="/about-us"
                             className="text-sm font-semibold text-white"
                           >
                             About Us

@@ -92,7 +92,7 @@ const Header = () => {
                 </div>
                 <div className="group/dd">
                   <Link
-                    href="/about"
+                    href="/about-us"
                     className="xl:text-lg lg:text-lg md:text-base text-sm font-medium leading-6 text-[#1C1B1F] duration-200 capitalize hover:lg:text-black"
                     aria-expanded="false"
                   >
@@ -227,7 +227,7 @@ const Header = () => {
 
                   <div className="relative flex flex-col gap-y-3">
                     <Link
-                      href="/about"
+                      href="/about-us"
                       className="flex items-center justify-between gap-x-0.5 lg:text-base text-lg font-semibold text-[#454444]"
                     >
                       About Us
