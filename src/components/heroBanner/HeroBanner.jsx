@@ -7,8 +7,8 @@ const HeroBanner = () => {
     <>
       <section className="heroSection  relative overflow-hidden lg:min-h-dvh max-md:!h-auto flex flex-col max-md:pb-6 bg-white">
         <div className="view xl:py-4 lg:py-3 py-4">
-          <div className="flex flex-wrap  justify-between">
-            <div className="xl:w-6/12 lg:w-1/2 md:w-5/12 sm:w-full w-full flex flex-col ">
+          <div className="flex flex-wrap lg:items-start items-center  justify-between">
+            <div className="xl:w-6/12 lg:w-1/2 md:w-1/2 sm:w-full w-full flex flex-col ">
               <div className="flex gap-3 max-md:justify-center items-center relative lg:-bottom-10">
                 <div className="text-[#454444] max-md:text-center  xl:text-2xl lg:text-xl md:text-lg sm:text-base text-base font-semibold">
                   Comprehensive School
@@ -65,7 +65,7 @@ const HeroBanner = () => {
                 </button>
               </div>
             </div>
-            <div className="xl:w-5/12 lg:w-1/2 md:w-7/12 sm:w-full w-full flex flex-col relative md:order-last order-first">
+            <div className="xl:w-5/12 lg:w-1/2 md:w-1/2 sm:w-full w-full flex flex-col relative md:order-last order-first">
               <Image
                 className="size-full object-contain object-center aspect-[437/460]"
                 src="/images/HeroImg.webp"
