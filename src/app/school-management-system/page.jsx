@@ -15,6 +15,12 @@ export const metadata = {
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/school-management-system`,
   },
+  openGraph: {
+    title: "Edoovi ERP Solutions",
+    description:
+      "Edoovi ERP offers complete School ERP & Management Software solutions. Enjoy 1 Year Free access to smart tools. Simplify education. Try free today!",
+    siteName: "Edoovi ERP"
+  },
 };
 
 const page = () => {

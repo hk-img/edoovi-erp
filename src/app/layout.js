@@ -55,6 +55,9 @@ export const metadata = {
   verification: {
     google: "LhpPxxKzaT3dMTScjUxrlo7FaKktw1txDeRABKsTm2s",
   },
+  url: process.env.NEXT_PUBLIC_BASE_URL,
+  type: "website",
+  locale: "en_US"
 };
 
 export const viewport = {
@@ -67,9 +70,46 @@ export const viewport = {
 }
 
 export default function RootLayout({ children }) {
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'Do You Offer Custom School Management Software Development Solutions?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Our school management software development company provides tailored solutions to satisfy the unique demands and specifications of businesses. These solutions allow companies to incorporate features based on their requirements.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Do You Provide Maintenance And Support Services For The School Management Software?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'In order to keep the software current and track its overall performance, our school management software development company offers maintenance and support services. It offers a number of services, including performance optimization, frequent updates, OS version upgrades, and updating out-of-date features.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Can You Upgrade or Redesign My Existing School Management Software?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'With cutting-edge features and designs, our education app development company can revamp and improve the current school administration software. We optimize overall performance by integrating a variety of upgrades, including new technologies and UI/UX improvements.',
+        },
+      },
+    ],
+  }
   return (
     <html lang="en" className="md:text-[1vw]">
       <body className={`${lufga.className} antialiased`}>
+      {/* FAQ Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema).replace(/</g, '\\u003c'),
+        }}
+      />
         <GoogleAnalytics gaId="G-PLKRCEDZ6S" />
         <Header />
         {children}

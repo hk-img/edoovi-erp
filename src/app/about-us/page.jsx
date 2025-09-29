@@ -13,6 +13,12 @@ export const metadata = {
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/about-us`,
   },
+  openGraph: {
+    title: "Leading School ERP & Management Software Provider",
+    description:
+      "Edoovi ERP is a leading name in School ERP & School Management Software. Discover our vision, values & innovation. Join us in shaping digital education.",
+    siteName: "Edoovi ERP"
+  },
 };
 
 const page = () => {
